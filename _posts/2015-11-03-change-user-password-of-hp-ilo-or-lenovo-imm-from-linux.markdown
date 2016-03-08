@@ -6,7 +6,7 @@ date: '2015-11-03 17:31:31'
 
 When you have a new machine and you forgot write the Administrator password on any paper or note before installing, you can change this from you linux install with ipmitools.
 
-First, if you read the pass post about [Assign an IP to HP iLO or IBM System X from Linux](http://albornoz.rocks/assign-an-ip-to-hp-ilo-from-linux/), you know how get the configuration channel, if not, read it ;)
+First, if you read the pass post about [Assign an IP to HP iLO or IBM System X from Linux]({% post_url 2015-05-28-assign-an-ip-to-hp-ilo-from-linux %}), you know how get the configuration channel, if not, read it ;)
 
 Once you get the channel you need to list iLO / IMM users, for example:
 
