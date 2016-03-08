@@ -1,6 +1,7 @@
 ---
-published: false
+published: true
 ---
+
 
 ## Change user password of HP iLO or Lenovo IMM from Linux
 
