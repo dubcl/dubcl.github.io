@@ -2,14 +2,17 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+**Who I am?**
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Hi, I'm Carlos and this is my little corner on the net, I'm from Chile and actually working as System Architect in a known Chilean company.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+Linux enthusiast since 2000, I have the luck to make it my job :)
+
+Some years ago I was staff of the official Chilean Debian community, http://www.debianchile.cl.
+
+Someone know me as "dub" when i play [TF2](http://es.wikipedia.org/wiki/Team_Fortress_2) or [CS](http://es.wikipedia.org/wiki/Counter-Strike), now I have no time for games :(
+
+If you want contact me, you can e-mail me to [this address](http://www.google.com/recaptcha/mailhide/d?k=01Ql1ghA0qoYwz1p3WlNTJjA==&c=f3uU2wpO9DF8A5ZHdaKWDr0IxHTUKSnW4HFMOy_T0Dg=).
