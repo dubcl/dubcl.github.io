@@ -1,0 +1,42 @@
+---
+layout: post
+title: All in One
+date: '2008-01-11 13:14:00'
+---
+
+
+<span style="font-family: arial;">Haber… por donde empiezo…</span>
+
+<span style="font-family: arial;">En el post anterior, si el navideÃƒÂ±o, tiraba mucha buena onda para todos, pero paso que para mi parece que no habÃƒÂ­a muy buena onda…</span>
+
+<span style="font-family: arial;">El dÃƒÂ­a 24 viaje a conti, cena familiar, carrete en la playa con mi polola y mi cuÃƒÂ±ado, y otros invitados especiales encontrados en la playa…</span>
+
+<span style="font-family: arial;">HabÃƒÂ­a llevado mi HD la hacer un respaldo en la casa del Dev, todo bien, Dev me paso un procesador para ver si me funcionaba, un AMD Atlon XP de 1.8 Ghz, shhh… salvao por que el mio era de 1.3 Ghz no mas, nunca esta demÃƒÂ¡s tener un poquito mas…</span>
+
+<span style="font-family: arial; font-weight: bold;">Odisea con el PC</span>
+
+<span style="font-family: arial;">Cuando llegue a Talca lo primero ke hice sue ir a instalar todo de nuevo en mi maquina, pero CHAN![1], misteriosamente el pc no partÃƒÂ­a… WTF!, trate y trate de hacer todo lo posible por hacerlo funcionar hasta que partiÃƒÂ³, que tenia? ni idea, cuando me fui esta funcionando sin ningÃƒÂºn problema…</span>
+
+<span style="font-family: arial;">Como ya estaba funcionando cambie el proce pa ver si me funcionaba bien, pero no me pesco los 1.8 Ghz, solo mostraba 1.1 Ghz… mala onda, asi ke no me calente la cabeza y puse el mio nuevamente para dejar todo como estaba, la idea era nstalar esa wea de las ventanas pa poder jugar, y luego instala Debian, pero cuando comenze la instalacion de las ventanas, esta se me kedaba pegao CHAN![2], asi ke prove con otro cd, pero paso lo mismo CHAN![3], probe con el dvd de Debian y CHAN![4] Kernel Panic… ahi empese a urgirme CHAN![5], la placa madre empeso con el tipico atao de ke se habia funado el video, osea, colores al bootear y cosas asi, asi ke sake mi vieja Trident 9680 de 4 Mb PCI y la puse, pero CHAN![6] el mismo error… Resetie la BIOS pero CHAN![7] el mismo drama…. asi ke cagÃƒÂ© con el pc… se funo la BIOS por alguna extraÃƒÂ±a razon… NO PC, NO INTERNET, NO CONECCION CON EL MUNDO!</span>
+
+<span style="font-family: arial;">Entre tanto mi viejo haciendo alusiones a la compra de un laptop XD, pero no paso a mayores…</span>
+
+<span style="font-family: courier new;">$chan_counter = 6</span>
+
+<span style="font-family: arial; font-weight: bold;">AÃƒÂ±o Nuevo</span>
+
+<span style="font-family: arial;">Feliz aÃƒÂ±o para todos… (atrasado pero igual XD)</span>
+
+<span style="font-family: arial;">Cena familiar, abrazos con todos los conocidos, visita en la casa de los suegros, carrete en la playa, y nuevamente junaciÃƒÂ³n con los pasteles maulinos.</span>
+
+<span style="font-family: arial;">Devuelta en Talca sin pc ni laptop ni nada de tecnologÃƒÂ­a, haciendo papercraft, jugando PSX, ke por cierto prende cuando se le da la gana, desconectado totalmente con el mundo… </span>
+
+<span style="font-family: arial; font-weight: bold;">La gran salvada</span>
+
+<span style="font-family: arial;">Cierto dÃƒÂ­a me llama el AchÃƒÂº para informarme de una reuniÃƒÂ³n de un proyecto de alfabetizaciÃƒÂ³n digital que estamos preparando con unos profes en la U, asÃƒÂ­ que fui, y entre medio de la conversa mencione que estaba sin pc, con lo que el profe Claudio me ofreciÃƒÂ³ que me prestaba lo me me faltara para poder estar conectado, asÃƒÂ­ que revise el taller, saque placa, procesador y ram, y me fui corriendo a la casa XD (gracias profe Ale y al profe Claudio, les debo una XD).</span>
+
+<span style="font-family: arial;">SIIIII!!!! por fin tengo pc, por mientras mi viejo se apiada de mi y me compra el laptop… aunque lo tengo con ventanas no mas, ahora puedo estar a tanto de lo que pasa el el mundo exterior XD.</span>
+
+<span style="font-family: arial;">Bueno ese es el resumen de noticias de dbm, nos veremos en el mismo canal…</span>
+
+

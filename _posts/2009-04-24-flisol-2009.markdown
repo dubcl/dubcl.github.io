@@ -1,0 +1,23 @@
+---
+layout: post
+title: Flisol 2009
+date: '2009-04-24 11:14:36'
+---
+
+
+[![](http://www.installfest.net/FLISOL2009/MaterialGrafico?action=AttachFile&do=get&target=logo_flisol.png "Flisol")](http://www.installfest.net/FLISOL2009/MaterialGrafico?action=AttachFile&do=get&target=logo_flisol.png)Este sÃƒÂ¡bado 25 de abril se realizarÃƒÂ¡ el Festival Latinoamericano del Software Libre, y acÃƒÂ¡ en la sÃƒÂ©ptima regiÃƒÂ³n la junta es en la [Universidad de Talca](http://www.utalca.cl "Universidad de Talca"), y donde [DebianChile.cl](http://www.debianchile.cl "DebianChile.cl") estarÃƒÂ¡ presente con una charla y con soporte para instalaciones de Debian GNU/Linux. TambiÃƒÂ©n habrÃƒÂ¡n expositores de la talla de -jci, Rodrigo Fuentealba, etc… Esto empieza alrededor de las 9:00 Hrs hasta las 17:30 Hrs. Pueden encontrar mas informaciÃƒÂ³n [acÃƒÂ¡](http://flisol.utalca.cl "Flisol").
+
+Y no lo olviden, es ***ABSOLUTAMENTE GRATIS!!!***
+
+**UPDATE: **Estuvo excelente la Flisol de este aÃƒÂ±o, asistiÃƒÂ³ mucha gente, registrados creo que alrededor de 200, felicitaciones a los organizadores y gracias por la invitaciÃƒÂ³n al evento, pueden ver las fotos que saque [aquÃƒÂ­](http://www.flickr.com/photos/21081153@N05/sets/72157617406263758/ "Flisol 2009 Talca"), y el grupo de Flickr [acÃƒÂ¡](http://www.flickr.com/groups/flisol-talca/ "Grupo Flisol 2009 Talca en Flickr").**  
+**
+
+Link’s
+
+http://www.debianchile.cl  
+ http://flisol.utalca.cl  
+ http://www.utalca.cl  
+ http://2009.flisol.cl  
+ http://www.installfest.net/FLISOL2009/Chile
+
+
