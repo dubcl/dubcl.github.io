@@ -2,6 +2,7 @@
 layout: post
 title: Change user password of HP iLO or Lenovo IMM from Linux
 date: '2015-11-03 17:31:31'
+tags: [sysadmin, linux, ipmitool, iLO, IMM]
 ---
 
 When you have a new machine and you forgot write the Administrator password on any paper or note before installing, you can change this from you linux install with ipmitools.
