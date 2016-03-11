@@ -1,19 +1,40 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-# Site settings
-title: Carlos Albornoz
-email: caralbornozc@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  rocking since MCMLXXXII
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://albornoz.rocks" # the base hostname & protocol for your site
-twitter_username: dubcl
-github_username:  dubcl
-
-# Build settings
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
 markdown: kramdown
+#disqus: dbyll
+#google_analytics: dbyll
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Carlos Albornoz
+
+description: rocking since MCMLXXXII
+author:
+  name: Carlos Albornoz
+  email: carlos@albornoz.rocks
+  github: dubcl
+  twitter: dubcl
+  pinterest: dubcl
+  linkedin: carlosalbornoz
+  bio: rocking since MCMLXXXII
+  email_md5: c12e48089277b04398ae012fdc4829cb
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+# set it as url of an image
+# sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+
+BASE_PATH:
+
+gems:
+  - jekyll-paginate
+
