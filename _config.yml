@@ -8,7 +8,7 @@ highlighter: rouge
 markdown: kramdown
 #disqus: dbyll
 google_analytics: UA-68435855-1
-
+title: albornoz.rocks
 defaults:
   -
     scope:
