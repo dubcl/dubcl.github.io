@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>clp on Beautiful Hugo</title>
-    <link>https://pages.gitlab.io/hugo/tags/clp/</link>
-    <description>Recent content in clp on Beautiful Hugo</description>
+    <title>clp on albornoz.rocks</title>
+    <link>https://albornoz.rocks/tags/clp/</link>
+    <description>Recent content in clp on albornoz.rocks</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <managingEditor>carlos@albornoz.rocks (Carlos Albornoz)</managingEditor>
+    <webMaster>carlos@albornoz.rocks (Carlos Albornoz)</webMaster>
     <lastBuildDate>Tue, 05 Apr 2016 17:31:31 +0000</lastBuildDate>
     
-	<atom:link href="https://pages.gitlab.io/hugo/tags/clp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://albornoz.rocks/tags/clp/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Dollar Day</title>
-      <link>https://pages.gitlab.io/hugo/post/2016-04-05-get-usd-price-of-the-day-in-clp-from-bcentral/</link>
+      <link>https://albornoz.rocks/post/2016-04-05-get-usd-price-of-the-day-in-clp-from-bcentral/</link>
       <pubDate>Tue, 05 Apr 2016 17:31:31 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://pages.gitlab.io/hugo/post/2016-04-05-get-usd-price-of-the-day-in-clp-from-bcentral/</guid>
+      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      <guid>https://albornoz.rocks/post/2016-04-05-get-usd-price-of-the-day-in-clp-from-bcentral/</guid>
       <description>I daily look bcentral.cl to view the CLP price of one dollar (useful to buy outside of my contry), then, bored to open the web to view the price I write a script to get it automatically. You get the code on http://github.com/dubcl/dollar-day
 usage $ ./dollarday.sh  Cheers.</description>
     </item>

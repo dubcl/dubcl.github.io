@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Beautiful Hugo</title>
-    <link>https://pages.gitlab.io/hugo/categories/</link>
-    <description>Recent content in Categories on Beautiful Hugo</description>
+    <title>Categories on albornoz.rocks</title>
+    <link>https://albornoz.rocks/categories/</link>
+    <description>Recent content in Categories on albornoz.rocks</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <managingEditor>carlos@albornoz.rocks (Carlos Albornoz)</managingEditor>
+    <webMaster>carlos@albornoz.rocks (Carlos Albornoz)</webMaster>
     
-	<atom:link href="https://pages.gitlab.io/hugo/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://albornoz.rocks/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

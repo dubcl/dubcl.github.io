@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ipmitool on Beautiful Hugo</title>
-    <link>https://pages.gitlab.io/hugo/tags/ipmitool/</link>
-    <description>Recent content in ipmitool on Beautiful Hugo</description>
+    <title>ipmitool on albornoz.rocks</title>
+    <link>https://albornoz.rocks/tags/ipmitool/</link>
+    <description>Recent content in ipmitool on albornoz.rocks</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
+    <managingEditor>carlos@albornoz.rocks (Carlos Albornoz)</managingEditor>
+    <webMaster>carlos@albornoz.rocks (Carlos Albornoz)</webMaster>
     <lastBuildDate>Tue, 03 Nov 2015 17:31:31 +0000</lastBuildDate>
     
-	<atom:link href="https://pages.gitlab.io/hugo/tags/ipmitool/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://albornoz.rocks/tags/ipmitool/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Change user password of HP iLO or Lenovo IMM from Linux</title>
-      <link>https://pages.gitlab.io/hugo/post/2015-11-03-change-user-password-of-hp-ilo-or-lenovo-imm-from-linux/</link>
+      <link>https://albornoz.rocks/post/2015-11-03-change-user-password-of-hp-ilo-or-lenovo-imm-from-linux/</link>
       <pubDate>Tue, 03 Nov 2015 17:31:31 +0000</pubDate>
-      <author>youremail@domain.com (Some Person)</author>
-      <guid>https://pages.gitlab.io/hugo/post/2015-11-03-change-user-password-of-hp-ilo-or-lenovo-imm-from-linux/</guid>
+      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      <guid>https://albornoz.rocks/post/2015-11-03-change-user-password-of-hp-ilo-or-lenovo-imm-from-linux/</guid>
       <description>When you have a new machine and you forgot write the Administrator password on any paper or note before installing, you can change this from you linux install with ipmitools.
 First, if you read the pass post about Assign an IP to HP iLO or IBM System X from Linux, you know how get the configuration channel, if not, read it ;)
 Once you get the channel you need to list iLO / IMM users, for example:</description>
