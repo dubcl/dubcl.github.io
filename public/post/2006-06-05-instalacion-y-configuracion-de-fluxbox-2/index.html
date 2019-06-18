@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>InstalaciÃƒÂ³n y ConfiguraciÃƒÂ³n de Fluxbox.</title>
+  <meta property="og:title" content="InstalaciÃƒÂ³n y ConfiguraciÃƒÂ³n de Fluxbox." />
+  <meta name="twitter:title" content="InstalaciÃƒÂ³n y ConfiguraciÃƒÂ³n de Fluxbox." />
+  <meta name="description" content="En este documento tratare (digo tratare por que esto es solo una referencia) de explicar algunos puntos de configuracion para que nuestro FluxBox se vea bien y nos sea facil y amigable de usar.
+Nota
+Se asume que ya se tiene instalado algun servidor grafico.
+Instalacion
+Desde apt
+Para instalar debemos hacer lo siguiente como root.
+#apt-get install fluxbox 
+Opcionalmente tambien se piede instalar fluxconf que es una herramienta para configurar fluxbox.">
+  <meta property="og:description" content="En este documento tratare (digo tratare por que esto es solo una referencia) de explicar algunos puntos de configuracion para que nuestro FluxBox se vea bien y nos sea facil y amigable de usar.
+Nota
+Se asume que ya se tiene instalado algun servidor grafico.
+Instalacion
+Desde apt
+Para instalar debemos hacer lo siguiente como root.
+#apt-get install fluxbox 
+Opcionalmente tambien se piede instalar fluxconf que es una herramienta para configurar fluxbox.">
+  <meta name="twitter:description" content="En este documento tratare (digo tratare por que esto es solo una referencia) de explicar algunos puntos de configuracion para que nuestro FluxBox se vea bien y nos sea facil y amigable de usar.
+Nota …">
+  <meta name="author" content="Some Person"/>
+  <link href='https://pages.gitlab.io/hugo/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://pages.gitlab.io/hugo/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://pages.gitlab.io/hugo/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@username" />
+  <meta name="twitter:creator" content="@username" />
+  <meta property="og:url" content="https://pages.gitlab.io/post/2006-06-05-instalacion-y-configuracion-de-fluxbox-2/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Beautiful Hugo" />
+
+  <meta name="generator" content="Hugo 0.56.0-DEV" />
+  <link rel="canonical" href="https://pages.gitlab.io/post/2006-06-05-instalacion-y-configuracion-de-fluxbox-2/" />
+  <link rel="alternate" href="https://pages.gitlab.io/hugo/index.xml" type="application/rss+xml" title="Beautiful Hugo">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pages.gitlab.io/hugo/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://pages.gitlab.io/hugo/css/pygment_highlights.css" />
+  <link rel="stylesheet" href="https://pages.gitlab.io/hugo/css/highlight.min.css" />
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://pages.gitlab.io/hugo/">Beautiful Hugo</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="https://pages.gitlab.io/hugo/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Samples</a>
+              <div class="navlinks-children">
+                
+                  <a href="https://pages.gitlab.io/hugo/post/2017-03-07-bigimg-sample">Big Image Sample</a>
+                
+                  <a href="https://pages.gitlab.io/hugo/post/2017-03-05-math-sample">Math Sample</a>
+                
+                  <a href="https://pages.gitlab.io/hugo/post/2016-03-08-code-sample">Code Sample</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="https://pages.gitlab.io/hugo/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="https://pages.gitlab.io/hugo/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Beautiful Hugo" href="https://pages.gitlab.io/hugo/">
+            <img class="avatar-img" src="https://pages.gitlab.io/hugo/img/avatar-icon.png" alt="Beautiful Hugo" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>InstalaciÃƒÂ³n y ConfiguraciÃƒÂ³n de Fluxbox.</h1>
+                
+                
+                  <span class="post-meta">
+  Posted on June 5, 2006
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>En este documento tratare (digo tratare por que esto es solo una referencia) de explicar algunos puntos de configuracion para que nuestro FluxBox se vea bien y nos sea facil y amigable de usar.</p>
+
+<p><strong>Nota</strong><br />
+Se asume que ya se tiene instalado algun servidor grafico.</p>
+
+<p>Instalacion</p>
+
+<p><strong>Desde apt</strong></p>
+
+<p>Para instalar debemos hacer lo siguiente como root.</p>
+
+<p><span style="font-family:courier new,monospace;">#apt-get install fluxbox </span></p>
+
+<p>Opcionalmente tambien se piede instalar fluxconf que es una herramienta para configurar fluxbox.</p>
+
+<p><span style="font-family:courier new,monospace;">#apt-get install fluxconf<br />
+</span><br />
+Si es que faltara alguna libreria u otro apt se encargara de resolverlo.</p>
+
+<p>Una vez completada la instalacion estamos listos para usarlo.</p>
+
+<p><strong>Desde source</strong></p>
+
+<p>Primero debemos descargar el paquete con las fuentes, estos se encuentra en la pagina de fluxbox <a href="http://fluxbox.sourceforge.net/download.php">http://fluxbox.sourceforge.net/download.php</a></p>
+
+<p>una vez descargado lo descomprimimos</p>
+
+<p><span style="font-family:courier new,monospace;">#tar xvzf fluxbox-0.1.12.tar.gz</span></p>
+
+<p>Con esto se creara un directorio con el codigo fuente del programa, ahora ingresamos al directorio creado</p>
+
+<p><span style="font-family:courier new,monospace;">#cd fluxbox-0.1.12</span></p>
+
+<p>(El nombre del directorio depende de la version)</p>
+
+<p>Una vez dentro debemos ejecutar el configurador.</p>
+
+<p><span style="font-family:courier new,monospace;">#./configure</span></p>
+
+<p>Para las opciones de confiuracion vean el archivo <strong>README</strong> o <strong>INSTALL</strong>, no voy a explicar las opciones de configuracion por que eso depende de cada maquina.</p>
+
+<p>Una vez que el <span style="font-family:courier new,monospace;">./configure</span> termine, si arroja algun error, vean de que se trata y traten de resolverlo. Si ha resultado con exito hacemos lo siguiente:</p>
+
+<p><span style="font-family:courier new,monospace;">#make</span></p>
+
+<p>Y luego como root…</p>
+
+<p><span style="font-family:courier new,monospace;">#make install</span></p>
+
+<p>y listo.</p>
+
+<p>En general (<span style="font-family:courier new,monospace;">./configure, make, make install</span>) son los pasos para instalar cualquier programa desde sus fuentes.</p>
+
+<p><strong>Inciar fluxbox</strong></p>
+
+<p>Existen dos formas, una es logearse y ejecutar, startx si es que no tenemos instalado algun administrador de login, si lo tubieramos (wdm, gdm, kdm u otro), seleccionamos fluxbox y logeamos para entrar.</p>
+
+<p>Una vez dentro se vera algo como esto.</p>
+
+<p><a href="http://caralbornozc.googlepages.com/imagen01.png/imagen01-full.jpg"><img src="http://caralbornozc.googlepages.com/imagen01.png/imagen01-medium.jpg" alt="" /></a></p>
+
+<p>Pero ustedes diran “Que feo!!!”, pues si, de primera no es muy lindo xD, pero ahora vamos a retocarlo y dejarlo mas o menos a nuestro gusto.</p>
+
+<p><strong>Configuracion</strong><br />
+**<br />
+Wallpapers**</p>
+
+<p>Fluxbox tiene varias herramientas de configuracion. Una de ellas es <strong>fbsetbg</strong> que sirve para colocar un wallpaper en nuestro escritorio. Por ejemplo, en nuestro home tenemos una carpeta llamda fondos con varios wallpapers, y hay uno (<span style="font-family:courier new,monospace;">wall01-1024×768.png</span>) que nos gusta y queremos colocarlo, para ello cargamos una consola y ejecutamos (asumiendo que estamos dentro de nuestro home):</p>
+
+<p><span style="font-family:courier new,monospace;">#fbsetbg -f fondos/wall01-1024×768.png</span></p>
+
+<p>y listo, ya tenemos un wallpaper en nuestro escritorio (la opcion **-f **indica fullscreen).</p>
+
+<p><a href="http://caralbornozc.googlepages.com/imagen02.png/imagen02-full.jpg"><img src="http://caralbornozc.googlepages.com/imagen02.png/imagen02-medium.jpg" alt="" /></a></p>
+
+<p><strong>Style</strong></p>
+
+<p>Son lo que da la apariencia al panel, a los borces de las ventanas, etc… Por defecto fluxbox biene con varios styles, por ejemplo el que se ha visto hasta ahora de llama Minimal. Estos styles son cambiables desde el <strong>menu -&gt; Styles</strong></p>
+
+<p><a href="http://caralbornozc.googlepages.com/imagen03.png/imagen03-full.jpg"><img src="http://caralbornozc.googlepages.com/imagen03.png/imagen03-medium.jpg" alt="" /></a></p>
+
+<hr />
+
+<p>Estos Styles se encuentras en <span style="font-family:courier new,monospace;">/usr/share/fluxbox/styles</span>, estos son los que estan disponibles para todos los usuarios, opcionalmente si queremos tener mas styles en el directorio <span style="font-family:courier new,monospace;">~/.fluxbox/styles</span> de nuestro home tambien podemos agregar mas, estos seran accesibles solo para el usuario. En la misma pagina de fluxbox se pueden bajar algunos.</p>
+
+<p><strong>Iconos</strong></p>
+
+<p>Fluxbox por defecto no tiene iconos, esto es lo que atrae a muchas personas a usarlo, pero tambien es una traba para las personas que vienen migrando desde el “Lado Oscuro de la Fuerza”. Afortunadamente fluxbox tiene una herramienta llamada <strong>fbdesk</strong>, pero existe otro programa llamado <strong>idesk</strong> (que me gusta mas que <strong>fbdesk</strong>) que tambien coloca iconos en nuestro desktop, y es la que vamos a utilizar.</p>
+
+<p>Primero la instalamos, como root hacemos:</p>
+
+<p><span style="font-family:courier new,monospace;">#apt-get install idesk</span></p>
+
+<p>Este programa consta de un archivo de configuracion alojado en nuestro home llamado <span style="font-family:courier new,monospace;">.ideskrc</span> y una carpeta <span style="font-family:courier new,monospace;">.idesktop</span> que contiene los archivos de configuracion de cada icono (<span style="font-family:courier new,monospace;">*.lnk</span>) que nosotros queramos poner. Por defecto estos archivos no existen, asi que vamos a crearlos.<br />
+En la carpeta <span style="font-family:courier new,monospace;">/usr/share/doc/examples/</span> estan los archivos por ejemplo de <span style="font-family:courier new,monospace;">.ideskrc</span> y de los <span style="font-family:courier new,monospace;">.lnk</span>, entonces ahora copiamos a nuestro home.</p>
+
+<p><span style="font-family:courier new,monospace;">#cp /usr/share/doc/examples/dot.ideskrc ~/.ideskrc</span></p>
+
+<p>Al <span style="font-family:courier new,monospace;">.ideskrc</span> no es necesario modificarlo.</p>
+
+<p>Tambien debemos crear la carpeta que contiene los iconos a mostrar.</p>
+
+<p><span style="font-family:courier new,monospace;">#mkdir .idesktop</span></p>
+
+<p>Ahora copiamos el archivo de ejemplo de los <span style="font-family:courier new,monospace;">.lnk</span> a nuestro directorio</p>
+
+<p><span style="font-family:courier new,monospace;">#cp /usr/share/doc/examples/galeon.lnk ~/.idesktop/</span></p>
+
+<p>Entonces ahora entramos a <strong>.idesktop</strong></p>
+
+<p><span style="font-family:courier new,monospace;">#cd .idesktop</span></p>
+
+<p>La estructura del erchivo .lnk es la siguiente:</p>
+
+<p><span style="font-family:courier new,monospace;">table Icon<br />
+Caption:<br />
+Command:<br />
+Icon:<br />
+X:<br />
+Y:<br />
+end </span></p>
+
+<p>Entonces, vamos a crear un icono para xmms (por ejemplo), para ello tendriamos que poner lo siguiente:</p>
+
+<p><span style="font-family:courier new,monospace;">table Icon<br />
+Caption: Xmms<br />
+Command: Xmms<br />
+Icon: /usr/share/pixmap/apps/xmms.png<br />
+X: 50<br />
+Y: 50<br />
+end </span></p>
+
+<p>…Y ya tenemos nuestro primer icono xD, ahora no nos queda mas que seguir agregando iconos a nuestro gusto.</p>
+
+<p><a href="http://caralbornozc.googlepages.com/imagen04.png/imagen04-full.jpg"><img src="http://caralbornozc.googlepages.com/imagen04.png/imagen04-medium.jpg" alt="" /></a></p>
+
+<p>Como pueden ver en la imagen los iconos se ven semi-transparentes, eso se logra configurando el erchivo <span style="font-family:courier new,monospace;">.ideksrc</span>, no lo voy a comentar ya que el archivo por si solo es bastante sencillo de comprender.</p>
+
+<p><strong>La Slit y los DockApps</strong></p>
+
+<p>Los DockApp son mini-programas que tienen diversas utilidades, estos son originarios de <strong>WindowMaker</strong>, por eso los nombres de la mayoria de estos empiezan con “*wm*“.<br />
+La gran gracias que tienen estos DockApp’s es que casi no cosumen recursos.</p>
+
+<p>La Slit (originaria de <strong>BlackBox</strong>) es una especie de barra de herramientas en donde son alojados los DockApp.</p>
+
+<p><strong>Instalando DockApp.</strong></p>
+
+<p>Por ejemplo yo uso los siguientes DockApp:</p>
+
+<p>wmix -&gt; Sirve para controlar el volumen de dispocitivos OSS y ALSA.<br />
+wmcpuload -&gt; Muestra el uso de la CPU.<br />
+wmmemmon -&gt; Muestra el uso de la memoria RAM y la SWAP.<br />
+fbpager -&gt; Es el paginador de escritorios virtuales de FluxBox.</p>
+
+<p>La instalacion de estos es igual a la de cualquier programa en debian, siempre y cuando esten en los repositorios. En este caso los voy a instalar todos de una vez.</p>
+
+<p><span style="font-family:courier new,monospace;">#apt-get install wmix wmcpuload wmmemmon fbpager</span></p>
+
+<p>Tambien estan disponibles en formato source.<br />
+Entonces una vez instalado quedarian de la siguiente manera.</p>
+
+<p><a href="http://caralbornozc.googlepages.com/imagen05.png/imagen05-full.jpg"><img src="http://caralbornozc.googlepages.com/imagen05.png/imagen05-medium.jpg" alt="" /></a></p>
+
+<p>de abajo hacia arriba: wmmemmon – wmcpuload – wmix – fbpager</p>
+
+<p><strong>El MenÃƒÂº</strong></p>
+
+<p>El menÃƒÂº en Fluxbox es solo un archivo de texto con algunas etiquetas que permiten crear submenues, ejecutar aplicaciones, controlar lor workspaces, configurar FluxBox y salir del mismo.<br />
+Una estructura bÃƒÂ¡sica setia algo asi:</p>
+
+<p><span style="font-family:courier new,monospace;"><a href="MenuTitle">begin</a> {}<br />
+<a href="SubMenuName">submenu</a> {SubMenuTitle}<br />
+<a href="CommandName">exec</a> {command}<br />
+<a href="https://pages.gitlab.io/hugo/path/del/menu">include</a> <icono><br />
+[end]<br />
+<a href="————">nop</a><br />
+#comentario<br />
+<a href="FluxBoxConfiguration">config</a> {}<br />
+<a href="https://pages.gitlab.io/hugo/path/de/los/styles">stylesdir</a> {}<br />
+<a href="Workspaces">workspaces</a> {}<br />
+<a href="Reconfigure">reconfig</a> {}<br />
+<a href="Restart">restart</a> {}<br />
+<a href="Exit">exit</a> {}<br />
+[end]</span></p>
+
+<p>Los include deben comenzar con un <span style="font-family:courier new,monospace;">[begin]</span> y terminar con un <span style="font-family:courier new,monospace;">[end] </span></p>
+
+<p><span style="font-family:courier new,monospace;">[ ]</span> -&gt; es un comando de fluxbox.<br />
+<span style="font-family:courier new,monospace;">( )</span> -&gt; es el nombre que se muestra en el menu.<br />
+<span style="font-family:courier new,monospace;">{ }</span> -&gt; es el comando que se ejecuta al hacer click a la entrada.<br />
+<span style="font-family:courier new,monospace;">&lt; &gt;</span> -&gt; es la path del icono, este debe estar en formato xpm.<br />
+<span style="font-family:courier new,monospace;">[nop]</span> -&gt; permite poner separadores.<br />
+<span style="font-family:courier new,monospace;">[config]</span> -&gt; muestra la configuracion de fluxbox.<br />
+<span style="font-family:courier new,monospace;">[reconfig]</span> -&gt; si se usa el menu <span style="font-family:courier new,monospace;">[config]</span> para editar los parametros de fluxbox, al cerrar fluxbox, las configuraciones hechas se pierden, este comando sirve para guardar los cambios realizados (<span style="font-family:courier new,monospace;">~/.fluxbox/init</span>).<br />
+<span style="font-family:courier new,monospace;">[workspaces]</span> -&gt; muestra los escritorios virtuales y su contenido.<br />
+<span style="font-family:courier new,monospace;">[restart]</span> -&gt; reinicia FluxBox.<br />
+<span style="font-family:courier new,monospace;">[exit]</span> -&gt; solo sale de FluxBox.</p>
+
+<p>Ya con esta informacion es solo cosa de ponerse a meter mano y crear su propio menu.</p>
+
+<p><strong>KeyGrabber</strong></p>
+
+<p>Esta es, a mi pareser, una exelente herramienta. Se trata de combinaciones de teclas para ejecutar cosas en FluxBox.</p>
+
+<p>Un archivo comÃƒÂºn de KeyGrabber se verÃƒÂ­a asÃƒÂ­.</p>
+
+<p><span style="font-family:courier new,monospace;">Mod1 Tab :NextWindow<br />
+Mod1 Shift Tab : PrevWindow<br />
+Mod1 F1 :Workspace 1<br />
+Mod1 F2 :Workspace 2<br />
+Mod1 F3 :Workspace 3<br />
+Mod1 F4 :Workspace 4<br />
+Mod4 r :ExecCommand fbrun</span></p>
+
+<p><strong>Nombre de las letras.</strong></p>
+
+<p>Existe una aplicacion llamada xev, que al ejecutarce muestra una ventana con un cuadro blanco y una consola que muestra la salida de los eventos que se aplican al programa.</p>
+
+<p>Por ejemplo se ve lo que sale a presionar la tecla “p”.</p>
+
+<p><span style="font-family:courier new,monospace;"><span style="font-size:85%;">KeyPress event, serial 28, synthetic NO, window 0x1c00001, root 0x3b, subw 0x0, time 10788530, (69,-10), root:(282,218), state 0x10, keycode 33 (keysym 0x70, p), same_screen YES, XLookupString gives 1 bytes: “p”</span><br />
+</span><br />
+Lo que estÃƒÂ¡ despues de <em>keysym 0x70</em> viene siendo el nombre de la tecla, en este caso “<strong>p</strong>“.</p>
+
+<p>Si es que, por ejemplo, ubieramos apretado Enter, el nombre seria “<strong>Return</strong>“.</p>
+
+<p>Los Modificadores por defecto son: Control, Mod1 (Alt), Shift, Mod4 (la tecla Super).</p>
+
+<p>Con esto y el nombre de las teclas podermos empezar a crear las combinaciones que queramos, por ejemplo:</p>
+
+<p><span style="font-family:courier new,monospace;font-size:85%;">Mod1 Tab :NextWindow -&gt; muestra la ventana siguiente<br />
+Mod1 Shift Tab : PrevWindow -&gt; muestra la ventana anterior<br />
+Mod1 F1 :Workspace 1 -&gt; muestra el escritorio virtual 1<br />
+Mod1 F2 :Workspace 2 -&gt; muestra el escritorio virtual 2<br />
+Mod1 F3 :Workspace 3 -&gt; muestra el escritorio virtual 3<br />
+Mod1 F4 :Workspace 4 -&gt; muestra el escritorio virtual 4<br />
+Mod4 r :ExecCommand fbrun -&gt; ejecuta fbrun </span></p>
+
+<p>Existen otras acciones que se pueden realizar, pero no las pondre para ahorar espacio :P, si quieren verlas, bajense el <strong>fluxbook</strong>, que es la documentaciÃƒÂ³n de FluxBox disponible en la pagina principal de FluxBox.</p>
+
+<p><strong>AutomatizaciÃƒÂ³n de aplicaciones.</strong></p>
+
+<p>Cada vez que iniciamos FluxBox los DockApp o el Wallpaper no se cargan al inicio, y es muy tedioso y molesto tener que iniciarlas cada vez que entramos FluxBox.</p>
+
+<p>Para ello debemos editar el archivo de configuracion de nuestro FluxBox (<span style="font-family:courier new,monospace;">~/.fluxbox/init</span>), ubicamos la linea que dice <span style="font-family:courier new,monospace;">session.screen0.rootCommand </span>y ahÃƒÂ­ aÃƒÂ±adimos las aplicaciones que queremos que se inicien al iniciar FluxBox. Por Ejemplo:</p>
+
+<p><span style="font-family:courier new,monospace;">session.screen0.rootCommand: wmix &amp; wmcpuload &amp; wmmemmon &amp; fbpager -w &amp; fbsetbg -f fondos/wall01-1024×768.png<br />
+</span><br />
+Con esto cargamos al iniciar FluxBox las aplicaciones que se han mencionado en este howto.</p>
+
+<p><strong>Otras Herramientas</strong></p>
+
+<p>Con esto del menu, algunos diran, “Pero es una lata hacer eso a mano”. Para ellos que pienzan asÃƒÂ­, se creo una utilidad llamada <strong>FluxMenu</strong>.</p>
+
+<p><a href="http://caralbornozc.googlepages.com/imagen06.png/imagen06-full.jpg"><img src="http://caralbornozc.googlepages.com/imagen06.png/imagen06-medium.jpg" alt="" /></a></p>
+
+<p>Esta nos permite crear menues de manera mas facil, no necesita mas explicacion ya que es muy intuitivo.</p>
+
+<p>Los KeyGrabber se pueden crear facilmente con <strong>Fluxkeys</strong> no necesita mas explicacion ya que es muy intuitivo.</p>
+
+<p><a href="http://caralbornozc.googlepages.com/imagen07.png/imagen07-full.jpg"><img src="http://caralbornozc.googlepages.com/imagen07.png/imagen07-medium.jpg" alt="" /></a></p>
+
+<p><strong>Links</strong></p>
+
+<p>PÃƒÂ¡gina principal de FluxBox<br />
+<a href="http://fluxbox.sourceforge.net/">http://fluxbox.sourceforge.net</a></p>
+
+<p>DockApps</p>
+
+<p><a href="http://dockapps.org/">http://dockapps.org/</a></p>
+
+<p>Themes</p>
+
+<p><a href="http://themes.freshmeat.net/browse/962/">http://www.freshmeat.net</a></p>
+
+<p>Bueno amigos con esto ya podemos editar FluxBox a nuestro gusto, los demas queda a la imaginacion de cada uno.</p>
+
+<p>El mio estÃƒÂ¡ asÃƒÂ­ (por ahora).</p>
+
+<p><a href="http://caralbornozc.googlepages.com/imagen08.png/imagen08-full.jpg"><img src="http://caralbornozc.googlepages.com/imagen08.png/imagen08-medium.jpg" alt="" /></a></p>
+
+<p>Este HowTo estÃƒÂ¡ basado en la documentacion de FluxBox disponible en su pÃƒÂ¡gina y en mi experiencia en el.<br />
+Las configuraciones aqui mencionadas se han realizado sobre Debian GNU/Linux Sarge Testing.<br />
+Disculpen las faltas ortograficas 😛</p>
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="https://pages.gitlab.io/hugo/post/2006-05-31-como-reistalar-lilo-o-grub-en-debian-sarge/" data-toggle="tooltip" data-placement="top" title="Como reistalar LILO o Grub en Debian Sarge">&larr; Previous Post</a>
+          </li>
+        
+        
+          <li class="next">
+            <a href="https://pages.gitlab.io/hugo/post/2007-03-21-devuelta-a-clases/" data-toggle="tooltip" data-placement="top" title="Devuelta a Clases">Next Post &rarr;</a>
+          </li>
+        
+      </ul>
+
+      
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:youremail@domain.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/username" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.plus.google.com/&#43;username" title="Google&#43;">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://gitlab.com/username" title="GitLab">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/username" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/username" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://reddit.com/u/username" title="Reddit">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/username" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.xing.com/profile/username" title="Xing">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-xing fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.snapchat.com/add/username" title="Snapchat">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/username" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/username" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/username" title="SoundCloud">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/user/username" title="Spotify">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-spotify fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://username.bandcamp.com/" title="Bandcamp">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-bandcamp fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://itch.io/profile/username" title="itch.io">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-gamepad fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://keybase.io/username" title="Keybase">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-keybase fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="https://pages.gitlab.io/hugo/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          Some Person
+          &nbsp;&bull;&nbsp;
+          2019
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://pages.gitlab.io/hugo/">Beautiful Hugo</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.56.0-DEV</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://pages.gitlab.io/hugo/js/main.js"></script>
+<script src="https://pages.gitlab.io/hugo/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+
+
+
+
+
+  </body>
+</html>
+

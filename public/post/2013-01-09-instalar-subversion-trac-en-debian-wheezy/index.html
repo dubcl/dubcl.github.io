@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Instalar Subversion &#43; Trac en Debian Wheezy</title>
+  <meta property="og:title" content="Instalar Subversion &#43; Trac en Debian Wheezy" />
+  <meta name="twitter:title" content="Instalar Subversion &#43; Trac en Debian Wheezy" />
+  <meta name="description" content="La vamos a hacer cortita… Abstenerse de comentarios del tipo “GIT es mejor”, “Hubieras instalado GIT”, “SVN está deprecado” etc, etc…
+Un personaje pidió tener un servidor SVN, así que se le instaló y estos son los pasos a seguir.
+En resumen vamos a instalar Apache 2 &#43; DAV &#43; SubVersion &#43; Trac sobre un servidor Debian Wheezy y vamos a asumir que los archivos de SVN y Trac los vamos a dejar en /mnt/storage">
+  <meta property="og:description" content="La vamos a hacer cortita… Abstenerse de comentarios del tipo “GIT es mejor”, “Hubieras instalado GIT”, “SVN está deprecado” etc, etc…
+Un personaje pidió tener un servidor SVN, así que se le instaló y estos son los pasos a seguir.
+En resumen vamos a instalar Apache 2 &#43; DAV &#43; SubVersion &#43; Trac sobre un servidor Debian Wheezy y vamos a asumir que los archivos de SVN y Trac los vamos a dejar en /mnt/storage">
+  <meta name="twitter:description" content="La vamos a hacer cortita… Abstenerse de comentarios del tipo “GIT es mejor”, “Hubieras instalado GIT”, “SVN está deprecado” etc, etc…
+Un personaje pidió tener un servidor SVN, así que se le instaló y …">
+  <meta name="author" content="Some Person"/>
+  <link href='https://pages.gitlab.io/hugo/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://pages.gitlab.io/hugo/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://pages.gitlab.io/hugo/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@username" />
+  <meta name="twitter:creator" content="@username" />
+  <meta property="og:url" content="https://pages.gitlab.io/post/2013-01-09-instalar-subversion-trac-en-debian-wheezy/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Beautiful Hugo" />
+
+  <meta name="generator" content="Hugo 0.56.0-DEV" />
+  <link rel="canonical" href="https://pages.gitlab.io/post/2013-01-09-instalar-subversion-trac-en-debian-wheezy/" />
+  <link rel="alternate" href="https://pages.gitlab.io/hugo/index.xml" type="application/rss+xml" title="Beautiful Hugo">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pages.gitlab.io/hugo/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://pages.gitlab.io/hugo/css/pygment_highlights.css" />
+  <link rel="stylesheet" href="https://pages.gitlab.io/hugo/css/highlight.min.css" />
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://pages.gitlab.io/hugo/">Beautiful Hugo</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="https://pages.gitlab.io/hugo/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Samples</a>
+              <div class="navlinks-children">
+                
+                  <a href="https://pages.gitlab.io/hugo/post/2017-03-07-bigimg-sample">Big Image Sample</a>
+                
+                  <a href="https://pages.gitlab.io/hugo/post/2017-03-05-math-sample">Math Sample</a>
+                
+                  <a href="https://pages.gitlab.io/hugo/post/2016-03-08-code-sample">Code Sample</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="https://pages.gitlab.io/hugo/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="https://pages.gitlab.io/hugo/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Beautiful Hugo" href="https://pages.gitlab.io/hugo/">
+            <img class="avatar-img" src="https://pages.gitlab.io/hugo/img/avatar-icon.png" alt="Beautiful Hugo" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>Instalar Subversion &#43; Trac en Debian Wheezy</h1>
+                
+                
+                  <span class="post-meta">
+  Posted on January 9, 2013
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>La vamos a hacer cortita… Abstenerse de comentarios del tipo “GIT es mejor”, “Hubieras instalado GIT”, “SVN está deprecado” etc, etc…</p>
+
+<p>Un personaje pidió tener un servidor SVN, así que se le instaló y estos son los pasos a seguir.</p>
+
+<p>En resumen vamos a instalar Apache 2 + DAV + SubVersion + Trac sobre un servidor Debian Wheezy y vamos a asumir que los archivos de SVN y Trac los vamos a dejar en <strong>/mnt/storage</strong></p>
+
+<p>1.- Instalamos los paquetes necesarios</p>
+
+<p><div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
+</div></td><td><div class="bash codecolorer"><span class="kw2">apt-get install</span> python-setuptools trac subversion libapache2-svn libapache2-mod-python</div></td></tr></tbody></table></div>2.- Activamos el modulo de apache dav_fs</p>
+
+<p><div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
+</div></td><td><div class="bash codecolorer">a2enmod dav_fs</div></td></tr></tbody></table></div>Esto activará también los módulos dav y dav_svn por que son dependencias.</p>
+
+<p>3.- Creamos un directorio con la estructura que llevarán nuestros repositorios por defecto.</p>
+
+<p><div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
+2<br />
+3<br />
+</div></td><td><div class="bash codecolorer"><span class="kw2">mkdir</span><span class="re5">-p</span><span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>plantilla_repo<span class="sy0">/</span>branches<br />
+<span class="kw2">mkdir</span><span class="re5">-p</span><span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>plantilla_repo<span class="sy0">/</span>tags<br />
+<span class="kw2">mkdir</span><span class="re5">-p</span><span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>plantilla_repo<span class="sy0">/</span>trunk</div></td></tr></tbody></table></div>4.- Creamos el archivo que contendrá los usuarios y contraseñas para acceder tanto al repositorio SVN como a la web de Trac.</p>
+
+<p><div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
+2<br />
+</div></td><td><div class="bash codecolorer">htpasswd <span class="re5">-c</span><span class="sy0">/</span>etc<span class="sy0">/</span>apache2<span class="sy0">/</span>svn.passwd usuariofoo<br />
+ htpasswd <span class="sy0">/</span>etc<span class="sy0">/</span>apache2<span class="sy0">/</span>svn.passwd usuariobar</div></td></tr></tbody></table></div>OJO, primero es con “-c” para crear el archivo y luego SIN “-c” para agregar otro usuario, si usan “-c” nuevamente el archivo se sobrescribirá.</p>
+
+<p>5.- Ahora creamos o editamos el archivo de configuración del sitio web en apache, en este caso editaremos el default site.</p>
+
+<p><div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
+</div></td><td><div class="bash codecolorer"><span class="kw2">nano</span><span class="sy0">/</span>etc<span class="sy0">/</span>apache2<span class="sy0">/</span>sites-enabled<span class="sy0">/</span>000-default</div></td></tr></tbody></table></div>Y agregamos:</p>
+
+<p><div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
+2<br />
+3<br />
+4<br />
+5<br />
+6<br />
+7<br />
+8<br />
+9<br />
+10<br />
+11<br />
+12<br />
+13<br />
+14<br />
+15<br />
+16<br />
+17<br />
+18<br />
+19<br />
+20<br />
+</div></td><td><div class="text codecolorer"><Location  /svn><br />
+     DAV svn<br />
+     SVNParentPath /mnt/storage/svn<br />
+     SVNAutoversioning on<br />
+     AuthType Basic<br />
+     AuthName &ldquo;Subversion Repository&rdquo;<br />
+     AuthUserFile /etc/apache2/svn.passwd<br />
+     Require valid-user<br />
+ </Location /svn></p>
+
+<p><Location /trac><br />
+     SetHandler mod_python<br />
+     PythonHandler trac.web.modpython_frontend<br />
+     PythonOption TracEnvParentDir /mnt/storage/trac/<br />
+     PythonOption TracUriRoot /trac<br />
+     AuthType Basic<br />
+     AuthName &ldquo;Trac&rdquo;<br />
+     AuthUserFile /etc/apache2/svn.passwd<br />
+     Require valid-user<br />
+ </Location /trac></div></td></tr></tbody></table></div>6.- Creamod el directorio para los proyectos en Trac</p>
+
+<p><div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
+</div></td><td><div class="bash codecolorer"><span class="kw2">mkdir</span><span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>trac</div></td></tr></tbody></table></div>Ahora creamos nuestro primer proyecto</p>
+
+<p>7.- Creamos el repocitorio SVN e importamos el directorio que tiene la plantilla con la estructura por defecto.</p>
+
+<p><div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
+2<br />
+3<br />
+4<br />
+5<br />
+</div></td><td><div class="bash codecolorer"><span class="kw2">svnadmin</span> create <span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>svn<span class="sy0">/</span>myproject <span class="re5">&ndash;fs-type</span> fsfs<br />
+<span class="kw2">svn</span> import<span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>plantilla_repo file:<span class="sy0">///</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>svn<span class="sy0">/</span>Proyecto1 <span class="re5">-m</span><span class="st0">&ldquo;Importacion inicial&rdquo;</span><br />
+<span class="kw2">find</span> <span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>svn<span class="sy0">/</span>Proyecto1 <span class="re5">-type</span> f <span class="sy0">|</span><span class="kw2">xargs</span><span class="kw2">chmod</span><span class="nu0">600</span><br />
+<span class="kw2">find</span> <span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>svn<span class="sy0">/</span>Proyecto1 <span class="re5">-type</span> d <span class="sy0">|</span><span class="kw2">xargs</span><span class="kw2">chmod</span><span class="nu0">2770</span><br />
+<span class="kw2">chown</span><span class="re5">-Rf</span> root.www-data <span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>svn<span class="sy0">/</span>Proyecto1</div></td></tr></tbody></table></div>8.- Creamos el proyecto en Trac</p>
+
+<p><div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
+2<br />
+3<br />
+4<br />
+</div></td><td><div class="bash codecolorer">trac-admin <span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>trac<span class="sy0">/</span>Proyecto1 initenv<br />
+<span class="kw2">find</span> <span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>trac<span class="sy0">/</span>Proyecto1 <span class="re5">-type</span> f <span class="sy0">|</span><span class="kw2">xargs</span><span class="kw2">chmod</span><span class="nu0">600</span><br />
+<span class="kw2">find</span> <span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>trac<span class="sy0">/</span>Proyecto1 <span class="re5">-type</span> d <span class="sy0">|</span><span class="kw2">xargs</span><span class="kw2">chmod</span><span class="nu0">2770</span><br />
+<span class="kw2">chown</span><span class="re5">-Rf</span> root.www-data <span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>trac<span class="sy0">/</span>Proyecto1</div></td></tr></tbody></table></div>9.- Reiniciamos apache</p>
+
+<p><div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
+</div></td><td><div class="bash codecolorer">service apache2 restart</div></td></tr></tbody></table></div>4. Agregamos un usuario con permisos de administrador al proyecto en Trac, este debe estar en el archivo svn.passwd que creamos anteriormente</p>
+
+<p><div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
+</div></td><td><div class="bash codecolorer">trac-admin <span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>trac<span class="sy0">/</span>Proyecto1</div></td></tr></tbody></table></div>Esto abrirá una shell donde se pueden ejecutar los comando para Trac, ejecutamos lo siguiente para asignar al administrador.</p>
+
+<p><div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
+</div></td><td><div class="bash codecolorer">Trac <span class="br0">[</span><span class="sy0">/</span>mnt<span class="sy0">/</span>storage<span class="sy0">/</span>trac<span class="sy0">/</span>Proyecto1<span class="br0">]</span><span class="sy0">&gt;</span> permission add usuariofoo TRAC_ADMIN</div></td></tr></tbody></table></div>Con esto estaríamos listos y ya pueden acceder al proyecto en Trac en la url, por ejemplo, <strong><a href="http://dominio.com/trac/Proyecto1">http://dominio.com/trac/Proyecto1</a></strong> y para el SVN <strong><a href="http://dominio.com/svn/Proyecto1">http://dominio.com/svn/Proyecto1</a></strong>, logeandose con los usuarios que agregamos en el svn.passwd</p>
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="https://pages.gitlab.io/hugo/post/2012-12-03-configurar-marvell-88e8056-en-esxi-5-1/" data-toggle="tooltip" data-placement="top" title="Configurar Marvell 88e8056 en ESXi 5.1">&larr; Previous Post</a>
+          </li>
+        
+        
+          <li class="next">
+            <a href="https://pages.gitlab.io/hugo/post/2013-01-16-eliminar-archivos-anterior-a-una-fecha/" data-toggle="tooltip" data-placement="top" title="Eliminar archivos anterior a una fecha">Next Post &rarr;</a>
+          </li>
+        
+      </ul>
+
+      
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:youremail@domain.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/username" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.plus.google.com/&#43;username" title="Google&#43;">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://gitlab.com/username" title="GitLab">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/username" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/username" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://reddit.com/u/username" title="Reddit">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/username" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.xing.com/profile/username" title="Xing">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-xing fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.snapchat.com/add/username" title="Snapchat">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/username" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/username" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/username" title="SoundCloud">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/user/username" title="Spotify">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-spotify fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://username.bandcamp.com/" title="Bandcamp">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-bandcamp fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://itch.io/profile/username" title="itch.io">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-gamepad fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://keybase.io/username" title="Keybase">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-keybase fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="https://pages.gitlab.io/hugo/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          Some Person
+          &nbsp;&bull;&nbsp;
+          2019
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://pages.gitlab.io/hugo/">Beautiful Hugo</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.56.0-DEV</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://pages.gitlab.io/hugo/js/main.js"></script>
+<script src="https://pages.gitlab.io/hugo/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+
+
+
+
+
+  </body>
+</html>
+

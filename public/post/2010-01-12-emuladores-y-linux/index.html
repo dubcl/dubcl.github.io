@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Emuladores y Linux</title>
+  <meta property="og:title" content="Emuladores y Linux" />
+  <meta name="twitter:title" content="Emuladores y Linux" />
+  <meta name="description" content="Estando en casa de mis padres, aburrido por cierto, he estado en busca de alguna entretenciÃƒÂ³n para matar el tiempo y me he acordado de algunos juegos de antaÃƒÂ±o, de los que, o nosÃ‚Â juntÃƒÂ¡bamosÃ‚Â todos los amigos en casa de alguno que tenia una consola, o nosÃ‚Â ÃƒÂ­bamos a gastar algunas monedas a los arcades, asÃƒÂ­ que me puse a buscar emuladores para las distintas plataformas que tanta entretenciÃƒÂ³n nos proporcionaban por aquellos aÃƒÂ±os.">
+  <meta property="og:description" content="Estando en casa de mis padres, aburrido por cierto, he estado en busca de alguna entretenciÃƒÂ³n para matar el tiempo y me he acordado de algunos juegos de antaÃƒÂ±o, de los que, o nosÃ‚Â juntÃƒÂ¡bamosÃ‚Â todos los amigos en casa de alguno que tenia una consola, o nosÃ‚Â ÃƒÂ­bamos a gastar algunas monedas a los arcades, asÃƒÂ­ que me puse a buscar emuladores para las distintas plataformas que tanta entretenciÃƒÂ³n nos proporcionaban por aquellos aÃƒÂ±os.">
+  <meta name="twitter:description" content="Estando en casa de mis padres, aburrido por cierto, he estado en busca de alguna entretenciÃƒÂ³n para matar el tiempo y me he acordado de algunos juegos de antaÃƒÂ±o, de los que, o nosÃ‚Â …">
+  <meta name="author" content="Some Person"/>
+  <link href='https://pages.gitlab.io/hugo/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://pages.gitlab.io/hugo/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://pages.gitlab.io/hugo/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@username" />
+  <meta name="twitter:creator" content="@username" />
+  <meta property="og:url" content="https://pages.gitlab.io/post/2010-01-12-emuladores-y-linux/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Beautiful Hugo" />
+
+  <meta name="generator" content="Hugo 0.56.0-DEV" />
+  <link rel="canonical" href="https://pages.gitlab.io/post/2010-01-12-emuladores-y-linux/" />
+  <link rel="alternate" href="https://pages.gitlab.io/hugo/index.xml" type="application/rss+xml" title="Beautiful Hugo">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pages.gitlab.io/hugo/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://pages.gitlab.io/hugo/css/pygment_highlights.css" />
+  <link rel="stylesheet" href="https://pages.gitlab.io/hugo/css/highlight.min.css" />
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://pages.gitlab.io/hugo/">Beautiful Hugo</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="https://pages.gitlab.io/hugo/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Samples</a>
+              <div class="navlinks-children">
+                
+                  <a href="https://pages.gitlab.io/hugo/post/2017-03-07-bigimg-sample">Big Image Sample</a>
+                
+                  <a href="https://pages.gitlab.io/hugo/post/2017-03-05-math-sample">Math Sample</a>
+                
+                  <a href="https://pages.gitlab.io/hugo/post/2016-03-08-code-sample">Code Sample</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="https://pages.gitlab.io/hugo/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="https://pages.gitlab.io/hugo/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Beautiful Hugo" href="https://pages.gitlab.io/hugo/">
+            <img class="avatar-img" src="https://pages.gitlab.io/hugo/img/avatar-icon.png" alt="Beautiful Hugo" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>Emuladores y Linux</h1>
+                
+                
+                  <span class="post-meta">
+  Posted on January 12, 2010
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Estando en casa de mis padres, aburrido por cierto, he estado en busca de alguna entretenciÃƒÂ³n para matar el tiempo y me he acordado de algunos juegos de antaÃƒÂ±o, de los que, o nosÃ‚Â juntÃƒÂ¡bamosÃ‚Â todos los amigos en casa de alguno que tenia una consola, o nosÃ‚Â ÃƒÂ­bamos a gastar algunas monedas a los arcades, asÃƒÂ­ que me puse a buscar emuladores para las distintas plataformas que tanta entretenciÃƒÂ³n nos proporcionaban por aquellos aÃƒÂ±os.</p>
+
+<p><strong>XMame + GXMame (GMameUI)</strong></p>
+
+<p><a href="http://carlos.debianchile.cl/wp-content/uploads/2010/01/xmame01.png"><img src="http://carlos.debianchile.cl/wp-content/uploads/2010/01/xmame01-300x199.png" alt="" title="xmame01" /></a></p>
+
+<p>xmame.x11</p>
+
+<p>El clÃƒÂ¡sico de los emuladores arcade, como olvidar esas partidas de TMNT de cuatro player, Street Fighter, Mortal Kombat, Los Simpsons, el “Monito de Nieve” (Snow Bross), Tumblepop y tantos otros, con este emulador los puedes disfrutar desde la comodidad de tu PC. En Debian Sid la versiÃƒÂ³n existente es la 0.106, lo pueden instalar con</p>
+
+<blockquote>
+<p>#apt-get install xmame</p>
+</blockquote>
+
+<p>Su versiÃƒÂ³n natural es para se usada en consola pero existen algunos Front-End’s, como el <a href="http://gxmame.sourceforge.net">GXMame</a> y el nuevo <a href="http://gmameui.sourceforge.net">GMameUI</a>, basado en el anterior, pero no funciona tan bien como GXMame, aunque este es mucho mas viejo, cave mencionar que GXMame hay que instalarlo a mano, ya que como verÃƒÂ¡n en su sitio web, la ultima versiÃƒÂ³n es del 2003.</p>
+
+<blockquote>
+<p>#apt-get install gmameui</p>
+</blockquote>
+
+<p>GXMame y GMameUI cuentan con una interfaz de selecciÃƒÂ³n de ROM y opciones de configuraciÃƒÂ³n similares a las del Mame32 o MameUI de windows, asÃƒÂ­ que no tiene como perderse.</p>
+
+<p><a href="http://carlos.debianchile.cl/wp-content/uploads/2010/01/gxmame01.png"><img src="http://carlos.debianchile.cl/wp-content/uploads/2010/01/gxmame01-300x201.png" alt="" title="gxmame01" /></a>GXMame</p>
+
+<p><a href="http://carlos.debianchile.cl/wp-content/uploads/2010/01/main_window.png"><img src="http://carlos.debianchile.cl/wp-content/uploads/2010/01/main_window.png" alt="" title="gmameui" /></a>GMameUI</p>
+
+<p><strong>ZSNES</strong></p>
+
+<p>Emulador por excelencia de Super Nintendo, Super Famicom para los demÃƒÂ¡s. Emula el 99.9% de las ROM’s de SNES, aunque tambiÃƒÂ©n existe snes9x, ZSNES destaca por ser igual tanto en la versiÃƒÂ³n de windows como en la de Linux, no asÃƒÂ­ snes9x. Super Mario World, Mortal Kombat II, Killer Instinct, Zombies – Ate My Neighbors, Chorno Cross, Super Mario Kart, por nombrar algunos, harÃƒÂ¡n las delicias de ese gamepad que tienen lleno de polvo en el armario.</p>
+
+<blockquote>
+<p>#apt-get install zsnes</p>
+</blockquote>
+
+<p><a href="http://carlos.debianchile.cl/wp-content/uploads/2010/01/zsnes01.png"><img src="http://carlos.debianchile.cl/wp-content/uploads/2010/01/zsnes01.png" alt="" title="zsnes01" /></a>zsnes – selecciÃƒÂ³n de ROM</p>
+
+<p><a href="http://carlos.debianchile.cl/wp-content/uploads/2010/01/zsnes02.png"><img src="http://carlos.debianchile.cl/wp-content/uploads/2010/01/zsnes02-300x235.png" alt="" title="zsnes02" /></a>zsnes, emulando Super Mario Kart</p>
+
+<p><strong>Mupen64Plus</strong></p>
+
+<p>Ya pueden ir imaginando los que significa el 64, si, asÃƒÂ­ es, este es el emulador de Nintendo 64, la que nos permitiÃƒÂ³ ver a Mario en 3D, todavia recuerdo cuando pasaba frente a la tienda donde en la vitrina tenÃƒÂ­an una de estas con el Mario 64, y ahÃƒÂ­ quedaba, mirando un buen rato como se movÃƒÂ­a esa gran cabezota de Mario delante de ese fondo azul. Cabe mencionar, que al igual que ZSNES, Mupen64Plus es idÃƒÂ©ntico al de windows.</p>
+
+<blockquote>
+<p>#apt-get install mupen64plus</p>
+</blockquote>
+
+<p><a href="http://carlos.debianchile.cl/wp-content/uploads/2010/01/mupen01.png"><img src="http://carlos.debianchile.cl/wp-content/uploads/2010/01/mupen01-300x209.png" alt="" title="mupen01" /></a> Mupen64Plus</p>
+
+<p><a href="http://carlos.debianchile.cl/wp-content/uploads/2010/01/mupen02.png"><img src="http://carlos.debianchile.cl/wp-content/uploads/2010/01/mupen02-300x236.png" alt="" title="mupen02" /></a>Mupen64Plus, ejecutando Mario Kart 64</p>
+
+<p><strong>FCEU, Nestra</strong></p>
+
+<p>Ambos emuladores de Nintendo, si, el del mÃƒÂ­tico Mario Bross + Duck Hunt, Kirby Adventure, Zelda, etc… los dos son excelentes emuladores, lo lamentable es que solo son usables desde la consola. TambiÃƒÂ©n existe <a href="http://fceux.com">FCEUX</a>, el cual si trae una interfaz GTK, pero al parecer (lo digo asÃƒÂ­, por que no lo he usado) no tienen todas las caracterÃƒÂ­sticas de FCEU.</p>
+
+<blockquote>
+<p>#apt-get install fceu</p>
+</blockquote>
+
+<p><a href="http://carlos.debianchile.cl/wp-content/uploads/2010/01/fecu01.png"><img src="http://carlos.debianchile.cl/wp-content/uploads/2010/01/fecu01.png" alt="" title="fecu01" /></a>FCEU</p>
+
+<blockquote>
+<p>#apt-get install nestra</p>
+</blockquote>
+
+<p><a href="http://carlos.debianchile.cl/wp-content/uploads/2010/01/nestra011.png"><img src="http://carlos.debianchile.cl/wp-content/uploads/2010/01/nestra011.png" alt="" title="nestra" /></a><br />
+ Nestra</p>
+
+<p><strong>pSX</strong></p>
+
+<p>Este es EL emulador definitivo de PlayStation para Linux, aunque algunos digan que el EPCSX es el mejor, pues yo les digo NO!, la verdad no le tenÃƒÂ­a ninguna fe a este emulador, pero al probarlo me a dejado sin palabras, hace lo que tiene que hacer y nada mas, es liviano, funciona tanto con el teclado como con gamepad, soporta Memory Card’s, corre juegos en CD e imÃƒÂ¡genes ISO, pueden descargar el binario desde <a href="http://psxemulator.gazaxian.com">aquÃƒÂ­</a> tanto para windows como para Linux. Como TIPs mencionar que no viene con los archivos de las MemCards, la soluciÃƒÂ³n, ir al directorio en donde quieren guardar los archivos MemCards, generalmente /ruta/a/pSX/mem/, y crear 2 archivos vacios, luego ejecutar pSX, que al ejecutarse corre la BIOS de PSX (que por cierto deben descargarla a parte), e ir al menu de la Memory Card, esto hara que detecte los archivos y formatee estos como si fueran de verdad.</p>
+
+<p><a href="http://carlos.debianchile.cl/wp-content/uploads/2010/01/psx01.png"><img src="http://carlos.debianchile.cl/wp-content/uploads/2010/01/psx01-300x248.png" alt="" title="psx01" /></a>pSX, PlayStation BIOS</p>
+
+<p><a href="http://carlos.debianchile.cl/wp-content/uploads/2010/01/psx02.png"><img src="http://carlos.debianchile.cl/wp-content/uploads/2010/01/psx02-300x248.png" alt="" title="psx02" /></a>pSX, corriendo Bust a Move en ISO</p>
+
+<p>Bueno amigos (si es que alguien lee este blog 😛 ), estos son <strong>algunos</strong> de los emuladores disponibles para Linux, asÃƒÂ­ que no tienen escusa para relajarse un rato disfrutando de esos juegos de antaÃƒÂ±o que tantas horas y horas de entretenciÃƒÂ³n nos proporcionaban.</p>
+
+<p>Y recuerde… si le gustÃƒÂ³ o leÃ‚Â sirviÃƒÂ³, comente :D.</p>
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="https://pages.gitlab.io/hugo/post/2010-01-11-playlist-mr-bungle-california/" data-toggle="tooltip" data-placement="top" title="Playlist: Mr Bungle, California">&larr; Previous Post</a>
+          </li>
+        
+        
+          <li class="next">
+            <a href="https://pages.gitlab.io/hugo/post/2010-02-01-20-invitaciones-para-lockerz/" data-toggle="tooltip" data-placement="top" title="20 Invitaciones para Lockerz">Next Post &rarr;</a>
+          </li>
+        
+      </ul>
+
+      
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:youremail@domain.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/username" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.plus.google.com/&#43;username" title="Google&#43;">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://gitlab.com/username" title="GitLab">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/username" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/username" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://reddit.com/u/username" title="Reddit">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/username" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.xing.com/profile/username" title="Xing">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-xing fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.snapchat.com/add/username" title="Snapchat">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/username" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/username" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/username" title="SoundCloud">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/user/username" title="Spotify">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-spotify fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://username.bandcamp.com/" title="Bandcamp">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-bandcamp fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://itch.io/profile/username" title="itch.io">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-gamepad fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://keybase.io/username" title="Keybase">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-keybase fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="https://pages.gitlab.io/hugo/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          Some Person
+          &nbsp;&bull;&nbsp;
+          2019
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://pages.gitlab.io/hugo/">Beautiful Hugo</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.56.0-DEV</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://pages.gitlab.io/hugo/js/main.js"></script>
+<script src="https://pages.gitlab.io/hugo/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+
+
+
+
+
+  </body>
+</html>
+

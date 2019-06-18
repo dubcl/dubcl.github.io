@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/</loc>
+    <lastmod>2019-04-02T12:27:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2019-04-02-actualizacion-tzdata-tzdata-java-para-debian-7-wheezy/</loc>
+    <lastmod>2019-04-02T12:27:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/</loc>
+    <lastmod>2019-04-02T12:27:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/tags/</loc>
+    <lastmod>2019-04-02T12:27:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/tags/tzdata-java-tzdata-debian-wheezy-update-actualizacion/</loc>
+    <lastmod>2019-04-02T12:27:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2016-04-05-get-usd-price-of-the-day-in-clp-from-bcentral/</loc>
+    <lastmod>2016-04-05T17:31:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/tags/bash/</loc>
+    <lastmod>2016-04-05T17:31:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/tags/clp/</loc>
+    <lastmod>2016-04-05T17:31:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/tags/linux/</loc>
+    <lastmod>2016-04-05T17:31:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/tags/misc/</loc>
+    <lastmod>2016-04-05T17:31:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/tags/usd/</loc>
+    <lastmod>2016-04-05T17:31:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2015-11-03-change-user-password-of-hp-ilo-or-lenovo-imm-from-linux/</loc>
+    <lastmod>2015-11-03T17:31:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/tags/imm/</loc>
+    <lastmod>2015-11-03T17:31:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/tags/ilo/</loc>
+    <lastmod>2015-11-03T17:31:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/tags/ipmitool/</loc>
+    <lastmod>2015-11-03T17:31:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/tags/sysadmin/</loc>
+    <lastmod>2015-11-03T17:31:31+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2015-10-21-use-a-xbox-360-wireless-controller-on-linux/</loc>
+    <lastmod>2015-10-21T03:35:51+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2015-10-16-problem-sending-e-mail-on-storwize-v3700/</loc>
+    <lastmod>2015-10-16T18:51:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2015-05-28-assign-an-ip-to-hp-ilo-from-linux/</loc>
+    <lastmod>2015-05-28T15:06:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2014-02-10-cambiar-hostname-sin-reiniciar/</loc>
+    <lastmod>2014-02-10T11:02:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2013-11-05-arreglar-grub-probe-error-couldnt-find-pv-pv1-check-your-device-map/</loc>
+    <lastmod>2013-11-05T10:56:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2013-09-10-monitorear-kvm-guest-vms-con-nagios/</loc>
+    <lastmod>2013-09-10T17:01:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2013-05-16-sonido-intermitente-en-google-chrome-linux-con-flash/</loc>
+    <lastmod>2013-05-16T14:18:47+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2013-05-15-habilitar-terminal-server-en-windows-tipo-windows-server/</loc>
+    <lastmod>2013-05-15T18:04:39+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2013-05-15-reparar-nnm-applet-priviliegios-insuficientes/</loc>
+    <lastmod>2013-05-15T12:36:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2013-04-22-compresion-multicore/</loc>
+    <lastmod>2013-04-22T16:31:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2013-04-22-barra-de-progreso-para-comandos-que-no-tienen/</loc>
+    <lastmod>2013-04-22T15:52:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2013-01-16-eliminar-archivos-anterior-a-una-fecha/</loc>
+    <lastmod>2013-01-16T16:04:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2013-01-09-instalar-subversion-trac-en-debian-wheezy/</loc>
+    <lastmod>2013-01-09T11:38:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2012-12-03-configurar-marvell-88e8056-en-esxi-5-1/</loc>
+    <lastmod>2012-12-03T19:00:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2012-11-22-acelerar-conversion-de-virtualizacion-con-vmware-vcenter-converter/</loc>
+    <lastmod>2012-11-22T09:23:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2012-11-17-arreglar-system-io-error-en-cyrus/</loc>
+    <lastmod>2012-11-17T18:07:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2012-10-02-union-de-sistemas-de-archivos-en-linux/</loc>
+    <lastmod>2012-10-02T20:22:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2012-10-02-tar-remoto/</loc>
+    <lastmod>2012-10-02T20:14:23+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2012-10-02-conexion-a-vpn-desde-linux-con-certificado-pfx/</loc>
+    <lastmod>2012-10-02T20:07:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2012-02-05-its-alive-2/</loc>
+    <lastmod>2012-02-05T16:38:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2010-09-01-vaciar-cache-en-linux/</loc>
+    <lastmod>2010-09-01T00:33:30+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2010-05-27-expolibre-2010/</loc>
+    <lastmod>2010-05-27T13:20:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2010-05-03-gnomes-man/</loc>
+    <lastmod>2010-05-03T01:01:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2010-04-20-controlar-rhythmbox-por-ssh/</loc>
+    <lastmod>2010-04-20T17:10:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2010-03-16-decompress-uha-files-on-linux/</loc>
+    <lastmod>2010-03-16T02:46:25+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2010-03-02-estoy-bien/</loc>
+    <lastmod>2010-03-02T17:17:59+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2010-02-22-aria2/</loc>
+    <lastmod>2010-02-22T04:39:58+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2010-02-01-20-invitaciones-para-lockerz/</loc>
+    <lastmod>2010-02-01T00:58:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2010-01-12-emuladores-y-linux/</loc>
+    <lastmod>2010-01-12T03:13:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2010-01-11-playlist-mr-bungle-california/</loc>
+    <lastmod>2010-01-11T11:13:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2010-01-08-error-al-actualizar-debian-sid-unstable-console-tools/</loc>
+    <lastmod>2010-01-08T01:07:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2010-01-01-playlist-illya-kuryaki-the-valderramas-ninja-mental/</loc>
+    <lastmod>2010-01-01T00:14:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-12-29-dia-de-gnome-2009/</loc>
+    <lastmod>2009-12-29T01:27:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-12-23-playlist/</loc>
+    <lastmod>2009-12-23T01:40:04+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-12-20-compartir-el-wifi-a-otro-pc-y-otras-yerbas/</loc>
+    <lastmod>2009-12-20T02:57:11+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-11-26-arkathon/</loc>
+    <lastmod>2009-11-26T00:58:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-11-18-tercer-encuentro-linux-universidad-autonoma-de-chile/</loc>
+    <lastmod>2009-11-18T17:28:21+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-11-09-self-7/</loc>
+    <lastmod>2009-11-09T14:23:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-10-23-linus-7/</loc>
+    <lastmod>2009-10-23T01:17:34+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-10-22-software-libre-en-la-empresa/</loc>
+    <lastmod>2009-10-22T16:23:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-10-16-agregando-winxp-a-grub2/</loc>
+    <lastmod>2009-10-16T21:20:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-10-16-dia-de-gnome-y-encuentro-linux-2009/</loc>
+    <lastmod>2009-10-16T16:16:43+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-10-07-vuelve-tux-cl/</loc>
+    <lastmod>2009-10-07T02:58:16+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-10-06-azucar-comprimida/</loc>
+    <lastmod>2009-10-06T17:05:02+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-10-04-curriculum/</loc>
+    <lastmod>2009-10-04T10:52:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-10-04-gelide/</loc>
+    <lastmod>2009-10-04T10:36:01+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-09-25-dia-del-software-libre-2009/</loc>
+    <lastmod>2009-09-25T15:46:40+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-08-21-regreso/</loc>
+    <lastmod>2009-08-21T18:45:07+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-06-03-expolibre-2009/</loc>
+    <lastmod>2009-06-03T00:46:49+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-05-11-ganate-un-dominio/</loc>
+    <lastmod>2009-05-11T14:57:22+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-04-24-flisol-2009/</loc>
+    <lastmod>2009-04-24T11:14:36+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-04-01-configurar-zyxel-p-660hw-t1/</loc>
+    <lastmod>2009-04-01T11:29:10+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-03-16-dominiohost-gratis-por-un-ano/</loc>
+    <lastmod>2009-03-16T14:58:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-01-23-gelide-011/</loc>
+    <lastmod>2009-01-23T06:35:13+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2009-01-17-las-apuestas-de-la-abuelita/</loc>
+    <lastmod>2009-01-17T10:40:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-12-29-gelide-010-en-deb/</loc>
+    <lastmod>2008-12-29T22:16:12+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-12-09-wishlist-lista-de-deseos/</loc>
+    <lastmod>2008-12-09T16:56:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-12-09-wishlist/</loc>
+    <lastmod>2008-12-09T16:45:06+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-11-16-encontre-trabajo-xd/</loc>
+    <lastmod>2008-11-16T20:24:28+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-11-07-la-nene-y-sus-miniaturas-y-mi-hermosa-novia-p/</loc>
+    <lastmod>2008-11-07T22:20:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-11-01-no-debo/</loc>
+    <lastmod>2008-11-01T16:40:48+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-10-28-conky-el-monitor-de-sistema-para-linux/</loc>
+    <lastmod>2008-10-28T20:32:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-10-08-dbm-movile/</loc>
+    <lastmod>2008-10-08T03:05:31+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-10-04-testimonios/</loc>
+    <lastmod>2008-10-04T15:54:44+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-10-01-campus-party/</loc>
+    <lastmod>2008-10-01T16:22:45+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-09-25-lo-nuevo-de-wario/</loc>
+    <lastmod>2008-09-25T04:53:18+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-09-22-planeta-debianchilecl/</loc>
+    <lastmod>2008-09-22T17:21:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-09-22-de-vuelta-del-18/</loc>
+    <lastmod>2008-09-22T14:28:55+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-09-16-firefox-y-la-vida-diaria/</loc>
+    <lastmod>2008-09-16T00:18:14+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-09-15-descargas/</loc>
+    <lastmod>2008-09-15T15:23:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-09-15-bienvenidos-a-mi-nuevo-hogar/</loc>
+    <lastmod>2008-09-15T14:38:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-08-21-about/</loc>
+    <lastmod>2008-08-21T14:40:42+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-08-14-debianday-en-directo/</loc>
+    <lastmod>2008-08-14T11:11:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-08-13-con-la-raja-en-valpo/</loc>
+    <lastmod>2008-08-13T20:37:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-08-11-listos-pal-debian-day/</loc>
+    <lastmod>2008-08-11T12:46:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-07-28-nuevo-style/</loc>
+    <lastmod>2008-07-28T21:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-07-27-debianday/</loc>
+    <lastmod>2008-07-27T18:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-07-27-4-1/</loc>
+    <lastmod>2008-07-27T18:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-07-23-curiosidades-de-apt/</loc>
+    <lastmod>2008-07-23T16:11:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-07-19-en-donde-me-quede/</loc>
+    <lastmod>2008-07-19T01:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-06-04-hartas-cosas/</loc>
+    <lastmod>2008-06-04T08:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-04-25-como-salir-del-paso-cuando-no-tenemos-impresora/</loc>
+    <lastmod>2008-04-25T11:36:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-04-14-como-saber-si-eres-talquino/</loc>
+    <lastmod>2008-04-14T18:09:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-04-11-flisol-2008/</loc>
+    <lastmod>2008-04-11T12:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-04-03-come-back/</loc>
+    <lastmod>2008-04-03T02:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-02-28-vacas-vacas-vacas/</loc>
+    <lastmod>2008-02-28T00:45:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-02-13-dream-theater-in-chile/</loc>
+    <lastmod>2008-02-13T09:28:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-01-22-bad-luck/</loc>
+    <lastmod>2008-01-22T17:18:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-01-16-ventanitas-owned/</loc>
+    <lastmod>2008-01-16T19:34:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-01-13-webstats/</loc>
+    <lastmod>2008-01-13T17:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-01-13-verguenza-nacional-la-cce-decidira-voto-chileno-por-ooxml/</loc>
+    <lastmod>2008-01-13T16:38:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2008-01-11-all-in-one/</loc>
+    <lastmod>2008-01-11T13:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-12-23-merry-christmas/</loc>
+    <lastmod>2007-12-23T12:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-12-21-flash-programing-rush/</loc>
+    <lastmod>2007-12-21T08:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-12-17-cristian-see-you-later/</loc>
+    <lastmod>2007-12-17T10:48:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-12-11-debian-translator/</loc>
+    <lastmod>2007-12-11T20:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-12-07-abandonwarez-2/</loc>
+    <lastmod>2007-12-07T16:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-12-01-recalling-the-past/</loc>
+    <lastmod>2007-12-01T02:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-11-30-2do-encuentro-de-software-y-tecnologia-libre/</loc>
+    <lastmod>2007-11-30T16:40:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-11-23-wtf/</loc>
+    <lastmod>2007-11-23T14:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-11-20-por-fin-configure-mi-dwl-ag122-en-linux/</loc>
+    <lastmod>2007-11-20T23:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-11-20-a-little-cat-in-my-home/</loc>
+    <lastmod>2007-11-20T08:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-11-14-internet-free-in-my-home/</loc>
+    <lastmod>2007-11-14T14:35:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-11-10-2-encuentro-linux-ua-talca/</loc>
+    <lastmod>2007-11-10T23:24:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-11-08-linux-body-painting/</loc>
+    <lastmod>2007-11-08T16:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-11-05-algo-de-humor-xd/</loc>
+    <lastmod>2007-11-05T16:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-10-25-work-station-game-station/</loc>
+    <lastmod>2007-10-25T15:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-10-18-the-iphone-and-me/</loc>
+    <lastmod>2007-10-18T16:10:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-10-11-abandonwarez-1/</loc>
+    <lastmod>2007-10-11T17:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-10-09-expotalca/</loc>
+    <lastmod>2007-10-09T16:08:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-10-09-fluxbox-100-stable-release/</loc>
+    <lastmod>2007-10-09T12:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-10-09-menus-and-docks-for-linux/</loc>
+    <lastmod>2007-10-09T11:14:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-10-02-primeros-pasos-en-pygtk/</loc>
+    <lastmod>2007-10-02T14:47:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-09-29-dia-del-software-libre/</loc>
+    <lastmod>2007-09-29T11:43:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-09-13-a-pedido-del-publico-chat-beatbox/</loc>
+    <lastmod>2007-09-13T17:05:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-09-13-al-wen-metal/</loc>
+    <lastmod>2007-09-13T15:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-09-11-los-pasteles/</loc>
+    <lastmod>2007-09-11T15:15:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-09-08-no-me-gusta-el-ketchup-lol/</loc>
+    <lastmod>2007-09-08T22:50:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-09-07-chc-con-la-cosa/</loc>
+    <lastmod>2007-09-07T10:58:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-09-04-diasoftwarelibre2007/</loc>
+    <lastmod>2007-09-04T17:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-09-04-bajar-videos-de-canal13-estamos-conectados/</loc>
+    <lastmod>2007-09-04T14:49:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-08-27-dinero-plastico-mal-universitario/</loc>
+    <lastmod>2007-08-27T16:03:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-08-22-algo-de-gnulinux-en-la-universidad-por-fin/</loc>
+    <lastmod>2007-08-22T11:39:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-08-13-devuelta-a-clases-2/</loc>
+    <lastmod>2007-08-13T14:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-07-28-jugos-night/</loc>
+    <lastmod>2007-07-28T04:55:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-07-27-que-es-linux/</loc>
+    <lastmod>2007-07-27T20:24:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-07-24-frente-de-liberacion-digital/</loc>
+    <lastmod>2007-07-24T14:07:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-07-23-fotos-manifestandome/</loc>
+    <lastmod>2007-07-23T11:48:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-07-20-foxit-reader/</loc>
+    <lastmod>2007-07-20T12:20:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-07-12-software-libre-en-la-administracion-publica-chilena/</loc>
+    <lastmod>2007-07-12T16:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-07-11-por-encargo/</loc>
+    <lastmod>2007-07-11T10:25:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-07-10-manifestandome/</loc>
+    <lastmod>2007-07-10T15:54:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-07-06-which-way-is-up/</loc>
+    <lastmod>2007-07-06T13:53:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-06-21-everest-ultimate-edition/</loc>
+    <lastmod>2007-06-21T10:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-06-21-encuentra-tu-distro-ideal/</loc>
+    <lastmod>2007-06-21T09:19:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-06-15-lo-que-nunca-habia-pasado/</loc>
+    <lastmod>2007-06-15T11:01:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-06-12-tuneup-2007/</loc>
+    <lastmod>2007-06-12T13:49:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-06-10-jugo-en-counter/</loc>
+    <lastmod>2007-06-10T16:56:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-06-08-se-me-olvidava/</loc>
+    <lastmod>2007-06-08T11:54:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-06-08-no-me-la-creo-o_o/</loc>
+    <lastmod>2007-06-08T11:32:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-06-05-gif-movie-gear/</loc>
+    <lastmod>2007-06-05T18:21:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-06-01-aoa-audio-extractor/</loc>
+    <lastmod>2007-06-01T16:26:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-06-01-solsuite-2007/</loc>
+    <lastmod>2007-06-01T15:37:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-04-17-una-historia-pa-los-nietos/</loc>
+    <lastmod>2007-04-17T15:13:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-04-13-y-nos-vamos-al-vive-latino/</loc>
+    <lastmod>2007-04-13T08:52:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-03-30-ramos-corneta/</loc>
+    <lastmod>2007-03-30T15:02:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-03-26-dia-del-apagon-mundial/</loc>
+    <lastmod>2007-03-26T12:03:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-03-23-probando-scribefire/</loc>
+    <lastmod>2007-03-23T11:12:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-03-22-esta-es-la-linda-policia-chilena/</loc>
+    <lastmod>2007-03-22T17:31:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-03-22-bsod-en-windows/</loc>
+    <lastmod>2007-03-22T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2007-03-21-devuelta-a-clases/</loc>
+    <lastmod>2007-03-21T17:30:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2006-06-05-instalacion-y-configuracion-de-fluxbox-2/</loc>
+    <lastmod>2006-06-05T17:56:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2006-05-31-como-reistalar-lilo-o-grub-en-debian-sarge/</loc>
+    <lastmod>2006-05-31T17:24:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2006-05-06-instalacion-y-configuracion-de-fluxbox/</loc>
+    <lastmod>2006-05-06T17:27:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2005-12-20-empesando-a-armar-la-cosa/</loc>
+    <lastmod>2005-12-20T19:57:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/post/2005-09-23-wolas-a-todos-d/</loc>
+    <lastmod>2005-09-23T13:22:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/page/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://pages.gitlab.io/hugo/page/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

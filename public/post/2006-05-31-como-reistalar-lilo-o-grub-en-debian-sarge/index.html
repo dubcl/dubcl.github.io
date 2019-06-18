@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Como reistalar LILO o Grub en Debian Sarge</title>
+  <meta property="og:title" content="Como reistalar LILO o Grub en Debian Sarge" />
+  <meta name="twitter:title" content="Como reistalar LILO o Grub en Debian Sarge" />
+  <meta name="description" content="Ya… aqui les dejo este TIPS para los que tengan este problema a la hora de reinstalar wintendo y tengan Linux y algunos de estos dos gestores de arranque.
+Espero que les guste.
+———————-
+En las siguientes lineas les voy a explicar como reinstalar LILO o Grub (para los que no tengan un disquet de arranque de su maquina, cosa que el 99.9% no hace :-P), cosa muy comÃƒÂºn cuando tenemos wintendo y Linux en nuestro PC y se nos funa wintendo y tenemos que instalarlo de nuevo y perdemos nuestro gestor de arranque.">
+  <meta property="og:description" content="Ya… aqui les dejo este TIPS para los que tengan este problema a la hora de reinstalar wintendo y tengan Linux y algunos de estos dos gestores de arranque.
+Espero que les guste.
+———————-
+En las siguientes lineas les voy a explicar como reinstalar LILO o Grub (para los que no tengan un disquet de arranque de su maquina, cosa que el 99.9% no hace :-P), cosa muy comÃƒÂºn cuando tenemos wintendo y Linux en nuestro PC y se nos funa wintendo y tenemos que instalarlo de nuevo y perdemos nuestro gestor de arranque.">
+  <meta name="twitter:description" content="Ya… aqui les dejo este TIPS para los que tengan este problema a la hora de reinstalar wintendo y tengan Linux y algunos de estos dos gestores de arranque.
+Espero que les guste.
+———————-
+En las …">
+  <meta name="author" content="Some Person"/>
+  <link href='https://pages.gitlab.io/hugo/img/favicon.ico' rel='icon' type='image/x-icon'/>
+  <meta property="og:image" content="https://pages.gitlab.io/hugo/img/avatar-icon.png" />
+  <meta name="twitter:image" content="https://pages.gitlab.io/hugo/img/avatar-icon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@username" />
+  <meta name="twitter:creator" content="@username" />
+  <meta property="og:url" content="https://pages.gitlab.io/post/2006-05-31-como-reistalar-lilo-o-grub-en-debian-sarge/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Beautiful Hugo" />
+
+  <meta name="generator" content="Hugo 0.56.0-DEV" />
+  <link rel="canonical" href="https://pages.gitlab.io/post/2006-05-31-como-reistalar-lilo-o-grub-en-debian-sarge/" />
+  <link rel="alternate" href="https://pages.gitlab.io/hugo/index.xml" type="application/rss+xml" title="Beautiful Hugo">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pages.gitlab.io/hugo/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="https://pages.gitlab.io/hugo/css/pygment_highlights.css" />
+  <link rel="stylesheet" href="https://pages.gitlab.io/hugo/css/highlight.min.css" />
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://pages.gitlab.io/hugo/">Beautiful Hugo</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="https://pages.gitlab.io/hugo/">Blog</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container">
+              <a class="navlinks-parent" href="javascript:void(0)">Samples</a>
+              <div class="navlinks-children">
+                
+                  <a href="https://pages.gitlab.io/hugo/post/2017-03-07-bigimg-sample">Big Image Sample</a>
+                
+                  <a href="https://pages.gitlab.io/hugo/post/2017-03-05-math-sample">Math Sample</a>
+                
+                  <a href="https://pages.gitlab.io/hugo/post/2016-03-08-code-sample">Code Sample</a>
+                
+              </div>
+            </li>
+          
+        
+          
+            <li>
+              <a title="About" href="https://pages.gitlab.io/hugo/page/about/">About</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="https://pages.gitlab.io/hugo/tags">Tags</a>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="Beautiful Hugo" href="https://pages.gitlab.io/hugo/">
+            <img class="avatar-img" src="https://pages.gitlab.io/hugo/img/avatar-icon.png" alt="Beautiful Hugo" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>Como reistalar LILO o Grub en Debian Sarge</h1>
+                
+                
+                  <span class="post-meta">
+  Posted on May 31, 2006
+  
+</span>
+
+
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Ya… aqui les dejo este TIPS para los que tengan este problema a la hora de reinstalar wintendo y tengan Linux y algunos de estos dos gestores de arranque.<br />
+Espero que les guste.<br />
+———————-</p>
+
+<p>En las siguientes lineas les voy a explicar como reinstalar LILO o Grub (para los que no tengan un disquet de arranque de su maquina, cosa que el 99.9% no hace :-P), cosa muy comÃƒÂºn cuando tenemos wintendo y Linux en nuestro PC y se nos funa wintendo y tenemos que instalarlo de nuevo y perdemos nuestro gestor de arranque.</p>
+
+<p>Debemos tener acceso al booteo desde el cd-rom, de no tenerlo debes configurarlo desde tu BIOS, no voy a explicar como se hace por razones obvias, no todos tienen la misma BIOS :-P.</p>
+
+<p>Booteamos con nuestro cd de Debian Sarge, en mi caso use el binario 1 (es la ultima version testing que salio antes de ser frozen), para comenzar la instalaciÃƒÂ³n, debes tratar de que sean los mismos pasos de la instalaciÃƒÂ³n que tienes, en mi caso arranque con la opciÃƒÂ³n “expert” (es por que da mayor control de la instalaciÃƒÂ³n, no por otra cosa :D).</p>
+
+<p>Configuramos lo que nos pida el menÃƒÂº hasta cargar el instalador.</p>
+
+<p>– Configurar lenguaje<br />
+ – Configurar paÃƒÂ­s o regiÃƒÂ³n<br />
+ – Configurar teclado<br />
+ – Detectar y montar CD-ROM</p>
+
+<p>Con esto carga el instalador de Debian.</p>
+
+<p>…Y cargamos los componentes desde el cdrom…</p>
+
+<p>Una vez cargado el instalador y sus componentes, se debe particionar el disco que contiene Debian, tal y como se hizo al instalar la vez anterior (para mayor seguridad de que nos quede bien), ahora seleccionamos el particionador de discos y damos ENTER.</p>
+
+<p>Al seleccionar esta opciÃƒÂ³n el sistema auto detectara el hardware de nuestro equipo, en mi caso me detecta los discos duros y la tarjeta de red, y a continuaciÃƒÂ³n carga el particionador.</p>
+
+<p>Una vez cargado, seleccionamos <strong>“Manually edit partition table”</strong> (Editar manualmente la tabla de particiones).</p>
+
+<p>Listo esto, seleccionamos la particiÃƒÂ³n donde esta instalado Debian, en mi caso tengo lo siguiente:</p>
+
+<p>” ”<br />
+<span style="font-family:courier new,monospace;"> IDE1 Master (hda) – 3.2 GB ST33210A<br />
+ #primary 1.6 GB fat32<br />
+ #logical 1.6 GB fat32<br />
+ IDE1 Slave (hdb) – 4.3 GB ST43310A<br />
+ #primary 3.0 GB reisefs<br />
+ #primary 1.1 GB fat32<br />
+ #primary 213.9 MB swap swap</span></p>
+
+<p>Entonces selecciono la particiÃƒÂ³n reiserfs, luego aparece el menÃƒÂº para la ediciÃƒÂ³n de la particiÃƒÂ³n, selecciono <strong>“Use As”</strong>, y aquÃƒÂ­ selecciono el mismo sistema de archivos que tengo en mi particiÃƒÂ³n Debian, la opciÃƒÂ³n <strong>“format the partition”</strong> (formato de la particiÃƒÂ³n) la dejamos con la opciÃƒÂ³n <strong>“no, keep existing data”</strong>(mantener datos existentes), el punto de montaje en este caso es <strong>“/”</strong> ya que instalo todo en una sola particiÃƒÂ³n, lo demÃƒÂ¡s (mount option y booteable flag) los dejo como estÃƒÂ¡n, por que en la instalaciÃƒÂ³n no los modifique.</p>
+
+<p>Una vez terminado, finalizamos el particionado y escribimos los datos en el HD. DespuÃƒÂ©s de esto, pregunta si es que se desea formatear la particiÃƒÂ³n SWAP, a lo que respondemos que si.</p>
+
+<p>Una vez terminado todo y escritos los cambios en el disco, volvemos al menÃƒÂº principal del instalador y ahora seleccionamos <strong>“install the LILO boot loader on a hard disk”</strong> (Instalar el cargador de arranque LILO en el disco duro). Luego pregunta si es que queremos proceder la instalaciÃƒÂ³n del sistema base sobre nuestra instalaciÃƒÂ³n vieja, a lo que respondemos que NO, pero no seleccionamos la opciÃƒÂ³n “NO’, sino que seleccionamos “GO BACK” (atrÃƒÂ¡s).</p>
+
+<p>Con esto nos sale el menÃƒÂº de instalaciÃƒÂ³n de LILO. Ahora seleccionamos donde queremos instalar nuestro LILO, en mi caso lo hago en “/dev/hda”.</p>
+
+<p>Y listo ^_^ se instala nuevamente LILO en nuestro MBR (bueno, o donde lo queramos).</p>
+
+<p>Luego, abortamos la instalacion y reseteamos nuestro PC booteando esta vez desde el HD para ver el resultado 😀</p>
+
+<p>Una cosa mas o menos importante es que al hacer todo esto el archivo <strong>“fstab”</strong> se modifica a como es por defecto asÃƒÂ­ que conviene antes de eliminar LILO, hacer un respaldo de este archivo, si no, deberÃƒÂ¡s modificar fstab cada vez que hagas esto (cosa que si tienes wintrusho sera bien seguido :P).</p>
+
+<p>ACTUALIZACION!!!!</p>
+
+<p>Bueno ya probe con GRUB y tambien funciona, lo unico que hay que hacer es que en vez de seleccionar <strong>“install the LILO boot loader on a hard disk”</strong> seleccionamos la opcion para instalar GRUB</p>
+
+<p>Bueno amigos, espero que les sirva este mini howto de restauraciÃƒÂ³n de LILO o GRUB</p>
+
+<p>Version 1 Publicado en foros.tux.cl <a href="http://foros.tux.cl/viewtopic.php?t=5662&amp;sid=9a367c0ef4afcb93de72de0586b0baf6">aquÃƒÂ­</a><br />
+Version 2 para wiki.tux.cl <a href="http://www.tux.cl/doku.php?id=articulos:configuracion:como_reinstalar_lilo_o_grub_en_debian_sarge">aquÃƒÂ­</a></p>
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="https://pages.gitlab.io/hugo/post/2006-05-06-instalacion-y-configuracion-de-fluxbox/" data-toggle="tooltip" data-placement="top" title="InstalaciÃƒÂ³n y ConfiguraciÃƒÂ³n de FluxBox">&larr; Previous Post</a>
+          </li>
+        
+        
+          <li class="next">
+            <a href="https://pages.gitlab.io/hugo/post/2006-06-05-instalacion-y-configuracion-de-fluxbox-2/" data-toggle="tooltip" data-placement="top" title="InstalaciÃƒÂ³n y ConfiguraciÃƒÂ³n de Fluxbox.">Next Post &rarr;</a>
+          </li>
+        
+      </ul>
+
+      
+        
+      
+
+    </div>
+  </div>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:youremail@domain.com" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/username" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.plus.google.com/&#43;username" title="Google&#43;">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-google-plus fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://gitlab.com/username" title="GitLab">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/username" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/username" title="Twitter">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://reddit.com/u/username" title="Reddit">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-reddit-alien fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://linkedin.com/in/username" title="LinkedIn">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.xing.com/profile/username" title="Xing">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-xing fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.snapchat.com/add/username" title="Snapchat">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-snapchat-ghost fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/username" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/user/username" title="Youtube">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://soundcloud.com/username" title="SoundCloud">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-soundcloud fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://open.spotify.com/user/username" title="Spotify">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-spotify fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://username.bandcamp.com/" title="Bandcamp">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-bandcamp fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://itch.io/profile/username" title="itch.io">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-gamepad fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://keybase.io/username" title="Keybase">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-keybase fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="https://pages.gitlab.io/hugo/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          Some Person
+          &nbsp;&bull;&nbsp;
+          2019
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://pages.gitlab.io/hugo/">Beautiful Hugo</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.56.0-DEV</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://pages.gitlab.io/hugo/js/main.js"></script>
+<script src="https://pages.gitlab.io/hugo/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+
+
+
+
+
+  </body>
+</html>
+
