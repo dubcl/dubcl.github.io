@@ -44,8 +44,8 @@ And put the password, for example:
 
 ```code-bash
 ipmitool user set password 1
-Password for user 1: 
-Password for user 1: 
+Password for user 1:
+Password for user 1:
 ```
 
 Now if you go to web login, use the user and you new password.
