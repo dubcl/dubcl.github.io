@@ -147,28 +147,9 @@
 
               <div class="post-entry">
                 
-                  <p>Tengo algunas máquinas con Windows XP y necesito conectarme vía remota a ellas, el problema es que al no ser servidores no levantan el servicio de Terminal Server automáticamente, asta que el usuario se logee localmente y no permiten mas de 1 conexión simultanea, para solventar este problema le traemos una papita para activar el Servicio de Terminal Server como lo hacen en Windows Server.</p>
-
-<p>Primero nos bajamos un parche para el servicio, el <a href="http://www.mediafire.com/?vp13kl6luizebq1">Universal Termsrv Patch</a>, luego lo descomprimen y ejecutan <strong>UniversalTermsrvPatch-x86.exe</strong> y le dan al boton “<strong>Patch</strong>“.</p>
-
-<p>Luego abren el cuadro de dialogo “<strong>Ejecutar</strong>” y ejecutan “<strong>gpedit.msc</strong>“, se abren paso por el siguiente menú:</p>
-
-<p><strong>Configuracion del equipo -&gt; Plantillas Administrativas -&gt; Componentes de Windows -&gt; Terminal Services -&gt; Limitar numero de conexiones</strong></p>
-
-<p>Abren la opción “Limitar numero de conexiones”, la habilitan y seleccionan el numero de conexiones simultaneas que quieren.</p>
-
-<p>Ahora se van a:</p>
-
-<p><strong>Panel de Control -&gt; Herramientas Administrativas -&gt; Servicios</strong></p>
-
-<p>Y buscan “<strong>Servicio de Terminal Server</strong>“, le dan click derecho y luego en <strong>propiedades</strong>, en “<strong>Tipo de inicio</strong>” seleccionan “<strong>Automático</strong>” y aceptan el cambio.</p>
-
-<p>Luego de todo esto reinician la maquina y ya tienen su “Servicio de Terminal Server” funcionando como lo hace en servidores Windows.</p>
-
-<p>Este método lo probé en Windows XP, en teoría debería funcionar en Windows 7 también.</p>
-
-<p> </p>
-
+                  Tengo algunas máquinas con Windows XP y necesito conectarme vía remota a ellas, el problema es que al no ser servidores no levantan el servicio de Terminal Server automáticamente, asta que el usuario se logee localmente y no permiten mas de 1 conexión simultanea, para solventar este problema le traemos una papita para activar el Servicio de Terminal Server como lo hacen en Windows Server.
+Primero nos bajamos un parche para el servicio, el Universal Termsrv Patch, luego lo descomprimen y ejecutan UniversalTermsrvPatch-x86.
+                  <a href="https://albornoz.rocks/post/2013-05-15-habilitar-terminal-server-en-windows-tipo-windows-server/" class="post-read-more">[Read More]</a>
                 
               </div>
 
@@ -189,32 +170,25 @@
 
               <div class="post-entry">
                 
-                  <p>En una máquina recién instalada, me topo con que al editar la configuración de red con nm-applet sale un mensaje “privilegios Insuficientes”.<br />
- Vale mencionar que no uso gnome, solo instalé nm-applet, por ende no tengo gnome-keyring ni gtksu, etc…</p>
-
-<p>Para resolver el problema debemos hacer lo siguiente</p>
-
-<p>Editar</p>
-
-<p><div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
-</div></td><td><div class="bash codecolorer"><span class="kw2">nano</span><span class="sy0">/</span>etc<span class="sy0">/</span>polkit-<span class="nu0">1</span><span class="sy0">/</span>localauthority<span class="sy0">/</span><span class="nu0">50</span>-local.d<span class="sy0">/</span>org.freedesktop.NetworkManager.pkla</div></td></tr></tbody></table></div>Si no existe, crearlo y agregar lo siguiente</p>
-
-<p><div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
-2<br />
-3<br />
-4<br />
-5<br />
-6<br />
-</div></td><td><div class="bash codecolorer"><span class="br0">[</span>nm-applet<span class="br0">]</span><br />
-<span class="re2">Identity</span>=unix-group:netdev<br />
-<span class="re2">Action</span>=org.freedesktop.NetworkManager.<span class="sy0">*</span><br />
-<span class="re2">ResultAny</span>=<span class="kw2">yes</span><br />
-<span class="re2">ResultInactive</span>=no<br />
-<span class="re2">ResultActive</span>=<span class="kw2">yes</span></div></td></tr></tbody></table></div>luego agregar el o los usuarios al grupo netdev</p>
-
-<p><div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1<br />
-</div></td><td><div class="bash codecolorer">adduser usuario netdev</div></td></tr></tbody></table></div>Y listo, ya podemos hacer uso de nm-applet sin problemas.</p>
-
+                  En una máquina recién instalada, me topo con que al editar la configuración de red con nm-applet sale un mensaje “privilegios Insuficientes”.
+Vale mencionar que no uso gnome, solo instalé nm-applet, por ende no tengo gnome-keyring ni gtksu, etc…
+Para resolver el problema debemos hacer lo siguiente
+Editar
+1
+nano/etc/polkit-1/localauthority/50-local.d/org.freedesktop.NetworkManager.pklaSi no existe, crearlo y agregar lo siguiente
+1
+2
+3
+4
+5
+6
+[nm-applet]
+Identity=unix-group:netdev
+Action=org.freedesktop.NetworkManager.*
+ResultAny=yes
+ResultInactive=no
+ResultActive=yesluego agregar el o los usuarios al grupo netdev
+                  <a href="https://albornoz.rocks/post/2013-05-15-reparar-nnm-applet-priviliegios-insuficientes/" class="post-read-more">[Read More]</a>
                 
               </div>
 

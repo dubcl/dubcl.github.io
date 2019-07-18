@@ -8,6 +8,44 @@
   <title>Reparar nm-applet Priviliegios Insuficientes</title>
   <meta property="og:title" content="Reparar nm-applet Priviliegios Insuficientes" />
   <meta name="twitter:title" content="Reparar nm-applet Priviliegios Insuficientes" />
+  <meta name="description" content="En una máquina recién instalada, me topo con que al editar la configuración de red con nm-applet sale un mensaje “privilegios Insuficientes”.
+Vale mencionar que no uso gnome, solo instalé nm-applet, por ende no tengo gnome-keyring ni gtksu, etc…
+Para resolver el problema debemos hacer lo siguiente
+Editar
+1
+nano/etc/polkit-1/localauthority/50-local.d/org.freedesktop.NetworkManager.pklaSi no existe, crearlo y agregar lo siguiente
+1
+2
+3
+4
+5
+6
+[nm-applet]
+Identity=unix-group:netdev
+Action=org.freedesktop.NetworkManager.*
+ResultAny=yes
+ResultInactive=no
+ResultActive=yesluego agregar el o los usuarios al grupo netdev">
+  <meta property="og:description" content="En una máquina recién instalada, me topo con que al editar la configuración de red con nm-applet sale un mensaje “privilegios Insuficientes”.
+Vale mencionar que no uso gnome, solo instalé nm-applet, por ende no tengo gnome-keyring ni gtksu, etc…
+Para resolver el problema debemos hacer lo siguiente
+Editar
+1
+nano/etc/polkit-1/localauthority/50-local.d/org.freedesktop.NetworkManager.pklaSi no existe, crearlo y agregar lo siguiente
+1
+2
+3
+4
+5
+6
+[nm-applet]
+Identity=unix-group:netdev
+Action=org.freedesktop.NetworkManager.*
+ResultAny=yes
+ResultInactive=no
+ResultActive=yesluego agregar el o los usuarios al grupo netdev">
+  <meta name="twitter:description" content="En una máquina recién instalada, me topo con que al editar la configuración de red con nm-applet sale un mensaje “privilegios Insuficientes”.
+Vale mencionar que no uso gnome, solo instalé nm-applet, …">
   <meta name="author" content="Carlos Albornoz"/>
   <link href='https://albornoz.rocks/img/favicon.ico' rel='icon' type='image/x-icon'/>
   <meta property="og:image" content="https://albornoz.rocks/img/avatar-icon.png" />
