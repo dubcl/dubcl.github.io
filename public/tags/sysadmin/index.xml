@@ -5,8 +5,6 @@
     <link>https://albornoz.rocks/tags/sysadmin/</link>
     <description>Recent content in sysadmin on albornoz.rocks</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>carlos@albornoz.rocks (Carlos Albornoz)</managingEditor>
-    <webMaster>carlos@albornoz.rocks (Carlos Albornoz)</webMaster>
     <lastBuildDate>Tue, 03 Nov 2015 17:31:31 +0000</lastBuildDate>
     
 	<atom:link href="https://albornoz.rocks/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +14,7 @@
       <title>Change user password of HP iLO or Lenovo IMM from Linux</title>
       <link>https://albornoz.rocks/post/2015-11-03-change-user-password-of-hp-ilo-or-lenovo-imm-from-linux/</link>
       <pubDate>Tue, 03 Nov 2015 17:31:31 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2015-11-03-change-user-password-of-hp-ilo-or-lenovo-imm-from-linux/</guid>
       <description>When you have a new machine and you forgot write the Administrator password on any paper or note before installing, you can change this from you linux install with ipmitools.
 First, if you read the pass post about Assign an IP to HP iLO or IBM System X from Linux, you know how get the configuration channel, if not, read it ;)

@@ -5,8 +5,6 @@
     <link>https://albornoz.rocks/tags/misc/</link>
     <description>Recent content in misc on albornoz.rocks</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>carlos@albornoz.rocks (Carlos Albornoz)</managingEditor>
-    <webMaster>carlos@albornoz.rocks (Carlos Albornoz)</webMaster>
     <lastBuildDate>Tue, 05 Apr 2016 17:31:31 +0000</lastBuildDate>
     
 	<atom:link href="https://albornoz.rocks/tags/misc/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +14,7 @@
       <title>Dollar Day</title>
       <link>https://albornoz.rocks/post/2016-04-05-get-usd-price-of-the-day-in-clp-from-bcentral/</link>
       <pubDate>Tue, 05 Apr 2016 17:31:31 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2016-04-05-get-usd-price-of-the-day-in-clp-from-bcentral/</guid>
       <description>I daily look bcentral.cl to view the CLP price of one dollar (useful to buy outside of my contry), then, bored to open the web to view the price I write a script to get it automatically. You get the code on http://github.com/dubcl/dollar-day
 usage $ ./dollarday.sh  Cheers.</description>

@@ -35,24 +35,24 @@ pygmentCodeFences = true
 
 [Author]
   name = "Carlos Albornoz"
-  email = "carlos@albornoz.rocks"
+#  email = "carlos@albornoz.rocks"
 # facebook = "username"
 # googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
-  gitlab = "dubcl"
-  github = "dubcl"
-  twitter = "dubcl"
-  reddit = "dubcl"
-  linkedin = "carlosalbornoz"
-#  xing = "username"
-  stackoverflow = "users/5641510/carlos-albornoz"
+#  gitlab = "dubcl"
+#  github = "dubcl"
+#  twitter = "dubcl"
+#  reddit = "dubcl"
+#  linkedin = "carlosalbornoz"
+# xing = "username"
+#  stackoverflow = "users/5641510/carlos-albornoz"
 #  snapchat = "username"
-  instagram = "dubcl"
-  youtube = "channel/UChwSKciceHy7Wd2vHwxqxjQ" # or channel/channelname
-#  soundcloud = "username"
-#  spotify = "username"
-#  bandcamp = "username"
-#  itchio = "username"
-#  keybase = "username"
+#  instagram = "dubcl"
+#  youtube = "channel/UChwSKciceHy7Wd2vHwxqxjQ" # or channel/channelname
+# soundcloud = "username"
+# spotify = "username"
+# bandcamp = "username"
+# itchio = "username"
+# keybase = "username"
 
 
 [[menu.main]]

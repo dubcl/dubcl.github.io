@@ -5,8 +5,6 @@
     <link>https://albornoz.rocks/post/</link>
     <description>Recent content in Posts on albornoz.rocks</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>carlos@albornoz.rocks (Carlos Albornoz)</managingEditor>
-    <webMaster>carlos@albornoz.rocks (Carlos Albornoz)</webMaster>
     <lastBuildDate>Tue, 02 Apr 2019 12:27:31 +0000</lastBuildDate>
     
 	<atom:link href="https://albornoz.rocks/post/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +14,7 @@
       <title>Actualización tzdata, tzdata-java para Debian 7 (Wheezy)</title>
       <link>https://albornoz.rocks/post/2019-04-02-actualizacion-tzdata-tzdata-java-para-debian-7-wheezy/</link>
       <pubDate>Tue, 02 Apr 2019 12:27:31 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2019-04-02-actualizacion-tzdata-tzdata-java-para-debian-7-wheezy/</guid>
       <description>Actualización tzdata, tzdata-java para Debian 7 (Wheezy) Debido a que Debian 7 Wheezy ya no recibe actualizaciones de seguridad, es necesario actualizar a mano los paquetes tzdata y tztada-java correspondientes al cambio de hora 2019 en Chile.
 Para validar si es necesaria la actualización ejecutar
@@ -28,7 +26,7 @@ America/Santiago Sun May 12 02:59:59 2019 UTC = Sat May 11 23:59:59 2019-03 isds
       <title>Dollar Day</title>
       <link>https://albornoz.rocks/post/2016-04-05-get-usd-price-of-the-day-in-clp-from-bcentral/</link>
       <pubDate>Tue, 05 Apr 2016 17:31:31 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2016-04-05-get-usd-price-of-the-day-in-clp-from-bcentral/</guid>
       <description>I daily look bcentral.cl to view the CLP price of one dollar (useful to buy outside of my contry), then, bored to open the web to view the price I write a script to get it automatically. You get the code on http://github.com/dubcl/dollar-day
 usage $ ./dollarday.sh  Cheers.</description>
@@ -38,7 +36,7 @@ usage $ ./dollarday.sh  Cheers.</description>
       <title>Change user password of HP iLO or Lenovo IMM from Linux</title>
       <link>https://albornoz.rocks/post/2015-11-03-change-user-password-of-hp-ilo-or-lenovo-imm-from-linux/</link>
       <pubDate>Tue, 03 Nov 2015 17:31:31 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2015-11-03-change-user-password-of-hp-ilo-or-lenovo-imm-from-linux/</guid>
       <description>When you have a new machine and you forgot write the Administrator password on any paper or note before installing, you can change this from you linux install with ipmitools.
 First, if you read the pass post about Assign an IP to HP iLO or IBM System X from Linux, you know how get the configuration channel, if not, read it ;)
@@ -49,7 +47,7 @@ Once you get the channel you need to list iLO / IMM users, for example:</descrip
       <title>Use a Xbox 360 wireless controller on Linux</title>
       <link>https://albornoz.rocks/post/2015-10-21-use-a-xbox-360-wireless-controller-on-linux/</link>
       <pubDate>Wed, 21 Oct 2015 03:35:51 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2015-10-21-use-a-xbox-360-wireless-controller-on-linux/</guid>
       <description>I love play games since I was child, I remember escape from school to go to the arcades XD.
 Actually I have many games, consoles, arcade parts, etc, one day I post about that ;), and one of that game parts is a Hori Tekken 6 wireless fighting stick for Xbox 360, like this:
@@ -60,7 +58,7 @@ To configure on Linux, we need a &amp;ldquo;wireless receiver for windows&amp;rd
       <title>Problem sending e-mail on Storwize v3700</title>
       <link>https://albornoz.rocks/post/2015-10-16-problem-sending-e-mail-on-storwize-v3700/</link>
       <pubDate>Fri, 16 Oct 2015 18:51:08 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2015-10-16-problem-sending-e-mail-on-storwize-v3700/</guid>
       <description>I administrate some IBM Storwize v3700, since some days ago one of them report problem with e-mail notifications, looking in the event log, this show something like &amp;ldquo;Unable to connect to remote smtp server&amp;rdquo;, and yes, before some connectivity test, the server don&amp;rsquo;t connect with our SMTP server.
 When you try to (re)configure the e-mail notification, verifying all inputs and when test you config the task details show:
@@ -71,7 +69,7 @@ CMMVC6280E Sendmail error EX_TEMPFAIL.</description>
       <title>Assign an IP to HP iLO or IBM System X from Linux</title>
       <link>https://albornoz.rocks/post/2015-05-28-assign-an-ip-to-hp-ilo-from-linux/</link>
       <pubDate>Thu, 28 May 2015 15:06:34 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2015-05-28-assign-an-ip-to-hp-ilo-from-linux/</guid>
       <description>If you have you iLO or IMM unconfigured and you server is up, you don’t need restart to configure iLO / IMM, you need the follow.
 Verify if you have ipmitool installed, if not, do:
@@ -85,7 +83,7 @@ Set in Progress : Set Complete Auth Type Support : Auth Type Enable : Callback :
       <title>Cambiar hostname sin reiniciar</title>
       <link>https://albornoz.rocks/post/2014-02-10-cambiar-hostname-sin-reiniciar/</link>
       <pubDate>Mon, 10 Feb 2014 11:02:02 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2014-02-10-cambiar-hostname-sin-reiniciar/</guid>
       <description>Fácil, por ejemplo nuestra máquina se llama servidor-foo y queremos ponerle servidor-bar hacemos lo siguiente:
 Editamos /etc/hostname y cambiamos el nombre a servidor-bar, luego en /etc/hosts cambiamos el nombre en la linea de la IP
@@ -101,7 +99,7 @@ Luego nos deslogeamos y logeamos y ya está nuestro nuevo hostname operativo.</d
       <title>Arreglar grub-probe: error: Couldn’t find PV pv1. Check your device.map</title>
       <link>https://albornoz.rocks/post/2013-11-05-arreglar-grub-probe-error-couldnt-find-pv-pv1-check-your-device-map/</link>
       <pubDate>Tue, 05 Nov 2013 10:56:34 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2013-11-05-arreglar-grub-probe-error-couldnt-find-pv-pv1-check-your-device-map/</guid>
       <description>Estaba actualizando unas máquinas de pruebas con Debian Wheezy clonadas con dd en un entorno KVM, entre los paquetes actualizados estaba Grub. Al terminar el upgrade vi en la consola el mensaje
 &amp;hellip; grub-probe: error: Couldn’t find PV pv1. Check your device.map &amp;hellip;
@@ -113,7 +111,7 @@ El problema es que el device.map se bugea, así que hay que generarlo nuevamente
       <title>Monitorear KVM Guest VMs con Nagios</title>
       <link>https://albornoz.rocks/post/2013-09-10-monitorear-kvm-guest-vms-con-nagios/</link>
       <pubDate>Tue, 10 Sep 2013 17:01:15 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2013-09-10-monitorear-kvm-guest-vms-con-nagios/</guid>
       <description>Super fácil, copiamos el siguiente script
 #!/bin/bash # check_virt - Check that a virtual machine is running. # Written by Richard W.M. Jones rjones@redhat.com # # Derived from check_xenvm (see below for copyright of check_xenvm) #&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- # COPYRIGHT : &amp;copy; 2006 SUSE Linux GmbH. All rights reserved. # # AUTHOR : Axel Schmidt # # BELONGS TO : NLPOS/SLEPOS/Xen Nagios Integration # # DESCRIPTION : Runs &amp;ldquo;xm list&amp;rdquo; and returns the available xen vms # # $Revision: 1.</description>
@@ -123,7 +121,7 @@ El problema es que el device.map se bugea, así que hay que generarlo nuevamente
       <title>Sonido intermitente en Google-Chrome Linux con flash</title>
       <link>https://albornoz.rocks/post/2013-05-16-sonido-intermitente-en-google-chrome-linux-con-flash/</link>
       <pubDate>Thu, 16 May 2013 14:18:47 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2013-05-16-sonido-intermitente-en-google-chrome-linux-con-flash/</guid>
       <description>Configurando un Dell Inspiron 14z me tope con que el sonido de cualquier cosa relacionada con flash player se escuchaba intermitente, averiguando resulta que chrome ya tiene un plugin para flash, el “libpepflashplayer.so” entonces cuando instalas “flashplugin-nonfree” quedan los dos disponibles, por tanto se pisan los talones probocando tal intermitencia en el sonido.
 Para solucionarlo en la barra de navegación ponemos chrome://plugins, hacemos click en el boton “Details” (en la barra celeste a la derecha) y buscamos el item “Adobe Flash Player”, veremos algo como esto:</description>
@@ -133,7 +131,7 @@ Para solucionarlo en la barra de navegación ponemos chrome://plugins, hacemos c
       <title>Habilitar Terminal Server en Windows tipo Windows Server</title>
       <link>https://albornoz.rocks/post/2013-05-15-habilitar-terminal-server-en-windows-tipo-windows-server/</link>
       <pubDate>Wed, 15 May 2013 18:04:39 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2013-05-15-habilitar-terminal-server-en-windows-tipo-windows-server/</guid>
       <description>Tengo algunas máquinas con Windows XP y necesito conectarme vía remota a ellas, el problema es que al no ser servidores no levantan el servicio de Terminal Server automáticamente, asta que el usuario se logee localmente y no permiten mas de 1 conexión simultanea, para solventar este problema le traemos una papita para activar el Servicio de Terminal Server como lo hacen en Windows Server.
 Primero nos bajamos un parche para el servicio, el Universal Termsrv Patch, luego lo descomprimen y ejecutan UniversalTermsrvPatch-x86.</description>
@@ -143,7 +141,7 @@ Primero nos bajamos un parche para el servicio, el Universal Termsrv Patch, lueg
       <title>Reparar nm-applet Priviliegios Insuficientes</title>
       <link>https://albornoz.rocks/post/2013-05-15-reparar-nnm-applet-priviliegios-insuficientes/</link>
       <pubDate>Wed, 15 May 2013 12:36:48 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2013-05-15-reparar-nnm-applet-priviliegios-insuficientes/</guid>
       <description>En una máquina recién instalada, me topo con que al editar la configuración de red con nm-applet sale un mensaje “privilegios Insuficientes”.
 Vale mencionar que no uso gnome, solo instalé nm-applet, por ende no tengo gnome-keyring ni gtksu, etc…
@@ -169,7 +167,7 @@ ResultActive=yesluego agregar el o los usuarios al grupo netdev</description>
       <title>Compresión Multicore</title>
       <link>https://albornoz.rocks/post/2013-04-22-compresion-multicore/</link>
       <pubDate>Mon, 22 Apr 2013 16:31:21 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2013-04-22-compresion-multicore/</guid>
       <description>Para que tener un procesador con varios cores si no los usas? Pues puedes usarlos comprimiendo tus directorios favoritos, la papita es pigz, veamos como funciona.
 
@@ -180,7 +178,7 @@ ResultActive=yesluego agregar el o los usuarios al grupo netdev</description>
       <title>Barra de progreso para comandos que no tienen</title>
       <link>https://albornoz.rocks/post/2013-04-22-barra-de-progreso-para-comandos-que-no-tienen/</link>
       <pubDate>Mon, 22 Apr 2013 15:52:27 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2013-04-22-barra-de-progreso-para-comandos-que-no-tienen/</guid>
       <description>Ésta es una papita para cuando usamos comandos que no nos entrega información de tranferencia.
 La mágia la hace el comando bar, por ejemplo, su uso sería:
@@ -191,7 +189,7 @@ La mágia la hace el comando bar, por ejemplo, su uso sería:
       <title>Eliminar archivos anterior a una fecha</title>
       <link>https://albornoz.rocks/post/2013-01-16-eliminar-archivos-anterior-a-una-fecha/</link>
       <pubDate>Wed, 16 Jan 2013 16:04:25 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2013-01-16-eliminar-archivos-anterior-a-una-fecha/</guid>
       <description>Cortito, necesitamos eliminar los ficheros de un directorio anterior a una fecha determinada.
 1
@@ -205,7 +203,7 @@ touch -t fechahora timestamp.fooDonde fechahora es en formato YYYYMMDDHHSS, esto
       <title>Instalar Subversion &#43; Trac en Debian Wheezy</title>
       <link>https://albornoz.rocks/post/2013-01-09-instalar-subversion-trac-en-debian-wheezy/</link>
       <pubDate>Wed, 09 Jan 2013 11:38:10 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2013-01-09-instalar-subversion-trac-en-debian-wheezy/</guid>
       <description>La vamos a hacer cortita… Abstenerse de comentarios del tipo “GIT es mejor”, “Hubieras instalado GIT”, “SVN está deprecado” etc, etc…
 Un personaje pidió tener un servidor SVN, así que se le instaló y estos son los pasos a seguir.
@@ -216,7 +214,7 @@ En resumen vamos a instalar Apache 2 + DAV + SubVersion + Trac sobre un servido
       <title>Configurar Marvell 88e8056 en ESXi 5.1</title>
       <link>https://albornoz.rocks/post/2012-12-03-configurar-marvell-88e8056-en-esxi-5-1/</link>
       <pubDate>Mon, 03 Dec 2012 19:00:54 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2012-12-03-configurar-marvell-88e8056-en-esxi-5-1/</guid>
       <description>Hoy me tocó instalar un ESXi 5.1 en una maquina, hasta ahí ningún problema, el problema empezó cuando el CD inició y arrojo un lindo mensaje “No network adapters“.
 Como la maquina tenia Ubuntu rápidamente a reiniciar y aplicar lspci, el cual arrojó esto:
@@ -228,7 +226,7 @@ Buscando en donde todos sabemos, se menciona que ESXi 5 y 5.1 no tienen el drive
       <title>Acelerar conversión de virtualización con VMWare VCenter Converter</title>
       <link>https://albornoz.rocks/post/2012-11-22-acelerar-conversion-de-virtualizacion-con-vmware-vcenter-converter/</link>
       <pubDate>Thu, 22 Nov 2012 09:23:11 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2012-11-22-acelerar-conversion-de-virtualizacion-con-vmware-vcenter-converter/</guid>
       <description>Los que trabajamos con virtualización, es común realizar conversiones de máquinas físicas a máquinas virtuales, en el caso de hoy, de Xen Citrix a ESXi 5.x.
 Para realizar esta tarea se utiliza VMWare VCenter Converter, pero cuando lo usas te das cuenta que en algunos casos anda como río de ulpo.
@@ -239,7 +237,7 @@ Ayer mientras hacia una conversión me topé con una interesante truco para mejo
       <title>Arreglar &#34;System I/O error&#34; en Cyrus.</title>
       <link>https://albornoz.rocks/post/2012-11-17-arreglar-system-io-error-en-cyrus/</link>
       <pubDate>Sat, 17 Nov 2012 18:07:15 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2012-11-17-arreglar-system-io-error-en-cyrus/</guid>
       <description>Si en el log del correo encuentran esto:
 1 said: 451 4.3.0 System I/O error (in reply to RCPT TO command)) Esto pasa cuando borrar los correos haciendo rm dentro del directorio /var/spool/cyrus/mail/foo/mail/bar, para arreglarlo debes logearte como el usuario cyrus
@@ -252,7 +250,7 @@ Ayer mientras hacia una conversión me topé con una interesante truco para mejo
       <title>Unión de sistemas de archivos en linux</title>
       <link>https://albornoz.rocks/post/2012-10-02-union-de-sistemas-de-archivos-en-linux/</link>
       <pubDate>Tue, 02 Oct 2012 20:22:55 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2012-10-02-union-de-sistemas-de-archivos-en-linux/</guid>
       <description>Hay veces que es necesario ir incrementando el espacio de un directorio a medida que se necesita, una forma es sencillamente añadir otro disco mas grande al original y copiar la data al nuevo destino, pero esto es muy engorroso y requiere de mucho tiempo.
 Otra forma es usar unionfs o aufs, pero está más que obsoleto, además de que no es lo suficientemente inteligente para darse cuenta cuando un disco está lleno y comenzar el gusrdado de data en el siguiente disco.</description>
@@ -262,19 +260,16 @@ Otra forma es usar unionfs o aufs, pero está más que obsoleto, además de que 
       <title>Tar Remoto</title>
       <link>https://albornoz.rocks/post/2012-10-02-tar-remoto/</link>
       <pubDate>Tue, 02 Oct 2012 20:14:23 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2012-10-02-tar-remoto/</guid>
-      <description>Ahora vamos a ver como hacer el famoso “Tarzan Al Vuelo”, muy util para ahorrar algo de tiempo en nuestros que haceres sysadministicos
-1 # tar zcvf - /path-a-comprimir |ssh user@foo.bar.com &#34;cat  /reapaldo/path-comprimida.tar.gz&#34; Obviamente pueden cambiar el dominio con la dirección IP de destino
-1 # tar zcvf - /path-a-comprimir |ssh user@192.168.0.10 &#34;cat  /reapaldo/path-comprimida.tar.gz&#34; Esto tambien es aplicable para usar el comando dd
-1 # tar cvzf - /path-a-comprimir |ssh user@192.</description>
+      <description></description>
     </item>
     
     <item>
       <title>Conexión a VPN desde Linux con certificado PFX</title>
       <link>https://albornoz.rocks/post/2012-10-02-conexion-a-vpn-desde-linux-con-certificado-pfx/</link>
       <pubDate>Tue, 02 Oct 2012 20:07:10 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2012-10-02-conexion-a-vpn-desde-linux-con-certificado-pfx/</guid>
       <description>Bueh!… hace tiempo que no postéo nada, así que nos vamos con algo de utilidad…
 Primero instalamos OpenVPN
@@ -289,21 +284,10 @@ $ openssl pkcs12 -export-in publiccert.pem -inkey privatekey.pem -out cert.p12Ah
     </item>
     
     <item>
-      <title>It&#39;s Alive</title>
-      <link>https://albornoz.rocks/post/2012-02-05-its-alive-2/</link>
-      <pubDate>Sun, 05 Feb 2012 16:38:11 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2012-02-05-its-alive-2/</guid>
-      <description>Que tal,
-Hace tiempo que esto estaba muerto y ahora dentro de lo posible voy a tratar de actualizarlo.
-Debido a un cambio de servidor, perdi los archivos del blog, asi que los post desde hoy hacia atraz, se verán HORRIBLES, eso vale tambien para la codificacion de caracteres… por que NO PIENSO ni siquiera tratar de arreglarlos, asi que todo lo antiguo queda tal cual, aun que este feo.</description>
-    </item>
-    
-    <item>
       <title>Vaciar cache en Linux</title>
       <link>https://albornoz.rocks/post/2010-09-01-vaciar-cache-en-linux/</link>
       <pubDate>Wed, 01 Sep 2010 00:33:30 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2010-09-01-vaciar-cache-en-linux/</guid>
       <description>Bueh!
 Suelo tener el pc prendido varios dí­as, y por ende los programas en cache aumentan considerablemente, la forma común de vaciar el cache el derechamente apagando el pc, pero hay otra forma más técnica y es ejecutando el siguiente comando en consola como root
@@ -316,26 +300,17 @@ Y ya sabe, si le sirvió, comente =B</description>
       <title>ExpoLibre 2010</title>
       <link>https://albornoz.rocks/post/2010-05-27-expolibre-2010/</link>
       <pubDate>Thu, 27 May 2010 13:20:40 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2010-05-27-expolibre-2010/</guid>
       <description>La ExpoLibre es un evento que se ha venido celebrando hace ya 2 años consecutivos, la cual tiene como objetivo principal difundir y educar a la comunidad sobre los beneficios y oportunidades que otorga la utilización de las tecnologías de software libre en los rubros de la educación, gobierno, empresas y ciudadanos.
 La realización de esta actividad nace como una necesidad de entregar a la comunidad el conocimiento referente a las tecnologías de software libre, e informar y demostrar la gran cantidad de beneficios y ventajas que le otorga a los usuarios, siendo esta tecnología una de las contribuciones más grandes que se hayan realizado alguna vez a la sociedad, en términos de propiedad intelectual.</description>
     </item>
     
     <item>
-      <title>Gnomes man</title>
-      <link>https://albornoz.rocks/post/2010-05-03-gnomes-man/</link>
-      <pubDate>Mon, 03 May 2010 01:01:08 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2010-05-03-gnomes-man/</guid>
-      <description>Me saliÃƒÂ³ torrentleech.org XD</description>
-    </item>
-    
-    <item>
       <title>Controlar Rhythmbox por ssh</title>
       <link>https://albornoz.rocks/post/2010-04-20-controlar-rhythmbox-por-ssh/</link>
       <pubDate>Tue, 20 Apr 2010 17:10:11 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2010-04-20-controlar-rhythmbox-por-ssh/</guid>
       <description>Recuerdan en post sobre compartir el WiFi de tu laptop?, pues bien resulta que mientras trabajo en el Desktop tengo corriendo Rhythmbox en el Laptop paraÃ‚Â amenizar un poco, pero es una lata estarÃ‚Â parÃƒÂ¡ndoseÃ‚Â Ã‚Â cuando quieres cambiar la canciÃƒÂ³n, ya que tengo el Laptop en otro lugar.
 La soluciÃƒÂ³n, usar Rhythmbox remotamente, para ello haremos lo siguiente:
@@ -349,7 +324,7 @@ Tener instalado openssh-server, si no:
       <title>Decompress uha files on Linux</title>
       <link>https://albornoz.rocks/post/2010-03-16-decompress-uha-files-on-linux/</link>
       <pubDate>Tue, 16 Mar 2010 02:46:25 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2010-03-16-decompress-uha-files-on-linux/</guid>
       <description>RecentlyÃ‚Â i found a game compress with UHARC format, on Linux don’t have a tool to decompress this file type, but i use the original application on wine to decompress, the steep are the following:
 run cmd with wineconsole
@@ -363,7 +338,7 @@ Then now we haveÃ‚Â execute uharc.exe into the wine command prompt like on 
       <title>Terremoto Chile 2010 || Estoy bien amigos!!!</title>
       <link>https://albornoz.rocks/post/2010-03-02-estoy-bien/</link>
       <pubDate>Tue, 02 Mar 2010 17:17:59 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2010-03-02-estoy-bien/</guid>
       <description>Ya todo el mundo sabe de lo que paso en Chile con el terremoto y luego maremoto, pues bien, resulta que el epicentro fuÃƒÂ© cerca de ConstituciÃƒÂ³n, en donde vivo yo, por mientras replico un mail que mande a mis amigos de DebianChile.cl que se han preocupado por mi y tambien lo postie en mi Facebook para mis amigos que no saben que tengo un blog.
  “Gracias por la preocupaciÃƒÂ³n, ahora estoy en san carlos (cerca de chillan) con la familia de mi polola, mi suegro nos fue a buscar el sabado en la maÃƒÂ±ana… de salud, impeque, solo un par de moretonsillos por que me calleron ensima unos vasos y unas botellas que tenia mi viejo en el mueble, pero nada mas, mis viejos y mi familia estan vivos y a salvo en conti y mi hna en linares… solo falta que llegue la ayuda a conti, se han demorado un kilo…   Por cierto, lo que muestran en la tele es solo la parte baja y el centro de conti, que fue lo que quedo destruido, la gente y casa que viven en los cerros, cerro alto, cerro o’higgins (donde vivo yo), villa copihue y chacarillas quedaron todas las casas paradas y casi no se ve que aya pasado lo que paso, a excepciÃƒÂ³n de mi cerro que habian algunas casas viejas de abode que se mandaron abajo.</description>
@@ -373,7 +348,7 @@ Then now we haveÃ‚Â execute uharc.exe into the wine command prompt like on 
       <title>Aria2</title>
       <link>https://albornoz.rocks/post/2010-02-22-aria2/</link>
       <pubDate>Mon, 22 Feb 2010 04:39:58 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2010-02-22-aria2/</guid>
       <description>Aria2 es una utilidad para descargar archivos mediante consola, tiene soporte para varios protocolos (HTTP, HTTPS, FTP, BitTorrent y Metalink), la gracia de este simpÃƒÂ¡tico programita es que trata de descargar al mÃƒÂ¡ximo que da tu ancho de banda, es multiplataforma y ademÃƒÂ¡s (y es una de las caracterÃƒÂ­sticas que me encantÃƒÂ³) de autoÃ‚Â resumirseÃ‚Â cuando la descarga se corta.
 La instalaciÃƒÂ³n en debian es como de costumbre…
@@ -381,75 +356,36 @@ La instalaciÃƒÂ³n en debian es como de costumbre…
     </item>
     
     <item>
-      <title>20 Invitaciones para Lockerz</title>
-      <link>https://albornoz.rocks/post/2010-02-01-20-invitaciones-para-lockerz/</link>
-      <pubDate>Mon, 01 Feb 2010 00:58:18 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2010-02-01-20-invitaciones-para-lockerz/</guid>
-      <description>Tengo 20 invitaciones para Lockers, si quieres una debes escribirme un mail con el asunto “Dub, quiero un invitaciÃƒÂ³n a Lockers”.
- Lockerz es una nueva modalidad de web donde conseguirÃƒÂ¡s regalos de forma muy rÃƒÂ¡pida y segura solo por responder a una pregunta diaria, por cada pregunta acertada son 4 puntos que se suman a tu contador y los puedes camjear por los regalos del catÃƒÂ¡logo de premios y realmente son muy fÃƒÂ¡ciles de conseguir:</description>
-    </item>
-    
-    <item>
       <title>Emuladores y Linux</title>
       <link>https://albornoz.rocks/post/2010-01-12-emuladores-y-linux/</link>
       <pubDate>Tue, 12 Jan 2010 03:13:55 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2010-01-12-emuladores-y-linux/</guid>
       <description>Estando en casa de mis padres, aburrido por cierto, he estado en busca de alguna entretenciÃƒÂ³n para matar el tiempo y me he acordado de algunos juegos de antaÃƒÂ±o, de los que, o nosÃ‚Â juntÃƒÂ¡bamosÃ‚Â todos los amigos en casa de alguno que tenia una consola, o nosÃ‚Â ÃƒÂ­bamos a gastar algunas monedas a los arcades, asÃƒÂ­ que me puse a buscar emuladores para las distintas plataformas que tanta entretenciÃƒÂ³n nos proporcionaban por aquellos aÃƒÂ±os.</description>
-    </item>
-    
-    <item>
-      <title>Playlist: Mr Bungle, California</title>
-      <link>https://albornoz.rocks/post/2010-01-11-playlist-mr-bungle-california/</link>
-      <pubDate>Mon, 11 Jan 2010 11:13:40 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2010-01-11-playlist-mr-bungle-california/</guid>
-      <description>Sweet Charity
-None of Them Knew They Were Robots
-Retrovertigo
-The Air-Conditioned Nightmare
-Ars Moriendi
-Pink Cigarette
-Golem II: The Bionic Vapour Boy
-The Holy Filament
-Vanity Fair
-Goodbye Sober Day</description>
     </item>
     
     <item>
       <title>Error al actualizar Debian Sid (unstable) - console-tools</title>
       <link>https://albornoz.rocks/post/2010-01-08-error-al-actualizar-debian-sid-unstable-console-tools/</link>
       <pubDate>Fri, 08 Jan 2010 01:07:20 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2010-01-08-error-al-actualizar-debian-sid-unstable-console-tools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Playlist: Illya Kuryaki &amp; The Valderramas, Ninja Mental</title>
-      <link>https://albornoz.rocks/post/2010-01-01-playlist-illya-kuryaki-the-valderramas-ninja-mental/</link>
-      <pubDate>Fri, 01 Jan 2010 00:14:28 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2010-01-01-playlist-illya-kuryaki-the-valderramas-ninja-mental/</guid>
-      <description>Chaco
-Jaguar House
-Hermoza from Heaven
-Virgen de RiÃƒÂ±a
-Hermana Sista
-Abismo
-No es tu sombra
-No way JosÃƒÂ©
-Abarajame
-Lo Primal del Viento
-Ninja Mental</description>
+      <description>Bueh… Acabo de hacer un “upgrade” a mi sistema y al terminar la configuraciÃƒÂ³n aparece el siguiente error:
+ Configurando console-tools (1:0.2.3dbs-67) …
+insserv: warning: script ‘puente’ missing LSB tags and overrides
+Setting console screen modes and fonts.
+Setting console screen modes and fonts.
+invoke-rc.d: initscript console-screen.sh, action “start” failed.
+dpkg: error al procesar console-tools (–configure):
+el subproceso installed post-installation script devolviÃƒÂ³ el cÃƒÂ³digo de salida de error 1
+Se encontraron errores al procesar:</description>
     </item>
     
     <item>
       <title>DÃƒÂ­a de GNOME 2009</title>
       <link>https://albornoz.rocks/post/2009-12-29-dia-de-gnome-2009/</link>
       <pubDate>Tue, 29 Dec 2009 01:27:22 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2009-12-29-dia-de-gnome-2009/</guid>
       <description>(Medio viejito el post, pero igual…)
 Y ya fue, el dia sÃƒÂ¡bado 24 de octubre desde las 9:00 hasta las 19:00 se realizo en las dependencias de laÃ‚Â Universidad Federico Santa Maria, en la cuidad de ViÃƒÂ±a del Mar.
@@ -457,33 +393,10 @@ El evento conto una gran cantidad de expositores, como por ejemplo GermÃƒÂ¡n
     </item>
     
     <item>
-      <title>Playlist: C-Funk, Joya</title>
-      <link>https://albornoz.rocks/post/2009-12-23-playlist/</link>
-      <pubDate>Wed, 23 Dec 2009 01:40:04 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2009-12-23-playlist/</guid>
-      <description>Ya LlegÃƒÂ³!!! (Feat. Boomer, Julio B)
-Standalone Mode
-Joya
-AcciÃƒÂ³n
-Actitud (Feat. Sonido Acido)
-Chocolate
-SuÃƒÂ©ltate Sobre Mi Ã¯Â»Â¿(Feat. Rulo)
-Carretera (Feat. Anzuelo)
-Saludos a EspaÃƒÂ±a (Feat. ReyUL)
-Amigo (Feat. Dante Espinetta)
-CityFunktasma
-Viviendo El DÃƒÂ­a
-C-Funk 93
-AcciÃƒÂ³n Skit (Feat. Ariel Pino)
-Estas AquÃƒÂ­ (Feat. Michelle Espinoza)</description>
-    </item>
-    
-    <item>
       <title>Compartir el WiFi a otro pc y otras yerbas</title>
       <link>https://albornoz.rocks/post/2009-12-20-compartir-el-wifi-a-otro-pc-y-otras-yerbas/</link>
       <pubDate>Sun, 20 Dec 2009 02:57:11 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2009-12-20-compartir-el-wifi-a-otro-pc-y-otras-yerbas/</guid>
       <description>Pasa lo siguiente…
 La vecina con la que compartÃƒÂ­a Internet, decidiÃƒÂ³ cerrar el plan y dejarme sin Internet, asÃƒÂ­ que me puse a crackear hacer unaÃ‚Â auditoriaÃ‚Â a las redes de las cercanÃƒÂ­a, asÃƒÂ­ que me tope con una que no tenia password, pero tenia filtrado MAC, la soluciÃƒÂ³n, clonar alguna MAC, para ello conosco 2 formas, asignar la MAC en el archivo /etc/network/interfaces o usar macchanger, opte por la primera opciÃƒÂ³n por que obviamente no tenia como instalar el ultimo.</description>
@@ -493,7 +406,7 @@ La vecina con la que compartÃƒÂ­a Internet, decidiÃƒÂ³ cerrar el plan y 
       <title>Arkathon</title>
       <link>https://albornoz.rocks/post/2009-11-26-arkathon/</link>
       <pubDate>Thu, 26 Nov 2009 00:58:34 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2009-11-26-arkathon/</guid>
       <description>Arkathon es un clon de Arkanoid escrito en Python y usando la librerÃƒÂ­a PyGame, aunque tambiÃƒÂ©n existe una versiÃƒÂ³n que utiliza PyGTK.
 Actualmente esta pÃƒÂ¡gina estÃƒÂ¡ en construcciÃƒÂ³n, asÃƒÂ­ que si deseas puedes volver en otro momento.</description>
@@ -503,48 +416,17 @@ Actualmente esta pÃƒÂ¡gina estÃƒÂ¡ en construcciÃƒÂ³n, asÃƒÂ­ qu
       <title>Tercer Encuentro Linux Universidad AutÃƒÂ³noma de Chile</title>
       <link>https://albornoz.rocks/post/2009-11-18-tercer-encuentro-linux-universidad-autonoma-de-chile/</link>
       <pubDate>Wed, 18 Nov 2009 17:28:21 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2009-11-18-tercer-encuentro-linux-universidad-autonoma-de-chile/</guid>
       <description>Se viene el tercer encuentro Linux de la Universidad AutÃƒÂ³noma de Chile, el evento se realizarÃƒÂ¡ los dÃƒÂ­as 26 y 27 de Noviembre, y esta vez estoy invitado como expositor, el tema: Desarrollo de Juegos con Python, PyGame y PyGTK.
  El Encuentro estÃƒÂ¡ encaminado a mostrar los avances de Linux y a servir como punto de encuentro para los usuarios y desarrolladores de los distintos proyectos de Software Libre.</description>
     </item>
     
     <item>
-      <title>Self 7</title>
-      <link>https://albornoz.rocks/post/2009-11-09-self-7/</link>
-      <pubDate>Mon, 09 Nov 2009 14:23:01 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2009-11-09-self-7/</guid>
-      <description>[singlepic id=612 w=640 h=480]
-Emulando la broma de Linus que los fanboy’s no entendieron.</description>
-    </item>
-    
-    <item>
-      <title>Linus 7</title>
-      <link>https://albornoz.rocks/post/2009-10-23-linus-7/</link>
-      <pubDate>Fri, 23 Oct 2009 01:17:34 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2009-10-23-linus-7/</guid>
-      <description>[singlepic id=611 w=400 h=266 float=]
- Hoy es nada menos que el lanzamiento mundial de Windows 7, pero tambiÃƒÂ©n es el segundo dÃƒÂ­a del Japan Linux Symposium, evento del cual el mismo Linus Torvalds decidiÃƒÂ³ escaparse un momento para sumarse a los festejos de los usuarios de Microsoft alrededor de todo el planeta.
- Visto en Viva Linux.</description>
-    </item>
-    
-    <item>
-      <title>Software Libre en la Empresa</title>
-      <link>https://albornoz.rocks/post/2009-10-22-software-libre-en-la-empresa/</link>
-      <pubDate>Thu, 22 Oct 2009 16:23:41 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2009-10-22-software-libre-en-la-empresa/</guid>
-      <description>…Y despuÃƒÂ©s dicen que el Software Libre no es una opciÃƒÂ³n valida…
-Visto en la BitÃƒÂ¡cora de jEsuSdA.</description>
-    </item>
-    
-    <item>
       <title>Agregando WinXP a Grub2</title>
       <link>https://albornoz.rocks/post/2009-10-16-agregando-winxp-a-grub2/</link>
       <pubDate>Fri, 16 Oct 2009 21:20:20 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2009-10-16-agregando-winxp-a-grub2/</guid>
       <description>A mÃƒÂ¡s de alguno debe haberle pasado…
 En mi desktop tengo 2 discos duros, uno SATA con windows xp (si, si… los juegos) y otro IDE donde acabo de instalar Debian Squeeze, en la instalaciÃƒÂ³n de Debian no tuve ningÃƒÂºn problema, pero al reiniciar una vez terminada la instalaciÃƒÂ³n, en el menu de GRUB no estaba la entrada para booter a windows xp, solucionar esto es muy simple.
@@ -555,7 +437,7 @@ Estando de nuestro Debian, logueamos como root, e instalamos os-prober</descript
       <title>DÃƒÂ­a de GNOME y Encuentro Linux 2009</title>
       <link>https://albornoz.rocks/post/2009-10-16-dia-de-gnome-y-encuentro-linux-2009/</link>
       <pubDate>Fri, 16 Oct 2009 16:16:43 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2009-10-16-dia-de-gnome-y-encuentro-linux-2009/</guid>
       <description>[singlepic id=610 w=600 h=195 float=]
 El Encuentro Linux es un evento que se realiza desde el aÃƒÂ±o 2000 y junta a todos los entusiastas del Software Libre y el Open Source durante 3 dÃƒÂ­as, este aÃƒÂ±o se realizarÃƒÂ¡ en Valparaiso los dÃƒÂ­as 22, 23 y 24 de octubre, contando con una multitud de charlas y talleres ademas de contar con la participaciÃƒÂ³n de destacados expositores internacionales.
@@ -566,48 +448,26 @@ El DÃƒÂ­a de GNOME, es un espacio donde se congregan los entusiastas de GNOM
       <title>Vuelve Tux.cl</title>
       <link>https://albornoz.rocks/post/2009-10-07-vuelve-tux-cl/</link>
       <pubDate>Wed, 07 Oct 2009 02:58:16 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2009-10-07-vuelve-tux-cl/</guid>
       <description>Hoy me entero de casualidad que Tux.cl vuelve en gloria y majestad, con nuevo diseÃƒÂ±o (casualmente el mismo mio), nuevos post, y con muchas ganas de seguir aportando.
 Tux.cl es un sitio al que le tengo mucho cariÃƒÂ±o, por que cuando empece con esto del Linux y el Software Libre, en ese tiempo era EL sitio de la temÃƒÂ¡tica en Chile, luego con el tiempo pase a formar parte de los moderadores del foro, en especial del foro de Debian, y luego cuando el portal paso a ser Wiki escribÃƒÂ­ un par de artÃƒÂ­culos.</description>
     </item>
     
     <item>
-      <title>Azucar comprimida</title>
-      <link>https://albornoz.rocks/post/2009-10-06-azucar-comprimida/</link>
-      <pubDate>Tue, 06 Oct 2009 17:05:02 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2009-10-06-azucar-comprimida/</guid>
-      <description>Tras descomprimirlo cunde mucho, como 4 ÃƒÂ³ 5 kilos mÃƒÂ¡s o menos
- Notable =B
-Visto en WTF?</description>
-    </item>
-    
-    <item>
-      <title>Curriculum</title>
-      <link>https://albornoz.rocks/post/2009-10-04-curriculum/</link>
-      <pubDate>Sun, 04 Oct 2009 10:52:14 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2009-10-04-curriculum/</guid>
-      <description>Puedes ver mi perfil en LinkedIn acá</description>
-    </item>
-    
-    <item>
       <title>Gelide</title>
       <link>https://albornoz.rocks/post/2009-10-04-gelide/</link>
       <pubDate>Sun, 04 Oct 2009 10:36:01 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2009-10-04-gelide/</guid>
-      <description>[](http://carlos.debianchile.cl/wp-content/uploads/2008/12/logo-icono.png) 
-Ã‚Â¿Que es Gelide?
- Gelide es una interfaz de usuario configurable que te permitirÃƒÂ¡ gestionar cualquier tipo de sistema emulado (ordenador, consola, arcade, etc) asÃƒÂ­ como catalogar y lanzar cualquier juego para el que exista un emulador bajo Gnu/Linux. Te permite configurar cualquier emulador que soporte parÃƒÂ¡metros por linea de comandos, sin tener que recordarlos una y otra vez. Gelide es un proyecto libre, licenciado bajo la GNU General Public Licence y escrito en C++ utilizando como base las librerÃƒÂ­as Gtkmm.</description>
+      <description></description>
     </item>
     
     <item>
       <title>DÃƒÂ­a del Software Libre 2009</title>
       <link>https://albornoz.rocks/post/2009-09-25-dia-del-software-libre-2009/</link>
       <pubDate>Fri, 25 Sep 2009 15:46:40 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2009-09-25-dia-del-software-libre-2009/</guid>
       <description>Aunque internacionalmente ya se celebrÃƒÂ³ el DÃƒÂ­a del Software Libre, en Chile se realizarÃƒÂ¡ este 26 de Septiembre, esto es debido a que la fecha original coincidÃƒÂ­a con las Fiestas Patrias.
 Ã‚Â¿Que es el DÃƒÂ­a del Software Libre?
@@ -615,20 +475,10 @@ Visto en WTF?</description>
     </item>
     
     <item>
-      <title>Regreso</title>
-      <link>https://albornoz.rocks/post/2009-08-21-regreso/</link>
-      <pubDate>Fri, 21 Aug 2009 18:45:07 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2009-08-21-regreso/</guid>
-      <description>ufff… despues de un buen tiempo sin internet (casi 6 meses), por fin me estoy poniendo al dia en mis quehaceres virtuales.
-Si hay alguien que lee este blog, se habra podido dar cuenta que nuevamente tenemos casa nueva, gracias a nuestro nuevo sponsor en debianchile.cl, CIPSA S.A, quienes amablemente accedieron a hostear nuestro portal, foro, etc, en uno de sus data center, lo bueno de todo que el servidor es nacional, asi que la velocidad de acceso a nuestros contenidos mejoro notablemente.</description>
-    </item>
-    
-    <item>
       <title>ExpoLibre 2009</title>
       <link>https://albornoz.rocks/post/2009-06-03-expolibre-2009/</link>
       <pubDate>Wed, 03 Jun 2009 00:46:49 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2009-06-03-expolibre-2009/</guid>
       <description>Este 12 de Junio se realizarÃƒÂ¡ en las dependencias del Instituto Santo TomÃƒÂ¡s, sede Talca, la segunda versiÃƒÂ³n de la Expolibre, evento en el cual se realizarÃƒÂ¡n charlas donde se darÃƒÂ¡ a conocer Software y TecnologÃƒÂ­as libre.
 Este aÃƒÂ±o la organizaciÃƒÂ³n corre por cuenta del la Escuela de InformÃƒÂ¡tica y DebianChile.cl.
@@ -636,21 +486,10 @@ TambiÃƒÂ©n cabe mencionar que el evento es abierto a TODO pÃƒÂºblico, as
     </item>
     
     <item>
-      <title>GÃƒÂ¡nate un dominio</title>
-      <link>https://albornoz.rocks/post/2009-05-11-ganate-un-dominio/</link>
-      <pubDate>Mon, 11 May 2009 14:57:22 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2009-05-11-ganate-un-dominio/</guid>
-      <description>Mediante un post de JoseQ de TopChistes.net me entero de que tienen un pequeÃƒÂ±o concurso, pero no por eso menos interesante, en donde van a regalar dominios .com, .net o .org. Para participar deben seguir las instrucciones acÃƒÂ¡, y luego avisar mandado el link de su post en este otro lado.
-Link’s
-Chistes</description>
-    </item>
-    
-    <item>
       <title>Flisol 2009</title>
       <link>https://albornoz.rocks/post/2009-04-24-flisol-2009/</link>
       <pubDate>Fri, 24 Apr 2009 11:14:36 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2009-04-24-flisol-2009/</guid>
       <description>Este sÃƒÂ¡bado 25 de abril se realizarÃƒÂ¡ el Festival Latinoamericano del Software Libre, y acÃƒÂ¡ en la sÃƒÂ©ptima regiÃƒÂ³n la junta es en la Universidad de Talca, y donde DebianChile.cl estarÃƒÂ¡ presente con una charla y con soporte para instalaciones de Debian GNU/Linux. TambiÃƒÂ©n habrÃƒÂ¡n expositores de la talla de -jci, Rodrigo Fuentealba, etc… Esto empieza alrededor de las 9:00 Hrs hasta las 17:30 Hrs. Pueden encontrar mas informaciÃƒÂ³n acÃƒÂ¡.</description>
     </item>
@@ -659,7 +498,7 @@ Chistes</description>
       <title>Configurar ZyXEL p-660HW-T1 v2</title>
       <link>https://albornoz.rocks/post/2009-04-01-configurar-zyxel-p-660hw-t1/</link>
       <pubDate>Wed, 01 Apr 2009 11:29:10 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2009-04-01-configurar-zyxel-p-660hw-t1/</guid>
       <description>Si eres de los que tiene contratado los servicios de internet de timotelefonica (en Chile) y tienen un router WiFi del modelo ZyXEL p-660HW-T1**v2 **y no han intentado por cielo mar y tierra configurarlo a su antojo,Ã‚Â esta de suerte, por que TENGO LA PASSWORD DE ADMINISTRACIÃƒÂ“N!!!!
 la clave en cuestiÃƒÂ³n la pueden descargar desde acÃƒÂ¡.
@@ -671,22 +510,10 @@ FUCK YOU TELEFONICA!!!
     </item>
     
     <item>
-      <title>Dominio&#43;Host gratis por un aÃƒÂ±o</title>
-      <link>https://albornoz.rocks/post/2009-03-16-dominiohost-gratis-por-un-ano/</link>
-      <pubDate>Mon, 16 Mar 2009 14:58:44 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2009-03-16-dominiohost-gratis-por-un-ano/</guid>
-      <description>En Punto Geek estÃƒÂ¡n regalando un pack de hosting mas dominio gratis por un aÃƒÂ±o. Al parecer el admin se volviÃƒÂ³ loco y se le ocurriÃƒÂ³ regalar este pack SOLO POR HOY hasta las 23:59 (-3 GTM), asÃƒÂ­ que si quieren participar, apÃƒÂºrense, las instrucciones estÃƒÂ¡n por acÃƒÂ¡.
-UPDATE: no gane , la ganadora fue Abby, felicitaciones!!!
-Link’s
-Punto Geek</description>
-    </item>
-    
-    <item>
       <title>Gelide 0.1.1</title>
       <link>https://albornoz.rocks/post/2009-01-23-gelide-011/</link>
       <pubDate>Fri, 23 Jan 2009 06:35:13 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2009-01-23-gelide-011/</guid>
       <description>Desde el 11 de enero del 2009, ya estÃƒÂ¡ disponible la nueva version de Gelide, la 0.1.1, no lo habia publicado por que recien ayer empaquete el .deb de esta nueva versiÃƒÂ³n, pero si quieren instalarlo a lo Old School, se bajan el source desde aqui.
 Link’s
@@ -696,94 +523,19 @@ PD: Cualquier problema con el .deb, favor avisarme.</description>
     </item>
     
     <item>
-      <title>Las apuestas de la abuelita</title>
-      <link>https://albornoz.rocks/post/2009-01-17-las-apuestas-de-la-abuelita/</link>
-      <pubDate>Sat, 17 Jan 2009 10:40:41 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2009-01-17-las-apuestas-de-la-abuelita/</guid>
-      <description>Una viejecita fue un dÃƒÂ­a al Banco del Comercio Bancomer’ llevando un bolso lleno hasta el tope de dinero en efectivo.
-InsistÃƒÂ­a ante la ventanilla, solicitando que querÃƒÂ­a hablar ÃƒÂºnica y exclusivamente con el Presidente del Banco para abrir una cuenta de ahorros, para lo cual decÃƒÂ­a comprenda Ud., es mucho dinero’.
-DespuÃƒÂ©s de mucho discutir, la llevaron ante el Presidente del Banco, respetando el concepto de que el cliente tiene siempre la razÃƒÂ³n.</description>
-    </item>
-    
-    <item>
       <title>Gelide 0.1.0 en .deb</title>
       <link>https://albornoz.rocks/post/2008-12-29-gelide-010-en-deb/</link>
       <pubDate>Mon, 29 Dec 2008 22:16:12 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-12-29-gelide-010-en-deb/</guid>
       <description>Mirando el blog de jEsuSdA veo un post acerca de Gelide, este es un front-end de emuladores de consolas para Linux, que esta bastante interesante, pero lo no tan bueno es que hay que compilarlo, asÃƒÂ­ que pensÃƒÂ© (aplausos por favor :D) “y si lo debianizo?”, ya que hace tiempo que querÃƒÂ­a aprender a crear paquetes deb desde las sources, y esta era la oportunidad, asÃƒÂ­ que me puse manos a la obra y resulto un lindo paquete .</description>
-    </item>
-    
-    <item>
-      <title>WishList (Lista de Deseos)</title>
-      <link>https://albornoz.rocks/post/2008-12-09-wishlist-lista-de-deseos/</link>
-      <pubDate>Tue, 09 Dec 2008 16:56:18 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-12-09-wishlist-lista-de-deseos/</guid>
-      <description>Bueno como es la fecha de navidad y todas esas cosas aquÃƒÂ­ dejo mi lista de deseos.
-Es la primera que hago asÃƒÂ­ que son hartas cosas, de a poco se irÃƒÂ¡ actualizando.
-Aclarar que no tiene ningÃƒÂºn orden en particular, son solo cosas que necesito o me gustarÃƒÂ­a tener.
-Un Disco duro
-
-Link
-DVD’s Virgenes
-(Da lo mismo la marca, comprable en cualquier tienda, pueden ser sueltos)</description>
-    </item>
-    
-    <item>
-      <title>WishList</title>
-      <link>https://albornoz.rocks/post/2008-12-09-wishlist/</link>
-      <pubDate>Tue, 09 Dec 2008 16:45:06 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-12-09-wishlist/</guid>
-      <description>Bueno como es la fecha de navidad y todas esas cosas aquÃƒÂ­ dejo mi lista de deseos.
-Es la primera que hago asÃƒÂ­ que son hartas cosas, de a poco se irÃƒÂ¡ actualizando.
-Aclarar que no tiene ningÃƒÂºn orden en particular, son solo cosas que necesito o me gustarÃƒÂ­a tener.
-Un Disco duro**
-**Ã‚Â¡Ya lo tengo! SATA2 160GB,[15-08-2009]
-Lo cambiÃƒÂ© por uno de 500GB [05-07-2010]
-
-Link
-DVD’s Virgenes
-(Da lo mismo la marca, comprable en cualquier tienda, pueden ser sueltos)</description>
-    </item>
-    
-    <item>
-      <title>EncontrÃƒÂ© trabajo! XD</title>
-      <link>https://albornoz.rocks/post/2008-11-16-encontre-trabajo-xd/</link>
-      <pubDate>Sun, 16 Nov 2008 20:24:28 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-11-16-encontre-trabajo-xd/</guid>
-      <description>Este jueves reciÃƒÂ©n pasado fue un dÃƒÂ­a importante para mi, entre a mi nuevo trabajo, es en una forestal cerca de ConstituciÃƒÂ³n, esta vez las tengo que hacer de programador y soporte tÃƒÂ©cnico, asÃƒÂ­ que tengo para rato, la gente es muy simpÃƒÂ¡tica, se nota que saben trabajar en equipo, cosa importante y que no siempre se da en una empresa, asÃƒÂ­ que… feliz XD.</description>
-    </item>
-    
-    <item>
-      <title>La nenÃƒÂ© y sus miniaturas y mi hermosa novia :P</title>
-      <link>https://albornoz.rocks/post/2008-11-07-la-nene-y-sus-miniaturas-y-mi-hermosa-novia-p/</link>
-      <pubDate>Fri, 07 Nov 2008 22:20:44 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-11-07-la-nene-y-sus-miniaturas-y-mi-hermosa-novia-p/</guid>
-      <description>Hace casi un aÃƒÂ±o llego a nuestra casa la nene, y como todo ciclo de vida, llega el momento de la reproducciÃƒÂ³n :O, en eso llegaron 5 miniaturas, 4 hembras y un macho, una hembra ya se fue, asÃƒÂ­ que por mientras se llevan a los demÃƒÂ¡s hay que aguantarlos. aquÃƒÂ­ unas fotos y video (salgo yo y mi polola XD) para que queden de recuerdo.
-
-–Te amo, sali muy linda 😛</description>
-    </item>
-    
-    <item>
-      <title>No debo...</title>
-      <link>https://albornoz.rocks/post/2008-11-01-no-debo/</link>
-      <pubDate>Sat, 01 Nov 2008 16:40:48 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-11-01-no-debo/</guid>
-      <description>Link’s
-Pudrete Flanders</description>
     </item>
     
     <item>
       <title>Conky, EL monitor de sistema para Linux</title>
       <link>https://albornoz.rocks/post/2008-10-28-conky-el-monitor-de-sistema-para-linux/</link>
       <pubDate>Tue, 28 Oct 2008 20:32:20 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-10-28-conky-el-monitor-de-sistema-para-linux/</guid>
       <description>Conky es un monitor de sistema minimalista, altamente configurable y que consume pocos recursos, el ÃƒÂºnico “pero” es el tiempo que hay que invertir en su configuraciÃƒÂ³n. Hace tiempo que me estaba configurando uno pero nunca quedaba como querÃƒÂ­a, pero por fin pude dejarlo decente, asÃƒÂ­ que lo comparto, por si a alguien le gusta. Las instrucciones estÃƒÂ¡n en el link, Enjoy!!!
 Link’s
@@ -792,69 +544,29 @@ Script Conky + fuentes
     </item>
     
     <item>
-      <title>DBM Movile</title>
-      <link>https://albornoz.rocks/post/2008-10-08-dbm-movile/</link>
-      <pubDate>Wed, 08 Oct 2008 03:05:31 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-10-08-dbm-movile/</guid>
-      <description>Leyendo mis RSS, me encuentro en Huasonic un articulo sobre QR Codes, y dentro del articulo habla hacer una versiÃƒÂ³n mÃƒÂ³vil de tu sitio, fue asÃƒÂ­ como lleguÃƒÂ© a Mippin, una pÃƒÂ¡gina que convierte tu sitio web en una versiÃƒÂ³n para mÃƒÂ³viles (lÃƒÂ©ase celulares, pda, blackberry, etc…), no queda tal cual (obvio) pero amplÃƒÂ­a el campo de lectura del sitio. Pueden ver la versiÃƒÂ³n mÃƒÂ³vil de este blog acÃƒÂ¡. Si alguien Maximilinux tiene acceso al sitio por dispositivo mÃƒÂ³vil, podrÃƒÂ­a mandar alguna foto de como se ve :D.</description>
-    </item>
-    
-    <item>
-      <title>Testimonios</title>
-      <link>https://albornoz.rocks/post/2008-10-04-testimonios/</link>
-      <pubDate>Sat, 04 Oct 2008 15:54:44 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-10-04-testimonios/</guid>
-      <description>En conjunto con jEsuSdA que se le ocurriÃƒÂ³ la idea de realizar una encuesta a personas que han sido usuarios de windows y luego se cambiaron a linux, o que no les gusto linux y se devolvieron a windows. Esta encuesta tiene 26 preguntas, la idea es “dar a conocer la opiniÃƒÂ³n acerca de linux que tienen algunos usuarios”, pueden ver la idea en el blog de jEsuSdA. Las preguntas son las siguientes (a modo de ejemplo empiezo yo):</description>
-    </item>
-    
-    <item>
       <title>Campus Party</title>
       <link>https://albornoz.rocks/post/2008-10-01-campus-party/</link>
       <pubDate>Wed, 01 Oct 2008 16:22:45 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-10-01-campus-party/</guid>
       <description>cita: http://iberoamerica.campus-party.org
 “Campus Party es reconocida como el mayor evento de tecnologÃƒÂ­a, ocio electrÃƒÂ³nico y cultura digital en red del mundo. Este encuentro anual reÃƒÂºne durante siete dÃƒÂ­as a miles de participantes con sus ordenadores con el fin de compartir inquietudes, intercambiar experiencias y realizar todo tipo de actividades relacionadas con las comunicaciones y las nuevas tecnologÃƒÂ­as. El factor humano es el corazÃƒÂ³n de Campus Party; la pantalla del ordenador cobra vida bajo el lema “Internet no es una red de ordenadores, Internet es una red de personas”.</description>
     </item>
     
     <item>
-      <title>Lo nuevo de Wario</title>
-      <link>https://albornoz.rocks/post/2008-09-25-lo-nuevo-de-wario/</link>
-      <pubDate>Thu, 25 Sep 2008 04:53:18 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-09-25-lo-nuevo-de-wario/</guid>
-      <description>No es que este dÃƒÂ¡ndomelas de VidaExtra ni mucho menos pero esto me dejo atÃƒÂ³nito, pase y vea el ultimo juego de Wario por aquÃƒÂ­.
-Realmente NO-TA-BLE
-Si no sabes quien es Wario, pase por acÃƒÂ¡.
-TambiÃƒÂ©n me recuerda a este genial flash que interactua con el navegador</description>
-    </item>
-    
-    <item>
       <title>Planeta DebianChile.cl</title>
       <link>https://albornoz.rocks/post/2008-09-22-planeta-debianchilecl/</link>
       <pubDate>Mon, 22 Sep 2008 17:21:27 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-09-22-planeta-debianchilecl/</guid>
       <description>Como parte de mi nuevo puesto de colaborador de DebianChile.cl, me toco arreglar el planeta de la comunidad, mi primera idea era crear un planeta en php desde cero, asÃƒÂ­ que empece a aberiguar como sindicar RSS con php, pero se me quitaron las ganas XD. Buscando algo ya hecho di con Planet, “EL Planet de los Planet”, este es un script hecho en Python el cual al ejecutarlo toma un archivo base y genera un .</description>
-    </item>
-    
-    <item>
-      <title>De vuelta del 18</title>
-      <link>https://albornoz.rocks/post/2008-09-22-de-vuelta-del-18/</link>
-      <pubDate>Mon, 22 Sep 2008 14:28:55 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-09-22-de-vuelta-del-18/</guid>
-      <description>Despues de pasar las fiestas patrias en la casa de mis padres, estamos devuelta en Talca, la verdad que este 18 ni un brillo, lo que salvo fue el carrete en la casa del herman el 19, donde fueron todas las ratas menos el traidor del bestia.
-Durante esos dias que estube en Constitucion soÃƒÂ±e com mi gata, que tenia los gatitos que estaba esperando, grande fue la sorpresa cuando llegue ayer aca a Talca, mi gata por lo menos tenia 1 kilo menos, me fui rajado a la pieza en donde le teniamos una caja con chombas viejas por si tenia a los gatos estos dias que no estabamos en casa….</description>
     </item>
     
     <item>
       <title>Firefox, Thunderbird, Sunbird y la vida diaria</title>
       <link>https://albornoz.rocks/post/2008-09-16-firefox-y-la-vida-diaria/</link>
       <pubDate>Tue, 16 Sep 2008 00:18:14 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-09-16-firefox-y-la-vida-diaria/</guid>
       <description>Por aquello aÃƒÂ±os, como el 2004 mas o menos, aburrido de las mÃƒÂºltiples fallas delÃ‚Â “navegador oscuro”, me puse a buscar alguno que satisfaciera mis necesidades internauticas, en ese tiempo tambiÃƒÂ©n comencÃƒÂ© a usar Linux, Debian Potato, que tiempo aquellos, mi primera prueba fue con Opera, Ã‚Â¿que versiÃƒÂ³n?, no me acuerdo pero el soporte de pestaÃƒÂ±as era de lujo, pero lo encontraba muy pesado, asÃƒÂ­ que con esa idea de las pestaÃƒÂ±as que tanto me gusto seguÃƒÂ­ buscando hasta que me tope con Firefox, en ese tiempo iba como en la versiÃƒÂ³n 0.</description>
     </item>
@@ -863,7 +575,7 @@ Durante esos dias que estube en Constitucion soÃƒÂ±e com mi gata, que tenia 
       <title>Descargas</title>
       <link>https://albornoz.rocks/post/2008-09-15-descargas/</link>
       <pubDate>Mon, 15 Sep 2008 15:23:03 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-09-15-descargas/</guid>
       <description>Libros
 ·La Catedral y el Basar Autor: Eric Raymond**
@@ -882,33 +594,10 @@ Clon del Arkanoid hecho en Python y PyGame, lo hice para un ramo de programació
     </item>
     
     <item>
-      <title>Bienvenidos a mi nuevo hogar</title>
-      <link>https://albornoz.rocks/post/2008-09-15-bienvenidos-a-mi-nuevo-hogar/</link>
-      <pubDate>Mon, 15 Sep 2008 14:38:08 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-09-15-bienvenidos-a-mi-nuevo-hogar/</guid>
-      <description>Bueno acabo de escribir un post en donde me despido de mi antiguo blog e informo que ahora esta es mi nueva casa, ahora tengo mas libertad de acciÃƒÂ³n, asi que espero poner cosas mas interesantes.
-OjalÃƒÂ¡ les guste.</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>https://albornoz.rocks/post/2008-08-21-about/</link>
-      <pubDate>Thu, 21 Aug 2008 14:40:42 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-08-21-about/</guid>
-      <description>Who I am?
-Hi, I&amp;rsquo;m Carlos and this is my little corner on the net, I&amp;rsquo;m from Chile and actually working as System Architect in a known Chilean company.
-Linux enthusiast since 2000, I have the luck to make it my job :)
-Some years ago I was staff of the official Chilean Debian community, http://www.debianchile.cl.
-Someone know me as &amp;ldquo;dub&amp;rdquo; when i play TF2 or CS, now I have no time for games :(</description>
-    </item>
-    
-    <item>
       <title>DebianDay en directo</title>
       <link>https://albornoz.rocks/post/2008-08-14-debianday-en-directo/</link>
       <pubDate>Thu, 14 Aug 2008 11:11:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-08-14-debianday-en-directo/</guid>
       <description>11:38
 bueno ya empeso el debian day, a eso de las 10:00 Hrs, para variar todos
@@ -924,7 +613,7 @@ Acaba de terminar la charla del bruno, estuvo excelente, realmente me</descripti
       <title>Con la raja en Valpo</title>
       <link>https://albornoz.rocks/post/2008-08-13-con-la-raja-en-valpo/</link>
       <pubDate>Wed, 13 Aug 2008 20:37:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-08-13-con-la-raja-en-valpo/</guid>
       <description>Y ya estamos en Valpo XD…..
 El maldito viaje empesÃƒÂ³ a las 14:15 Hrs desde Talca, pasamos por santiago, una parada de 3 minutos, no alcansÃƒÂ³ nisikiera para fumarce un cigarro 
@@ -935,7 +624,7 @@ Pero weno luego nos pusimos rumbo a valpo y llegamos a eso de las 19:00 Hrs, el 
       <title>Listos pal Debian Day</title>
       <link>https://albornoz.rocks/post/2008-08-11-listos-pal-debian-day/</link>
       <pubDate>Mon, 11 Aug 2008 12:46:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-08-11-listos-pal-debian-day/</guid>
       <description>Y nos vamos al Debian Day… XDPasajes comprados pal miÃƒÂ©rcoles alrededor de las 14 Hrs.
 asi ke
@@ -944,21 +633,10 @@ XD</description>
     </item>
     
     <item>
-      <title>Nuevo Style</title>
-      <link>https://albornoz.rocks/post/2008-07-28-nuevo-style/</link>
-      <pubDate>Mon, 28 Jul 2008 21:27:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-07-28-nuevo-style/</guid>
-      <description>Ahora que tengo tiempo XD me decidÃƒÂ­ a cambiar el estilo del blog, por que como todos saben, los temas por default de blogger son terriblemente feos :O, asÃƒÂ­ que tomeeste estilo y le modifiquÃƒÂ© algunas cosillas, me hice un banner con el gimp para darle un toque mas personalizado, asi que ahi estÃƒÂ¡.
-Ojala les guste.
-Hagan sus comentarios</description>
-    </item>
-    
-    <item>
       <title>DebianDay</title>
       <link>https://albornoz.rocks/post/2008-07-27-debianday/</link>
       <pubDate>Sun, 27 Jul 2008 18:57:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-07-27-debianday/</guid>
       <description>El dia 14 de Agosto del presente se celebrarÃƒÂ¡ el cumpleaÃƒÂ±os de nuestro querido Debian GNU/Linux, el cual este aÃƒÂ±o lo organiza la comunidad de DebianChile.cl el evento se realizara en las dependencias del DUOC en Valparaiso.
 Habran charlas y talleres. Estoy viendo la posibilidad de ir con un taller de Python con Pygame, respecto a la experiencia que tube haciendo el arkanoid que contaba en un post anterior.
@@ -966,38 +644,19 @@ OjalÃƒÂ¡ nos veamos ayÃƒÂ¡.</description>
     </item>
     
     <item>
-      <title>4 - 1</title>
-      <link>https://albornoz.rocks/post/2008-07-27-4-1/</link>
-      <pubDate>Sun, 27 Jul 2008 18:32:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-07-27-4-1/</guid>
-      <description>Uffff… por fin se acabaron las clases, despuÃƒÂ©s de ponerle weno durante todo el semestre, lamentablemente me fue mal en fÃƒÂ­sica (de nuevo :O ), maldita fÃƒÂ­sica, lo que mas me quema es que estudie pal ramo e igual me fue mal, no asi pa estadisticas, bueno, igual aplique un poco pero no a conciencia como diria mi mamÃƒÂ¡ XD, pero lo importante es que la raya de la suma es positiva y ya me quedan pocos ramos pa poder recibirme.</description>
-    </item>
-    
-    <item>
       <title>Curiosidades de apt</title>
       <link>https://albornoz.rocks/post/2008-07-23-curiosidades-de-apt/</link>
       <pubDate>Wed, 23 Jul 2008 16:11:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-07-23-curiosidades-de-apt/</guid>
       <description>Lo vi en algÃƒÂºn lado (no me acuerdo donde Ã‚Â¬Ã‚Â¬) y probÃƒÂ© para ver si funcionaba, y funca XD.</description>
-    </item>
-    
-    <item>
-      <title>En donde me quede...</title>
-      <link>https://albornoz.rocks/post/2008-07-19-en-donde-me-quede/</link>
-      <pubDate>Sat, 19 Jul 2008 01:34:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-07-19-en-donde-me-quede/</guid>
-      <description>Ufff hace rato que no escribÃƒÂ­a, la verdad es que no e tenido tiempo con las cosas de la U, pero weno… esta terminando el semestre, se vienen unos dÃƒÂ­as de vacaciones (por fin XD)….
-OK. nos habÃƒÂ­amos quedado en la ExpoLibre, resulto el evento A TODA RAJA, hubo un cuorum aceptable, debido a la poca publicidad, cerca de 100 personas pick, los expositores estuvieron de lujo, gracias a todos por aceptar la invitaciÃƒÂ³n…</description>
     </item>
     
     <item>
       <title>Hartas Cosas</title>
       <link>https://albornoz.rocks/post/2008-06-04-hartas-cosas/</link>
       <pubDate>Wed, 04 Jun 2008 08:28:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-06-04-hartas-cosas/</guid>
       <description>Ufff. hace tiempo que no escribo acÃƒÂ¡, la verdad es que con tantas cosas que estoy haciendo que ya no me acuerdo de rellenar mi espacio en a red.
 bueno, primero que todo comunicar el evento del aÃƒÂ±o XD.
@@ -1006,33 +665,10 @@ En mi carrera estamos organizando un evento de Linux, open source y software lib
     </item>
     
     <item>
-      <title>CÃƒÂ³mo salir del paso cuando no tenemos impresora</title>
-      <link>https://albornoz.rocks/post/2008-04-25-como-salir-del-paso-cuando-no-tenemos-impresora/</link>
-      <pubDate>Fri, 25 Apr 2008 11:36:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-04-25-como-salir-del-paso-cuando-no-tenemos-impresora/</guid>
-      <description>cita:
-“ImagÃƒÂ­nense que tienen algÃƒÂºn problema con la impresora, pero por suerte tienen una fotocopiadora a mano (?)Ã¢Â€Â¦ una soluciÃƒÂ³n poco prÃƒÂ¡ctica, pero muy geek.”
-desde punto geek
-weeeeeeeno XD
-imagen desde humor geek</description>
-    </item>
-    
-    <item>
-      <title>Como saber si eres Talquino</title>
-      <link>https://albornoz.rocks/post/2008-04-14-como-saber-si-eres-talquino/</link>
-      <pubDate>Mon, 14 Apr 2008 18:09:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-04-14-como-saber-si-eres-talquino/</guid>
-      <description>Yo soy coterraneo de ConstituciÃƒÂ³n, pero llevo algunos aÃƒÂ±os radicado en Talca, asÃƒÂ­ que ya casi me siento parte de ella…
-Esto me llego en una cadena que me mando un amigo, no es que yo revise cadenas, de hecho cualquier cosa que empiece por RE: o FW: se va directo al trash si es que no es de la lista de correo de debian o de la utfsm, pero esta esta mu wena, claro que tienes que ser de Talca para entender bien XD.</description>
-    </item>
-    
-    <item>
       <title>Flisol 2008</title>
       <link>https://albornoz.rocks/post/2008-04-11-flisol-2008/</link>
       <pubDate>Fri, 11 Apr 2008 12:08:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-04-11-flisol-2008/</guid>
       <description>Se nos viene la Flisol2008 (Festival Latinoamericano de InstalaciÃƒÂ³n de Software Libre) este 26 de Abril, acÃƒÂ¡ en Talca todabia esta en veremos, espero que luego se defina ya que quedan pocos dÃƒÂ­as para el evento, por lo que tenia entendido seria en la Utal (Universidad de Talca), pero en la pagina no aparece -_-.
 Link’s:
@@ -1040,29 +676,10 @@ http://www.flisol.cl</description>
     </item>
     
     <item>
-      <title>Come Back</title>
-      <link>https://albornoz.rocks/post/2008-04-03-come-back/</link>
-      <pubDate>Thu, 03 Apr 2008 02:20:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-04-03-come-back/</guid>
-      <description>Ufff…. puros ataos el mes que paso… donde empezaron las clases y bla bla bla… todo bien con eso, internet bkn, pero paso lo que no tenia ke pasar… me bloquearon el wifi -_-. ademas tube ke devolver las piesas del pc que me habÃƒÂ­an prestado por mientras ke me las compraba, asÃƒÂ­ que me quede sin PC durante algunos dÃƒÂ­as, pero al final las compre, y me salio bien barato… ahora tengo un amd sempron de 2 Ghz, 2Gb de ram y una ati radeon x1550 de 512Mb, mas que salvao…</description>
-    </item>
-    
-    <item>
-      <title>Vacas, vacas, vacas</title>
-      <link>https://albornoz.rocks/post/2008-02-28-vacas-vacas-vacas/</link>
-      <pubDate>Thu, 28 Feb 2008 00:45:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-02-28-vacas-vacas-vacas/</guid>
-      <description>No me refiero a las ke comen pasto XD, me refiero a las vacaciones….
-La verdad ke hace tiempo ke no tenia vacaciones tan “normales”, sin grandes carretes ni mansas cagaditas, (como cuando me fui a detenido por tomar en la via publica XD…. algun dia lo contarÃƒÂ© XD) las juntas de estas 2 semanas ke estube en conti fueron los de siempre (aka dev, chat, versa, etc…) y con mu buen amigo felo y su compaÃƒÂ±ia, los “trash metal de conti” wenos pa tomar los cabros chicos (eceptuando al JP, lo de cabro chico), con ellos nos salio una muuuu wena…</description>
-    </item>
-    
-    <item>
       <title>Dream Theater in Chile</title>
       <link>https://albornoz.rocks/post/2008-02-13-dream-theater-in-chile/</link>
       <pubDate>Wed, 13 Feb 2008 09:28:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-02-13-dream-theater-in-chile/</guid>
       <description>YEEEAAAAH!!!
 Este primero de marzo se presentarÃƒÂ¡ por segunda vez en chile una de mis bandas favoritas, Dream Theater, en el marco de su gira mundial “Chaos in Motion World Tour 2008″, las entradas estÃƒÂ¡n a la venta en TicketMastera CL$20.000</description>
@@ -1072,93 +689,16 @@ Este primero de marzo se presentarÃƒÂ¡ por segunda vez en chile una de mis b
       <title>Bad Luck</title>
       <link>https://albornoz.rocks/post/2008-01-22-bad-luck/</link>
       <pubDate>Tue, 22 Jan 2008 17:18:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2008-01-22-bad-luck/</guid>
       <description>Despues me mucho webiar para tener pc, al otro dia que escribi mi ultimo post, con el tarro funcionando, no podia pasar nada mas, pero … SE CORTO LA LUZ!!!, a muchos les importaria un bledo pero el problema surge cuando se corta en todos lados y uno volcea wifi de un colegio, ke por ser epoca de vacaciones , no hay gente!, y al pareser el router no tenia configurado el conectarce automagicamente…</description>
-    </item>
-    
-    <item>
-      <title>Ventanitas OWNED</title>
-      <link>https://albornoz.rocks/post/2008-01-16-ventanitas-owned/</link>
-      <pubDate>Wed, 16 Jan 2008 19:34:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-01-16-ventanitas-owned/</guid>
-      <description>Cita:
-“El 8 de enero de 2008, el servicio tÃƒÂ©cnico de Microsoft llamÃƒÂ³ a un cliente por un problema reportado telefÃƒÂ³nicamente el 7 de enero de 1998.
-SegÃƒÂºn la publicaciÃƒÂ³n Bicbickers, un usuario identificado como Brian habrÃƒÂ­a contactado telefÃƒÂ³nicamente al servicio tÃƒÂ©cnico de Microsoft el 7 de enero de 1998 debido a que su computadora sÃƒÂ³lo presentaba una pantalla azul despuÃƒÂ©s de una actualizaciÃƒÂ³n de Windows.
-Error de digitaciÃƒÂ³n
-Al atender la llamada, el empleado de servicio tÃƒÂ©cnico de Microsoft anotÃƒÂ³ que Brian deberÃƒÂ­a ser contactado al dia siguiente, pero en lugar de digitar 8/1/98 escribiÃƒÂ³ 8/1/08.</description>
-    </item>
-    
-    <item>
-      <title>Webstats</title>
-      <link>https://albornoz.rocks/post/2008-01-13-webstats/</link>
-      <pubDate>Sun, 13 Jan 2008 17:00:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-01-13-webstats/</guid>
-      <description>Cuando me creÃƒÂ© este blog, lo hice para tener un registro de las cosas ke me pasan y ke veo o leo en algun lado, asi cuando este viejo lo lea y me recague de la risa de las cosas ke pasaban. Como add le agrege un contador ke la verdad se me habia olvidado ke existia, buen hoy lo revise y ke sorpresa la mia, tengo 1.570 visitas, y de varias partes del mundo.</description>
-    </item>
-    
-    <item>
-      <title>Verguenza Nacional: La CCE decidirÃƒÂ¡ voto Chileno por OOXML!!</title>
-      <link>https://albornoz.rocks/post/2008-01-13-verguenza-nacional-la-cce-decidira-voto-chileno-por-ooxml/</link>
-      <pubDate>Sun, 13 Jan 2008 16:38:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-01-13-verguenza-nacional-la-cce-decidira-voto-chileno-por-ooxml/</guid>
-      <description>Cita http://www.liberaciondigital.org
-“En el Acta N1del ComitÃƒÂ© Espejo coordinado conjuntamente por el INN y la CCE para analizar y discutir en torno a la homologaciÃƒÂ³n del estÃƒÂ¡ndar ECMA 376 como norma ISO 29500, se ha acordado que el INN delega las funciones de la SecretarÃƒÂ­a TÃƒÂ©cnica del ComitÃƒÂ© con Carlos Recabarren (Presidente del CCE) como Presidente del comitÃƒÂ©.
-En este comitÃƒÂ© se tomarÃƒÂ¡ la decisiÃƒÂ³n del voto que emitirÃƒÂ¡ Chile los dÃƒÂ­as 25-29 Febrero del 2008 en Ginebra, Suiza, para decidir si el formato Office Open XML (OOXML) debe ser estÃƒÂ¡ndar ISO 29500.</description>
-    </item>
-    
-    <item>
-      <title>All in One</title>
-      <link>https://albornoz.rocks/post/2008-01-11-all-in-one/</link>
-      <pubDate>Fri, 11 Jan 2008 13:14:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2008-01-11-all-in-one/</guid>
-      <description>Haber… por donde empiezo…
-En el post anterior, si el navideÃƒÂ±o, tiraba mucha buena onda para todos, pero paso que para mi parece que no habÃƒÂ­a muy buena onda…
-El dÃƒÂ­a 24 viaje a conti, cena familiar, carrete en la playa con mi polola y mi cuÃƒÂ±ado, y otros invitados especiales encontrados en la playa…
-HabÃƒÂ­a llevado mi HD la hacer un respaldo en la casa del Dev, todo bien, Dev me paso un procesador para ver si me funcionaba, un AMD Atlon XP de 1.</description>
-    </item>
-    
-    <item>
-      <title>Merry Christmas</title>
-      <link>https://albornoz.rocks/post/2007-12-23-merry-christmas/</link>
-      <pubDate>Sun, 23 Dec 2007 12:27:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-12-23-merry-christmas/</guid>
-      <description>El aÃƒÂ±o se empieza a acabar, algunos ya salimos de vacaciones, otros no XD… y se nos viene Navidad y AÃƒÂ±o Nuevo (y el 18 O_o).
-La verdad yo no soy creyente, pero tampoco puedo andar funando la felicidad de estas fiesta a las personas que si creen… asi que con la mejor de las buenas ondas para todos, les deceo una feliz navidad a todos, que ojalÃƒÂ¡ estÃƒÂ©n con sus familias y compartan harto…</description>
-    </item>
-    
-    <item>
-      <title>Flash programing RUSH!</title>
-      <link>https://albornoz.rocks/post/2007-12-21-flash-programing-rush/</link>
-      <pubDate>Fri, 21 Dec 2007 08:40:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-12-21-flash-programing-rush/</guid>
-      <description>Ayer jueves habÃƒÂ­a que entregar un sitio web hecho en flash para el ramo de diseÃƒÂ±o web, era el examen, asÃƒÂ­ que tenia que ser algo decente.
-Se suponÃƒÂ­a que habÃƒÂ­a que hacerlo en parejas, pero el socio que me toco a mi poco y nada cachaba de flash y menos de diseÃƒÂ±o, asÃƒÂ­ que me puse a trabajar casi solo.
-El dÃƒÂ­a miÃƒÂ©rcoles en la me dispuse a trabajar a full para terminar el sitio y entregar un buen trabajo.</description>
-    </item>
-    
-    <item>
-      <title>Cristian, see you later...</title>
-      <link>https://albornoz.rocks/post/2007-12-17-cristian-see-you-later/</link>
-      <pubDate>Mon, 17 Dec 2007 10:48:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-12-17-cristian-see-you-later/</guid>
-      <description>Este sabado se fue pal norte el cristian ( ciwe, ddr pa los amigos XD) a laborar, asi ke el viernes en la casa del chat estubimos compartiendo un rato… y nada, solo decearle la mejor de las buenas ondas a este mono pa ke le vaya bien en la pega nueva.
-ke ti bien perrow, escibe y manda fruta XD
-[![](http://bp2.blogger.com/_WLj4OeHg5Rg/R2apRnRUDkI/AAAAAAAAAIs/IoIue7Jziw8/s200/1197738253_f.jpg)](http://bp2.blogger.com/_WLj4OeHg5Rg/R2apRnRUDkI/AAAAAAAAAIs/IoIue7Jziw8/s1600-h/1197738253_f.jpg)de izquierda a derecha: dev, cristian, chat, yo (si me veo gordo es por la camara, si se me ve el pelo corto… es por ke me lo corte lol)se te va a echar de menos wn… </description>
     </item>
     
     <item>
       <title>Debian Translator</title>
       <link>https://albornoz.rocks/post/2007-12-11-debian-translator/</link>
       <pubDate>Tue, 11 Dec 2007 20:08:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-12-11-debian-translator/</guid>
       <description>Bueno, en mi aficiÃƒÂ³n a Linux y en especial a Debian GNU/Linux, en la lista de correo de Debian en espaÃƒÂ±ol apareciÃƒÂ³ un correo donde invitaban a traducir documentos y descripciones que no estÃƒÂ¡n traducidas al espaÃƒÂ±ol, revise y con mis conocimientos del idioma, revise algunas de las descripiones, y traduje la descripciÃƒÂ³n de konquest, la cual fuÃƒÂ© aceptada XD, asi que comencÃƒÂ© a revisar otros documentos… y en eso estoy, haciendo mi aporte a la comunidad Debian.</description>
     </item>
@@ -1167,7 +707,7 @@ ke ti bien perrow, escibe y manda fruta XD
       <title>Abandonwarez 2</title>
       <link>https://albornoz.rocks/post/2007-12-07-abandonwarez-2/</link>
       <pubDate>Fri, 07 Dec 2007 16:30:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-12-07-abandonwarez-2/</guid>
       <description>Desde chico me an gustado los juegos, y unos de los juegos en el ke mas he gastado mi pata es la saga Mortal Kombat, claro ke yo llege hasta el 4 (gold en dreamcast), por ke despues, el juego a mi parecer, perdio la gracia… con toda esa wea 3d, mejor juego tekken o rival school… pero weno, vamos a lo del post… aki les dejo los 3 primeros, MK1, MK2 y MK3.</description>
     </item>
@@ -1176,7 +716,7 @@ ke ti bien perrow, escibe y manda fruta XD
       <title>Recalling the past</title>
       <link>https://albornoz.rocks/post/2007-12-01-recalling-the-past/</link>
       <pubDate>Sat, 01 Dec 2007 02:10:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-12-01-recalling-the-past/</guid>
       <description>Cuando tube mi primera makina, un Pentium MMX de 200Mhz, era primordial ke el sistema consumiera los menos recursos posible. Un dia en internet encontre bb4win una shell alternativa a explorer (de…. ustedes ya saben XD, sii…. en ese tiempo no sabia linux) pero el proyecto se estanco, luego buscando y buscando encontre otros como Aston Shell, GeoShell, Talisman…. etc…. pero me gusto xoblite, basado en bb4win y altamente compatible con los plugins de este, bueno, hoy me dio la lokura y me lo baje de nuevo y lo instale, pero ahora en mi nueva makina (AMD Duron 1.</description>
     </item>
@@ -1185,26 +725,17 @@ ke ti bien perrow, escibe y manda fruta XD
       <title>2do Encuentro de Software y TecnologÃƒÂ­a Libre</title>
       <link>https://albornoz.rocks/post/2007-11-30-2do-encuentro-de-software-y-tecnologia-libre/</link>
       <pubDate>Fri, 30 Nov 2007 16:40:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-11-30-2do-encuentro-de-software-y-tecnologia-libre/</guid>
       <description>Cita:“La Comunidad de Software Libre LinuxChillÃƒÂ¡n, invita a participar del Ã¢Â€Âœ2Ã‚Âº Encuentro de Software y TecnologÃƒÂ­a LibreÃ¢Â€Â&amp;#157; a desarrollarse los dÃƒÂ­as 30 de noviembre y 01 de diciembre en dependencias de la Facultad de IngenierÃƒÂ­a de la Universidad CatÃƒÂ³lica de la SantÃƒÂ­sima ConcepciÃƒÂ³n, Alonso de Ribera 2850 ConcepciÃƒÂ³n.
 Jornada centrada en torno a la exposiciÃƒÂ³n, discusiÃƒÂ³n y puesta en prÃƒÂ¡ctica de temÃƒÂ¡ticas relativas a tecnologÃƒÂ­a, software y conocimiento libre, con la finalidad de permitir explorar estas alternativas a quienes las desconocen, ademÃƒÂ¡s de profundizar y compartir su conocimiento a aquellos mÃƒÂ¡s experimentados.</description>
     </item>
     
     <item>
-      <title>WTF!</title>
-      <link>https://albornoz.rocks/post/2007-11-23-wtf/</link>
-      <pubDate>Fri, 23 Nov 2007 14:12:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-11-23-wtf/</guid>
-      <description>[![](http://bp0.blogger.com/_WLj4OeHg5Rg/R0c0ls6JxmI/AAAAAAAAAIU/BNddFmv6pG4/s400/1195843866628s.jpg)](http://bp0.blogger.com/_WLj4OeHg5Rg/R0c0ls6JxmI/AAAAAAAAAIU/BNddFmv6pG4/s1600-h/1195843866628s.jpg) lol </description>
-    </item>
-    
-    <item>
       <title>Por fin configure mi DWL-AG122 en linux</title>
       <link>https://albornoz.rocks/post/2007-11-20-por-fin-configure-mi-dwl-ag122-en-linux/</link>
       <pubDate>Tue, 20 Nov 2007 23:01:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-11-20-por-fin-configure-mi-dwl-ag122-en-linux/</guid>
       <description>SIIIIII!!!
 Acabo de instalar el maldito USB Wireless ke me regalo el jimmy (gracias denuevo XD), me base en una guia de estesitio para ubuntu, los pasos a seguir en debian son los siguentes:
@@ -1213,21 +744,10 @@ Acabo de instalar el maldito USB Wireless ke me regalo el jimmy (gracias denuevo
     </item>
     
     <item>
-      <title>A little cat in my home</title>
-      <link>https://albornoz.rocks/post/2007-11-20-a-little-cat-in-my-home/</link>
-      <pubDate>Tue, 20 Nov 2007 08:14:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-11-20-a-little-cat-in-my-home/</guid>
-      <description>Este domingo me llamo mi polola por ke estaban relagando gatitos y me preguntaba si acaso se podia traer uno para la casa, a lo ke dije “si”.
-Bueno, llego con una gatita (en realidad no cacho bien lo ke es, no se le ven “bolitas” como para saber si es macho XD) muy chikitito(a), asi ke tenemos un nuevo integrante en la familia XD, se llama nenÃƒÂ©.
-Es bastante inteligente e inchaweas, aprendio a hacer sus necesidades en una cajita y es muy regalon(a), webea webea y webea para ke le hagan cariÃƒÂ±o.</description>
-    </item>
-    
-    <item>
       <title>Internet free in my home</title>
       <link>https://albornoz.rocks/post/2007-11-14-internet-free-in-my-home/</link>
       <pubDate>Wed, 14 Nov 2007 14:35:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-11-14-internet-free-in-my-home/</guid>
       <description>Siiii!!!!! el fin de semana pasado un amigo (vale jimmy!!!!) me llamo para hacerle un “pringao” por ke se le funo el disco duro y se compro otro, bueno le instale wintendo y luego de terminar de instalar software y demases me pregunto ke cuanto le iba a cobrar, obiamente por ser amigo (ke igual me llama una vez al aÃƒÂ±o) no le cobre nada, pero derrepente me dice “toma, llevate esta wea ke a mi no me sirve”, era una ANTENA USB WIFI!</description>
     </item>
@@ -1236,7 +756,7 @@ Es bastante inteligente e inchaweas, aprendio a hacer sus necesidades en una caj
       <title>2Ã‚Â° Encuentro Linux UA Talca</title>
       <link>https://albornoz.rocks/post/2007-11-10-2-encuentro-linux-ua-talca/</link>
       <pubDate>Sat, 10 Nov 2007 23:24:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-11-10-2-encuentro-linux-ua-talca/</guid>
       <description>Por segunda vez la autonoma realizara el encuentro linux…
 Cita JosÃƒÂ© Luis Alvarez:
@@ -1246,46 +766,10 @@ Cita JosÃƒÂ© Luis Alvarez:
     </item>
     
     <item>
-      <title>Linux Body Painting</title>
-      <link>https://albornoz.rocks/post/2007-11-08-linux-body-painting/</link>
-      <pubDate>Thu, 08 Nov 2007 16:22:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-11-08-linux-body-painting/</guid>
-      <description>En OsioLinux me encontrÃƒÂ© con esta imagen XD…AsÃƒÂ­ da gusto ser usuario Linux XD</description>
-    </item>
-    
-    <item>
-      <title>Algo de Humor XD</title>
-      <link>https://albornoz.rocks/post/2007-11-05-algo-de-humor-xd/</link>
-      <pubDate>Mon, 05 Nov 2007 16:12:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-11-05-algo-de-humor-xd/</guid>
-      <description>Aplausos….clap clap clap clap!!!!</description>
-    </item>
-    
-    <item>
-      <title>Work Station &amp; Game Station</title>
-      <link>https://albornoz.rocks/post/2007-10-25-work-station-game-station/</link>
-      <pubDate>Thu, 25 Oct 2007 15:50:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-10-25-work-station-game-station/</guid>
-      <description>[![](http://bp1.blogger.com/_WLj4OeHg5Rg/RyERhVcNhWI/AAAAAAAAAHM/afAJAki-tv4/s200/S5000422.JPG)](http://bp1.blogger.com/_WLj4OeHg5Rg/RyERhVcNhWI/AAAAAAAAAHM/afAJAki-tv4/s1600-h/S5000422.JPG)OJO!!!! estÃƒÂ¡ ordenado….[![](http://bp2.blogger.com/_WLj4OeHg5Rg/RyERtlcNhXI/AAAAAAAAAHU/-LWAnKxYKbo/s200/S5000423.JPG)](http://bp2.blogger.com/_WLj4OeHg5Rg/RyERtlcNhXI/AAAAAAAAAHU/-LWAnKxYKbo/s1600-h/S5000423.JPG) Y esta me la hise yo, con el aporte de H4M5T3R. </description>
-    </item>
-    
-    <item>
-      <title>The IPhone and Me</title>
-      <link>https://albornoz.rocks/post/2007-10-18-the-iphone-and-me/</link>
-      <pubDate>Thu, 18 Oct 2007 16:10:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-10-18-the-iphone-and-me/</guid>
-      <description>Ayayai….!!!! hoy se realizo la ExpoTalca aca en el Santo Tomas, estubo bueno, aunque me esperaba otra cosa, varios stand y entre ellos MacOnline. A mi siempre me an llamado la atencion los Mac’s, y hoy cache bien por ke, por ke simplemente son LA RAJA!!!!, pero lo ke mas me kemo fue el IPhone, lo testie po unos instantes y esta realmente genial, pero pa ke me crean aki ba una foto ke me sake con el en un laptop mac (o como kiera ke se llamen XD).</description>
-    </item>
-    
-    <item>
       <title>Abandonwarez 1</title>
       <link>https://albornoz.rocks/post/2007-10-11-abandonwarez-1/</link>
       <pubDate>Thu, 11 Oct 2007 17:31:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-10-11-abandonwarez-1/</guid>
       <description>Para los ke no sepan, abandonwarezse refiere a programas y juegos viejos…A mi en particular me gusta coleccionar juegos (ke buenos recuerdos Xd) con los ke me entretenia cuando chico, asi ke, para compartir esos tiempos aki les dejo algunos para ke los disfruten.
 Doom[![](http://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Doom-boxart.jpg/300px-Doom-boxart.jpg)](http://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Doom-boxart.jpg/300px-Doom-boxart.jpg) [Download Doom](http://www.mediafire.com/?1y0spmyhgjb)Doom 2 [![](http://doom.ugo.com/images/galleries/doom2_games/doom2_picture_24.jpg)](http://doom.ugo.com/images/galleries/doom2_games/doom2_picture_24.jpg) [Download Doom 2](http://www.mediafire.com/?6mj91znjfjf)Duke Nukem 1[![](http://bp1.blogger.com/_WLj4OeHg5Rg/RxUGmBzqqhI/AAAAAAAAAG0/CSldi3GTpHo/s200/dk1.jpg)](http://bp1.blogger.com/_WLj4OeHg5Rg/RxUGmBzqqhI/AAAAAAAAAG0/CSldi3GTpHo/s1600-h/dk1.jpg) [Download Duke Nukem 1](http://www.mediafire.com/?3x1hmdd4pln)Duke Nukem 2[![](http://bp0.blogger.com/_WLj4OeHg5Rg/RxUG5xzqqiI/AAAAAAAAAG8/53ZXIPorDbI/s200/duke2.jpg)](http://bp0.blogger.com/_WLj4OeHg5Rg/RxUG5xzqqiI/AAAAAAAAAG8/53ZXIPorDbI/s1600-h/duke2.jpg) [Download Duke Nukem 2](http://www.mediafire.com/?ctz3dpgytxj) ya esos no mas por ahora por ke toy corto de tiempo….</description>
@@ -1295,7 +779,7 @@ Doom[![](http://upload.wikimedia.org/wikipedia/en/thumb/c/c9/Doom-boxart.jpg/300
       <title>ExpoTalca</title>
       <link>https://albornoz.rocks/post/2007-10-09-expotalca/</link>
       <pubDate>Tue, 09 Oct 2007 16:08:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-10-09-expotalca/</guid>
       <description>“Es la primera Expo-TecnolÃƒÂ³gica realizada por la Escuela de InformÃƒÂ¡tica, ya que hemos generado varios contactos con empresas los que se muestran bastante interesados en participar de esta iniciativa, esperamos contar con el apoyo de todos los alumnos (sabemos que contamos con ellos) y la comunidad en general para el ÃƒÂ©xito de este evento.”– Alexandra Matus
 Dia: 18 de Octubre 2007
@@ -1307,7 +791,7 @@ Lugar: Santo TomÃƒÂ¡s sede Talca (Av.</description>
       <title>Fluxbox 1.0.0 stable release</title>
       <link>https://albornoz.rocks/post/2007-10-09-fluxbox-100-stable-release/</link>
       <pubDate>Tue, 09 Oct 2007 12:00:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-10-09-fluxbox-100-stable-release/</guid>
       <description>SIIIIII!!!!! mi gestor de ventanas favorito, Fluxbox, ya tiene version 1.0.0 ESTABLE!!!! se han corregido algunos bugs, se cambio el tema por defecto a bloe, se aÃƒÂ±adieron nuevos temas, actualizacion de traducciones, etc, etc, etc… toda la info acato.
 [![](http://fluxbox.sourceforge.net/images/shots-dev/aleczapka_fluxbox3.jpg)](http://fluxbox.sourceforge.net/images/shots-dev/aleczapka_fluxbox3.jpg)screenshot </description>
@@ -1317,7 +801,7 @@ Lugar: Santo TomÃƒÂ¡s sede Talca (Av.</description>
       <title>Menu&#39;s and Dock&#39;s for Linux</title>
       <link>https://albornoz.rocks/post/2007-10-09-menus-and-docks-for-linux/</link>
       <pubDate>Tue, 09 Oct 2007 11:14:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-10-09-menus-and-docks-for-linux/</guid>
       <description>A kien no le gusta enchular el escritorio de trabajo de su computador…???Siii…. y te pasa horas y horas probando distintas cosas, wallpapers, docks, iconos, themes…. etc.Bueno en esta oportunidad via Barrapuntoy OSnewsme entero de la salida de un dock para Gnome, Awn, ke se ve bastante atractivo, si no vean estevideo.
 [![](http://bp1.blogger.com/_WLj4OeHg5Rg/Rwu7thzqqbI/AAAAAAAAAGE/p7bXWnMRg9s/s200/awn01.JPG)](http://bp1.blogger.com/_WLj4OeHg5Rg/Rwu7thzqqbI/AAAAAAAAAGE/p7bXWnMRg9s/s1600-h/awn01.JPG)Awn[![](http://www.nuno-icons.com/images/estilo/raptor/favorites.png)](http://www.nuno-icons.com/images/estilo/raptor/favorites.png)Lo otro es ke para [KDE 4](http://www.kde.org/), [Pinheiro](http://pinheiro-kde.blogspot.com/) a creado un nuevo menu ke esta excelente, se llama [Raptor](http://pinheiro-kde.</description>
@@ -1327,7 +811,7 @@ Lugar: Santo TomÃƒÂ¡s sede Talca (Av.</description>
       <title>Primeros pasos en PyGTK</title>
       <link>https://albornoz.rocks/post/2007-10-02-primeros-pasos-en-pygtk/</link>
       <pubDate>Tue, 02 Oct 2007 14:47:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-10-02-primeros-pasos-en-pygtk/</guid>
       <description>++Tiempo atraz, un “seÃƒÂ±or” me encargo realizar un sistema de manejo de stock, ventas, facturas y demases para una ferreteria, el cual lo desarrolle en Visual Basic(sin reirse porfavor), pero el “seÃƒÂ±or” al final no me compro el sistema y el desarrollo kedo como al 90%…Al tiempo despues, se me ocurrio ke podria portarlo a linux, asi de esta manera kedaria multiplataforma, pero el problema era ke no tenia idea de Mono, Pythono algun otro lenguaje en el cual poder realizar lo ke keria, asi hace un pas de semanas Alejandro Valdesdio su charla de programacion de Pythoncon GTK(PyGTK), y la verdad kede prendidicimo… asi ke me dispuse a bajar Python, GTK, Glade(para windowspor ke los discos de debianke tengo tan pal loli y no tengo coneccion a internet) y un sin fin de manuales (todabia toy en eso), asi ke ai tamos aplicando ya llevo como 5 mantenedores, claro ke no con total funcionalidad, toy recien aprendiendo, pero por lo ke veo y la ayuda de varios amigos, no me va a costar mucho.</description>
     </item>
@@ -1336,7 +820,7 @@ Lugar: Santo TomÃƒÂ¡s sede Talca (Av.</description>
       <title>Dia del Software Libre</title>
       <link>https://albornoz.rocks/post/2007-09-29-dia-del-software-libre/</link>
       <pubDate>Sat, 29 Sep 2007 11:43:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-09-29-dia-del-software-libre/</guid>
       <description>YEEEEEEEAAAAAAAAAA!!!!
 Siiii aki estamos en el encuentro del Dia del Software Libre, terminando de almorzar, fumandose el cigarrito de despues de almuerzo y esperando la siguiente ronda de charlas, con el Karl, el Achu y esperando al matias ke biene de curico…
@@ -1348,60 +832,10 @@ Las Fotos (no las saque yo, las saco jci)
     </item>
     
     <item>
-      <title>A pedido del publico... Chat BeatBox</title>
-      <link>https://albornoz.rocks/post/2007-09-13-a-pedido-del-publico-chat-beatbox/</link>
-      <pubDate>Thu, 13 Sep 2007 17:05:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-09-13-a-pedido-del-publico-chat-beatbox/</guid>
-      <description>Pasen pasen pasen!!!!!!!… y vea al unico e insuperado Chat BeatBox
-
-Weeeeeeeeeeeeeeeeeeeeena!!!!!!</description>
-    </item>
-    
-    <item>
-      <title>Al wen metal</title>
-      <link>https://albornoz.rocks/post/2007-09-13-al-wen-metal/</link>
-      <pubDate>Thu, 13 Sep 2007 15:52:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-09-13-al-wen-metal/</guid>
-      <description>El sabado primero de septiembre, se realizo una tocata en el establo hard rock aca en talca, con 4 badas entre ellas nuclear y akbal, estubo la cagÃƒÂ¡, a toa raja, pero luego mi polola se enfermo y se tubo ke ir asi ke me kede con mi hna dando jugo y una amiga de ella…. kede con el cuello pa la goma… Despues de ke termino todo, carrete VIP (waaaaa!</description>
-    </item>
-    
-    <item>
-      <title>Los Pasteles</title>
-      <link>https://albornoz.rocks/post/2007-09-11-los-pasteles/</link>
-      <pubDate>Tue, 11 Sep 2007 15:15:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-09-11-los-pasteles/</guid>
-      <description>Este fue el sano carrete en la casa del Luis
-Empesando PiolaO_o WTF!!!Chat empesando a dar jugoLimpiando la cagaitaÃ‚Â¿Foto artistica?
-Hay ke darle una mencion honrroza al luis por pitiarse el vaso (wn curao!!!), y al jorge por rajarse con los completos pal bajon.
-Fecha: Sabado 8 de Septiembre de 2007
-Hora: Alrededor de las 02:00 am.
-Lugar: Casa del Luis.
-% alcoholico: 20% mas o menos XD. (Roncito Piola)Actores Invitados: Yo, Luis (como luis), Felipe (como dev) y el Jorge (como el chat)</description>
-    </item>
-    
-    <item>
-      <title>No me gusta el Ketchup!!! lol</title>
-      <link>https://albornoz.rocks/post/2007-09-08-no-me-gusta-el-ketchup-lol/</link>
-      <pubDate>Sat, 08 Sep 2007 22:50:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-09-08-no-me-gusta-el-ketchup-lol/</guid>
-      <description>A algunos le gusta la mostaza, a otros el aji…… a mi el ketchup
-y ke!!!! XD
-Fecha: Sabado 4 de Agosto de 2007
-Hora: Alrededor de las 04:00 am.
-Lugar: Al ladito del teatro de constitucion.
-% alcoholico: 65% mas o menos XD. (esa noche tome wisky, ron, y pisco… moderadamente)
-Contextura del ketchup: 50% ketchup, 50% agua.</description>
-    </item>
-    
-    <item>
       <title>Chc con &#34;La Cosa&#34;</title>
       <link>https://albornoz.rocks/post/2007-09-07-chc-con-la-cosa/</link>
       <pubDate>Fri, 07 Sep 2007 10:58:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-09-07-chc-con-la-cosa/</guid>
       <description>Ayer en la noche me entere de ke una de las pocas bandas hip-hop ke me gusta, CHC(Congregacion de Hermanos Contemplativos) saco nuevo disco… “La Cosa”y se encuentra disponible en la Feria del Disco (Ahumada 286; Alto Las Condes; Parque Arauco; Mall PanorÃƒÂ¡mico; Plaza Vespucio; Florida Center; Portal La Dehesa).
 Como para hacer un poco de reseÃƒÂ±a, estos lokillos tienen 2 discos el What It Is Es Lo Que Esy el Bastante Real, que son exelentes discos, te kedai pegao todo el rato escuchado los temas y no te dai ni cuenta cuando ya de loopiaste 3 veces los discos en una tarde…</description>
@@ -1411,63 +845,25 @@ Como para hacer un poco de reseÃƒÂ±a, estos lokillos tienen 2 discos el What
       <title>DiaSoftwareLibre/2007</title>
       <link>https://albornoz.rocks/post/2007-09-04-diasoftwarelibre2007/</link>
       <pubDate>Tue, 04 Sep 2007 17:20:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-09-04-diasoftwarelibre2007/</guid>
       <description>[![](http://bp1.blogger.com/_WLj4OeHg5Rg/Rt3sNVrR3uI/AAAAAAAAACE/nBIFCIX8C6c/s400/Sfd-utalca-banner.png)](http://bp1.blogger.com/_WLj4OeHg5Rg/Rt3sNVrR3uI/AAAAAAAAACE/nBIFCIX8C6c/s1600-h/Sfd-utalca-banner.png)El proximo 29 de septiempre se va a realizar en la facultad de ingenieria de la UTAL (curicÃƒÂ³), el [DÃƒÂ­a del Software Libre](http://icc.utalca.cl/wiki/DiaSoftwareLibre/). Esto empieza a las 10:00 hrs. y termina a las 19:00 hrs. Vienen varios expositores, [Jorge Bustos](http://baboon.utalca.cl/%7Ejorge), [Jci](http://jci.codemonkey.cl/), [Alejandro Valdes](http://deb.utalca.cl/), [GermÃƒÂ¡n PoÃƒÂ³-CaamaÃƒÂ±o](http://www.ubiobio.cl/%7Egpoo/), entre otros. Me llamo la atencion ke es casi pura gente de [GNOME](http://www.blogger.com/www.gnome.cl/)(igual wena XD) asi ke si kieren ir ingresen al sitio para mas info de este [encuentro](http://curico.</description>
-    </item>
-    
-    <item>
-      <title>Bajar Videos de Canal13 (Estamos Conectados)</title>
-      <link>https://albornoz.rocks/post/2007-09-04-bajar-videos-de-canal13-estamos-conectados/</link>
-      <pubDate>Tue, 04 Sep 2007 14:49:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-09-04-bajar-videos-de-canal13-estamos-conectados/</guid>
-      <description>Esta es una papita ke acabo de descubrir, en la lista del Frente de LiberaciÃƒÂ³n Digital aparecio un tema sobre un reportaje ke hicieron en Estamos Conectados y ke aparece en su sitio web. En la U es una paja tratar de ver videos, asi ke kise bajarlo, aplike el add-ons de firefox, el VideoDownloader me aparecio un link y lo baje pero como era de esperarse no era el video, era un swf en blanco, pense ke no me la podia ganar y viendo el html de la pagina empese a revisar los links, y resulta ke aparece lo siguiente:</description>
-    </item>
-    
-    <item>
-      <title>Dinero Plastico Ã‚Â¿Mal Universitario?</title>
-      <link>https://albornoz.rocks/post/2007-08-27-dinero-plastico-mal-universitario/</link>
-      <pubDate>Mon, 27 Aug 2007 16:03:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-08-27-dinero-plastico-mal-universitario/</guid>
-      <description>Lamentablemente hoy en dia varias casas comerciales ofrecen taljetas de credito a jovenes, que en la mayoria, no son solventes economicamente, por ejemplo CMR, Ripley, Presto, etc…
-Hay que reconoser una cosa… sacan de apuro a todo ritmo, pero despues te vay calentando con “lo pago depues” y resulta ke ese despues no teni ni uno pa pagar, y ahi comienzan con intereses y mas intereses, y mas, y mas, y mas.</description>
     </item>
     
     <item>
       <title>Algo de GNU/Linux en la universidad (por fin)</title>
       <link>https://albornoz.rocks/post/2007-08-22-algo-de-gnulinux-en-la-universidad-por-fin/</link>
       <pubDate>Wed, 22 Aug 2007 11:39:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-08-22-algo-de-gnulinux-en-la-universidad-por-fin/</guid>
       <description>Bueno, los esfuersos ya estan dando sus frutos…. despues de un largo tira y afloja, por fin se realizo la primera charla de linux aca en mi U, la dicto Jorge Bustos y fue sobre el software libre respecto a la parte legal, licencias y negocios, estubo bastante interesante, aunque a mis compaÃƒÂ±eros no les gusto mucho, por ke pensaron ke era mas practica, presentaciones con monitos y demaces, pero ese es el principio, luego el 25 de septiembre creo, se biene la de Alejandro Valdes, y esa va a ser practica, desarrollo en Python y GTK, XD y esa no me la pierdo…</description>
-    </item>
-    
-    <item>
-      <title>Devuelta a Clases</title>
-      <link>https://albornoz.rocks/post/2007-08-13-devuelta-a-clases-2/</link>
-      <pubDate>Mon, 13 Aug 2007 14:31:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-08-13-devuelta-a-clases-2/</guid>
-      <description>Uffff…. despues de unas vacacines no muy buenas, solo 1 semana y mas encima enfermo 3 dias, y sin poder tomas una gota de cerveza, mierntras mis amigos kedaban “moto”… e vuelto a talca para comenzar el 2Ã‚Âº semestre…Igual toy con hartas ganas, y ademas ke me cambie de casa asi ke ahora me keda mas cerkita de la U (10 min. a caminando XD) asi ke ya no me da paja ir temprano a clases XD… bueno ojala a todos les vaya bien este semestre….</description>
-    </item>
-    
-    <item>
-      <title>Jugo&#39;s Night</title>
-      <link>https://albornoz.rocks/post/2007-07-28-jugos-night/</link>
-      <pubDate>Sat, 28 Jul 2007 04:55:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-07-28-jugos-night/</guid>
-      <description>Esta si ke a sido una noche como el ass, con internet pero realmente dando jugo toda la noche, aburrido como ostra, tratando de bajar el quake 1 y el 2, pero para mala suerte taban en rapidshare y megaupload, una paja, la unica cosa buena ke sake hoy es ke me baje el shooter The House Of The Death, viejo pero weno…
-yaaa… me voy a costar mejor…. ZZzzzzzZZZzzzzZZZzzz</description>
     </item>
     
     <item>
       <title>Ã‚Â¿Que es Linux?</title>
       <link>https://albornoz.rocks/post/2007-07-27-que-es-linux/</link>
       <pubDate>Fri, 27 Jul 2007 20:24:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-07-27-que-es-linux/</guid>
       <description>En esta pÃƒÂ¡gina hay una breve y buena explicaciÃƒÂ³n de que es Linux y porque usarlo como una alternativa a windows.
 “Linux es un sistema operativo, la gran pieza de software que maneja un computador. Es similar a Microsoft WindowsÃ‚Â®, pero es completamente libre. El nombre correcto es GNU/Linux, pero Linux tambiÃƒÂ©n se admite.”...
@@ -1476,257 +872,37 @@ yaaa… me voy a costar mejor…. ZZzzzzzZZZzzzzZZZzzz</description>
     </item>
     
     <item>
-      <title>Frente de LiberaciÃƒÂ³n Digital</title>
-      <link>https://albornoz.rocks/post/2007-07-24-frente-de-liberacion-digital/</link>
-      <pubDate>Tue, 24 Jul 2007 14:07:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-07-24-frente-de-liberacion-digital/</guid>
-      <description>Acabo de enterarme de una noticia vieja… el gobierno de chile a firmado un acuerdo con microsoft para potenciar los servicion de este, pero como era de esperarse ya hay gente en contra de esto, el Frente de LiberaciÃƒÂ³n Digitalesta haciendo su aporte, en su pagina explican que paso y que se puede hacer al respecto, ojala que mucha gente se sume a la causa… yo ya estoy en eso XD</description>
-    </item>
-    
-    <item>
-      <title>Fotos Manifestandome</title>
-      <link>https://albornoz.rocks/post/2007-07-23-fotos-manifestandome/</link>
-      <pubDate>Mon, 23 Jul 2007 11:48:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-07-23-fotos-manifestandome/</guid>
-      <description>Weno… aki me consegui una foto de la supermanifestacion ke hice en la charla de microsoft. gracias a michael miÃƒÂ±o por guardar la foto. no se ve bien el cartel (esta sacada con un celular) asi ke agale zoom XD.
-Luego conseguire mas imagenes..
-UPDATE: aki mas fotos XD
-[![](http://bp3.blogger.com/_WLj4OeHg5Rg/RqUQELw8EQI/AAAAAAAAAA8/irX39Tao_Zw/s200/Imagen+250a.JPG)](http://bp3.blogger.com/_WLj4OeHg5Rg/RqUQELw8EQI/AAAAAAAAAA8/irX39Tao_Zw/s1600-h/Imagen+250a.JPG) [![](http://bp3.blogger.com/_WLj4OeHg5Rg/RqUP_Lw8EPI/AAAAAAAAAA0/2f_a8G1awnQ/s200/Imagen+249a.JPG)](http://bp3.blogger.com/_WLj4OeHg5Rg/RqUP_Lw8EPI/AAAAAAAAAA0/2f_a8G1awnQ/s1600-h/Imagen+249a.JPG) </description>
-    </item>
-    
-    <item>
-      <title>FoxIt Reader</title>
-      <link>https://albornoz.rocks/post/2007-07-20-foxit-reader/</link>
-      <pubDate>Fri, 20 Jul 2007 12:20:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-07-20-foxit-reader/</guid>
-      <description>Home
-
-FoxIt Reader es a mi gusto el mejor visor de PDF, ke acrobat ni ke wea, FoxIt Reader la lleva
-mas info acato
-lleveselo aqui</description>
-    </item>
-    
-    <item>
       <title>Software Libre en la AdministraciÃƒÂ³n PÃƒÂºblica Chilena</title>
       <link>https://albornoz.rocks/post/2007-07-12-software-libre-en-la-administracion-publica-chilena/</link>
       <pubDate>Thu, 12 Jul 2007 16:27:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-07-12-software-libre-en-la-administracion-publica-chilena/</guid>
       <description>Por fin alguien del gobierno se puso los pantalones con respecto al Software Libre.El diputado Dr. Roberto Sepulveda propuso un proyecto de implementar Software Libre en la administraciÃƒÂ³n pÃƒÂºblica chilena dando a conocer los PRO de la iniciativa, siendo aprobada por la cÃƒÂ¡mara de diputados… Ã¢Â€ÂœConsiderando que en nuestro paÃƒÂ­s la inversiÃƒÂ³n en desarrollo cientÃƒÂ­fico es ÃƒÂ­nfima, el uso de sistema como Linux nos provee de poderosas herramientas computacionales, prÃƒÂ¡cticamente a costo cero, con una gran vida ÃƒÂºtil, con mayor seguridad, estabilidad, y flexibilidadÃ¢Â€Â&amp;#157;, manifestÃƒÂ³ el parlamentario.</description>
-    </item>
-    
-    <item>
-      <title>Por Encargo...</title>
-      <link>https://albornoz.rocks/post/2007-07-11-por-encargo/</link>
-      <pubDate>Wed, 11 Jul 2007 10:25:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-07-11-por-encargo/</guid>
-      <description>Mi jefa de carrera me a encargado realizar en el segundo semestre charlas sobre Linux, la idea es introducir a los alumnos de la carrera (Informatica) que no cachen mucho a este mundo, y para los que ya saben aumentar los conocimientos, por el momento estoy en contacto con unos amigos para que vengan a exponer (no dare nombres todabia), ojala esto resulte, ya que el aÃƒÂ±o pasado trate de hacer algo pero la ex jefa de carrera era como el *ass.</description>
-    </item>
-    
-    <item>
-      <title>Manifestandome</title>
-      <link>https://albornoz.rocks/post/2007-07-10-manifestandome/</link>
-      <pubDate>Tue, 10 Jul 2007 15:54:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-07-10-manifestandome/</guid>
-      <description>Ayer 9 de julio del 2007 en mi U hubo una charla de microsoft en dondePablo Hormazabal fue el orador junto con otro joven que no me acuerdosu nombre.La charla se trataron de mostrar lo facil que es crear sistemas con una bonita grafica para windows, sobre el framework 2.0 y 3.0 de .NET. Cuando supe de la charla ese mismo dia como 15 minutos antes, me fui a la fotocopiadora y me compre una cartulina, pedi un plumon prestado y escribi lo siguiente en el:  No al Software Privativo Se Libre, Usa LinuxY parti con mi cartel a la charla, en un principio me dio algo de verguenza, pero luego pense que era algo que tenia que hacer, ahi fuencuando llego el Michael, mi profe de hardware y me felicitÃƒÂ³, entonces con mas ganas levante mis brazos con el cartel para que todos en el salon lo vieran, y dio resultado, toda la gente ke asistio a la charla me observaba con cara de “Que chucha este wn”, “Aaaaa, el wn cagao de la cabeza”, pero ni siquiera me importo, despues de un rato en que me sacaron fotos, y los mas cercanos me daban una palmada de apoyo en la espalda.</description>
     </item>
     
     <item>
       <title>Which Way Is Up</title>
       <link>https://albornoz.rocks/post/2007-07-06-which-way-is-up/</link>
       <pubDate>Fri, 06 Jul 2007 13:53:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-07-06-which-way-is-up/</guid>
       <description>![](http://hectigo.net/puskutraktori/whichwayisup/pictures/head.png) [Home](http://hectigo.net/puskutraktori/whichwayisup/) Which Way Is Up es un juego en 2D creado en python, aun no lo e probado bien pero se ve entretenido, me recuerda a [lode runner](http://en.wikipedia.org/wiki/Lode_Runner) pero en este hay que rotar la pantalla activando unos switch y encontrando unas llaves (por lo visto). Tambien hay ke recalcar ke se encuentra bajo la licencia GPL 2.0 y tambien tiene contenido [Creative Commons 3.0](http://creativecommons.org/licenses/by/3.0/) y esta disponible para windows y Linux bueno si lo kieren probar lo pueden bajarlo desde su [pagina web](http://hectigo.</description>
-    </item>
-    
-    <item>
-      <title>Everest Ultimate Edition</title>
-      <link>https://albornoz.rocks/post/2007-06-21-everest-ultimate-edition/</link>
-      <pubDate>Thu, 21 Jun 2007 10:02:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-06-21-everest-ultimate-edition/</guid>
-      <description>Home
-Everest Ultimate Edition realiza un extenso y detallado anÃƒÂ¡lisis del sistema, mostrando prÃƒÂ¡cticamente todos los aspectos del sistema referentes a hardware, software, configuraciÃƒÂ³n de red y mÃƒÂ¡s.
-Salva caleta cuando no sabes que drivers tiene el pc, everest te los muestra
-Lleveselo aca</description>
-    </item>
-    
-    <item>
-      <title>Encuentra tu distro ideal</title>
-      <link>https://albornoz.rocks/post/2007-06-21-encuentra-tu-distro-ideal/</link>
-      <pubDate>Thu, 21 Jun 2007 09:19:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-06-21-encuentra-tu-distro-ideal/</guid>
-      <description>Me acabo de bajar la edicion nÃ‚Âº 9 de la revista beginsy aparece un link a una encuestaque te permite saber que distribucion usar… por curiocidad la conteste pero en una parte te pregunta que sistema de paquetes prefieres, rpm, deb o compilar codigo fuente… creo que ahi esta la maÃƒÂ±a del asunto, es obvio que si prefieres rpm es por que conoces distros basadas en RedHat, bueno ahora Fedora, y si elijes deb es por que eres debianito.</description>
-    </item>
-    
-    <item>
-      <title>Lo que nunca habia pasado</title>
-      <link>https://albornoz.rocks/post/2007-06-15-lo-que-nunca-habia-pasado/</link>
-      <pubDate>Fri, 15 Jun 2007 11:01:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-06-15-lo-que-nunca-habia-pasado/</guid>
-      <description>El otro dia…. 
-mmmm…. 
-miercoles, amanci muy refriado, pero de a poco estabilizandoce durante el dia… hice mis cosas diarias…. regaloneo con mi polola… etc…. luego a la hora de hacer tuto, algo me faltaba po hacer, hechaba de menos algo pero no sabia ke era, hasta ke derrepente mire mi pc…. 
-y…
-no lo habia ocupado en todo el dia, ni siquiera lo mire… me dieron unas ganas de ponerme a escuchar musica, y a jugar un rato… pero ya era tarde, y la “jefa” estaba con sueÃƒÂ±o… y eso es terrible… asi ke obligado a hacer tuto hasta el otro dia…</description>
-    </item>
-    
-    <item>
-      <title>TuneUp 2007</title>
-      <link>https://albornoz.rocks/post/2007-06-12-tuneup-2007/</link>
-      <pubDate>Tue, 12 Jun 2007 13:49:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-06-12-tuneup-2007/</guid>
-      <description>![](http://www.tune-up.com/images/mainsite/box-tu2007_en.jpg)[Home](http://www.tune-up.com/) TuneUp Utilities 2007 optimiza tu computador, resuelve problemas y ayuda el la costumizacion de tu sistema window$. estÃƒÂ¡ con crack y sin password. Lleveselo [aquÃƒÂ­](http://www.gigasize.com/get.php/-1100132818/tuneup2007es_by_debianman.rar%20)  </description>
-    </item>
-    
-    <item>
-      <title>Jugo en Counter</title>
-      <link>https://albornoz.rocks/post/2007-06-10-jugo-en-counter/</link>
-      <pubDate>Sun, 10 Jun 2007 16:56:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-06-10-jugo-en-counter/</guid>
-      <description>Y asi fue, ayer sabado y hoy tarreando en la casa del Mario, descargando weas, pero lo mas importante era jugar counter strike, primera vez ke me metia a jugar online, asi ke igual con los nervios de no dar tanto jugo, pero por suerte no fue tan asi, a medida ke iba pasando el rato se iba mejorando la punteria, falta practica no mas, igual me puse unos “headshot” wenos XD.</description>
-    </item>
-    
-    <item>
-      <title>Se me olvidava</title>
-      <link>https://albornoz.rocks/post/2007-06-08-se-me-olvidava/</link>
-      <pubDate>Fri, 08 Jun 2007 11:54:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-06-08-se-me-olvidava/</guid>
-      <description>El martes recien pasado (5) fuen mi cumple, e hice un pekeÃƒÂ±o carrete en mi casa, tubo piola…. no tubo re weno, sus carnes piolas vinito y algunas otras cosas, lo pase a toa raja, pero el fin de este post es AGRADECER a todos los asistentes su participacion, por compartir un rato conmigo, aunque hayan tenido que hacer temprano al otro dia…
-La edad pa que decirla… XD</description>
-    </item>
-    
-    <item>
-      <title>No me la creo!!! O_o</title>
-      <link>https://albornoz.rocks/post/2007-06-08-no-me-la-creo-o_o/</link>
-      <pubDate>Fri, 08 Jun 2007 11:32:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-06-08-no-me-la-creo-o_o/</guid>
-      <description>Esta si ke es wena… acabo de meterme a un tarro de la U y me acuerdo ke no me traje el pen con mi firefox, entonces hice tramite corto…. http://www.mozilla-europe.org/es/products/firefox(desde iexplorer -_- ) hasta aqui ni una maravilla, pero cuando empeso a bajar…
-[![](http://bp3.blogger.com/_WLj4OeHg5Rg/RmmT5vmqNxI/AAAAAAAAAAM/nKQwGi4U4xU/s320/Dibujo.JPG)](http://bp3.blogger.com/_WLj4OeHg5Rg/RmmT5vmqNxI/AAAAAAAAAAM/nKQwGi4U4xU/s1600-h/Dibujo.JPG)TAZA DE TRANFERENCIA DE 1.05 MB/SegIncreible pero sierto y eso ke la coneccion de la U es una mierda. </description>
-    </item>
-    
-    <item>
-      <title>Gif Movie Gear</title>
-      <link>https://albornoz.rocks/post/2007-06-05-gif-movie-gear/</link>
-      <pubDate>Tue, 05 Jun 2007 18:21:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-06-05-gif-movie-gear/</guid>
-      <description>![](http://www.customxp.net/images/PngFactory/png/_thumb/gif-movie-gear_overlord_software.png) [Home](http://www.gifmoviegear.com/)Editor de archivos gif, puede explortar tus gif a AVI tambien es conocido asi que no pongo mas descripciones Lleveselo [aqui](http://www.gigasize.com/get.php/1275906/GifMovieGearbydebianman.rar) PD: las pass es www.chilewarez.org si es ke tiene  </description>
     </item>
     
     <item>
       <title>AoA Audio Extractor</title>
       <link>https://albornoz.rocks/post/2007-06-01-aoa-audio-extractor/</link>
       <pubDate>Fri, 01 Jun 2007 16:26:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2007-06-01-aoa-audio-extractor/</guid>
       <description>Este jugetito me dejo imprecionado se trata de **AoA Audio Extractor **![](http://www.aoamedia.com/images/audio-green.jpg) [Home Page](http://www.aoamedia.com/audioextractor.htm) Cual es la gracia?… cmo su nombre lo dice extrae audio de cualquier video, es imprecindible como para pasar algun concierto a mp3, y lo mejor de todo que el tramite es corto, extraer el audio de un avi que dura 1:20 Hrs se demoro como 10 minutos… lleveselo [aqui](http://www.gigasize.com/get.php/1218928/audioextractorbydebianman.rar) o [acato](http://www.aoamedia.com/audioextractor.exe) desde la pÃƒÂ¡gina oficial Powered by [ScribeFire](http://scribefire.</description>
-    </item>
-    
-    <item>
-      <title>SolSuite 2007</title>
-      <link>https://albornoz.rocks/post/2007-06-01-solsuite-2007/</link>
-      <pubDate>Fri, 01 Jun 2007 15:37:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-06-01-solsuite-2007/</guid>
-      <description>Te tiene chato el solitario de windows??? Esta es la nueva opcion de estretenimiento… ![](http://www.solsuite.com/images/logo_solsuite_2007.jpg) [http://www.solsuite.com](http://www.solsuite.com/) Es una coleccion de mas de 472 tipos de juegos solitarios… desde el tipico solitario hasta carta blanca, pasando por otros tipos. ![](http://www.solsuite.com/images/historical_costumes_curve_preview.jpg) Lleveselo [aqui](http://www.gigasize.com/get.php/234649/solsuite2007debianman.rar) (la pass si es ke tiene es **www.chilewarez.org**,los posteo ahi, por eso tienen esa pass)  </description>
-    </item>
-    
-    <item>
-      <title>Una historia pa los nietos</title>
-      <link>https://albornoz.rocks/post/2007-04-17-una-historia-pa-los-nietos/</link>
-      <pubDate>Tue, 17 Apr 2007 15:13:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-04-17-una-historia-pa-los-nietos/</guid>
-      <description>**Sabado 14 de Abril, 11 Hrs…** -Alooo… amor no nos podemos ir a las 14:30 por ke vienen mis viejos –Aaaa… weno nos vamos mas tarde como a las 16… – OK **Sabado 14 de Abril, 16 Hrs…** -Alooo… oye llame a mi amiga donde nos hibamos a kedas y no nos podemos ir aya… — Chucha…y ke vamos a hacer -No cacho… ve tu… — Ya, ai veo, nos vemos… -OK **Sabado 14 de Abril, 17 Hrs ** -Y… –No cacho, aer… deja llamar a un amigo #Aloo.</description>
-    </item>
-    
-    <item>
-      <title>Y nos vamos al VIVE LATINO</title>
-      <link>https://albornoz.rocks/post/2007-04-13-y-nos-vamos-al-vive-latino/</link>
-      <pubDate>Fri, 13 Apr 2007 08:52:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-04-13-y-nos-vamos-al-vive-latino/</guid>
-      <description>EJALE!!!! despues de mucho pensar, me decidi y me encaliye con 2 entradas para el Vive Latino ke va a ser el domingo 15, una para mi y otra paa mi amorcito XD, asi ke a “santiasco” los pasajes… hay ke ver si es ke se aguanta tanto rock, pero se hara todo lo posible. Bandas ke kiero ver. 1.- Los Amigos Invisibles (espere mucho tiempo pa poder verlos) 2.- Los Tres 3.</description>
-    </item>
-    
-    <item>
-      <title>Ramos Corneta</title>
-      <link>https://albornoz.rocks/post/2007-03-30-ramos-corneta/</link>
-      <pubDate>Fri, 30 Mar 2007 15:02:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-03-30-ramos-corneta/</guid>
-      <description>Por ke hay ke tomar y pasar ramos como “Cultura y Valores” o “**Electivo** de Formacion Personal” (ke de electivo no tiene nada) ? Simple, la maldita U pienza ke haciendonos mas “humanos” somos mejores trabajadores, pero la institucion no pienza lo que a los alumnos (por lo menos a mi) **NO LES INTEREZA!!!**, para mi es una perdida de tiempo… para ser mas concretos esto lo escribi mientras esta en la clases de electivo, mientras la profe blablabla (yo no soy de las personas ke no pescan en clases pero la cosa es tan latera, ke se me ocurrio escribir esto), claro esta haciendo su clase, pero a mi me importa un bledo lo ke le pase a alguien ke ni sikiera conosco y esta en ella hablando de sus virtudes y defectos…o lo ke le pasa en la casa, bueno tambien pasa por l lado de ke los compaÃƒÂ±eros generalmente son eso, y mas aya no me meto (insisto…ramo de mierd%@#~Ã¢Â‚Â¬) y tampoco voy a andar contando cosas mias a cualkier persona, por otro lado si fueran amigos (de esos de los pocos ke uno tiene en la vida) claro ke me preocuparia por ellos.</description>
-    </item>
-    
-    <item>
-      <title>DÃƒÂ­a del ApagÃƒÂ³n Mundial</title>
-      <link>https://albornoz.rocks/post/2007-03-26-dia-del-apagon-mundial/</link>
-      <pubDate>Mon, 26 Mar 2007 12:03:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-03-26-dia-del-apagon-mundial/</guid>
-      <description>El pasado 24 de marzo fue el dÃƒÂ­a del apagÃƒÂ³n mundial, se trata de apagar el tarro durente 24 horas (-_-) …pero weno revisando rss aparecio un video de ke hacer con tu laptop en ese dia de OCIO al maximo para un informatico   </description>
-    </item>
-    
-    <item>
-      <title>Probando Scribefire</title>
-      <link>https://albornoz.rocks/post/2007-03-23-probando-scribefire/</link>
-      <pubDate>Fri, 23 Mar 2007 11:12:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-03-23-probando-scribefire/</guid>
-      <description>Revisando algunas extenciones para firefox encontre Scribefire, ke se supone ke se puede editar el blog desde firefox directamente, si este mensaje el publicado es por ke la cosa realmente funca XD….aaa por sierto si es ke alguien lo kiere probar la dir es [http://scribefire.com](http://scribefire.com/) y tambien esta en la pagina de [aki](http://preview.addons.mozilla.org/en-US/firefox/addon/1730)  </description>
-    </item>
-    
-    <item>
-      <title>Esta es la linda policia chilena</title>
-      <link>https://albornoz.rocks/post/2007-03-22-esta-es-la-linda-policia-chilena/</link>
-      <pubDate>Thu, 22 Mar 2007 17:31:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-03-22-esta-es-la-linda-policia-chilena/</guid>
-      <description>Escuvhando el portal hoy, salio un loko contando su historia, en resumen trata de ke este tipo estaba en el metro, habia un paco controlando el trafico y le saco una foto… el paco lo siguiÃƒÂ³, le pinto mono y lo keria DETENER POR SACARLE UNA FOTO!!!
-Si kieren cachar toda la historia completa leanla aki.</description>
-    </item>
-    
-    <item>
-      <title>BSOD en Windows</title>
-      <link>https://albornoz.rocks/post/2007-03-22-bsod-en-windows/</link>
-      <pubDate>Thu, 22 Mar 2007 17:30:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-03-22-bsod-en-windows/</guid>
-      <description>Me acorde que tengo un espacio en la web XD…
-Revisando mis RSS encontre la noticia que en la pagina de M$ tienen en mitico screensaver BSOD (es mi favorito en mi linux :D), esta reweno, si lo kieren lo pueden bajar desde aki.**
-**
-
-Viernes 15 de Diciembre de 2006</description>
-    </item>
-    
-    <item>
-      <title>Devuelta a Clases</title>
-      <link>https://albornoz.rocks/post/2007-03-21-devuelta-a-clases/</link>
-      <pubDate>Wed, 21 Mar 2007 17:30:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2007-03-21-devuelta-a-clases/</guid>
-      <description>Ufff, despues de unas buenas…. no en realidad no estubieron tan buenas… vacaciones, llego marzo y las clasesitas -_-, aparte jodio de calor y con ramos cuaticos (estadisticas, fisica… soy negao pa los numeros XD), pero weno… hay ke ponerle no mas.
-Por otro lado toy medio achacao por ke hace unas semanas atras se me funÃƒÂ³ el HD (corte de luz… tipico en contituciÃƒÂ³n), lo raro es ke fallaron solo las particiones extendidas (fat32), trate de recuperarlas, y algo hice con PTD pero los datos ke habian en el HD no me los muestra, pero si aparece el espacio ocupado… RARO NO?</description>
     </item>
     
     <item>
       <title>InstalaciÃƒÂ³n y ConfiguraciÃƒÂ³n de Fluxbox.</title>
       <link>https://albornoz.rocks/post/2006-06-05-instalacion-y-configuracion-de-fluxbox-2/</link>
       <pubDate>Mon, 05 Jun 2006 17:56:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2006-06-05-instalacion-y-configuracion-de-fluxbox-2/</guid>
       <description>En este documento tratare (digo tratare por que esto es solo una referencia) de explicar algunos puntos de configuracion para que nuestro FluxBox se vea bien y nos sea facil y amigable de usar.
 Nota
@@ -1742,7 +918,7 @@ Opcionalmente tambien se piede instalar fluxconf que es una herramienta para con
       <title>Como reistalar LILO o Grub en Debian Sarge</title>
       <link>https://albornoz.rocks/post/2006-05-31-como-reistalar-lilo-o-grub-en-debian-sarge/</link>
       <pubDate>Wed, 31 May 2006 17:24:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2006-05-31-como-reistalar-lilo-o-grub-en-debian-sarge/</guid>
       <description>Ya… aqui les dejo este TIPS para los que tengan este problema a la hora de reinstalar wintendo y tengan Linux y algunos de estos dos gestores de arranque.
 Espero que les guste.
@@ -1754,33 +930,11 @@ En las siguientes lineas les voy a explicar como reinstalar LILO o Grub (para lo
       <title>InstalaciÃƒÂ³n y ConfiguraciÃƒÂ³n de FluxBox</title>
       <link>https://albornoz.rocks/post/2006-05-06-instalacion-y-configuracion-de-fluxbox/</link>
       <pubDate>Sat, 06 May 2006 17:27:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2006-05-06-instalacion-y-configuracion-de-fluxbox/</guid>
       <description>Ufff, ya hace tiempo que tenia creada esta documentacion de fluxbox, uno de mis manejadores de ventanas favoritos, espero que les guste… luego tambien estarÃƒÂ¡ publicado en tux.cl.
 Ver AquÃƒÂ­**
 **</description>
-    </item>
-    
-    <item>
-      <title>Empesando a armar la cosa</title>
-      <link>https://albornoz.rocks/post/2005-12-20-empesando-a-armar-la-cosa/</link>
-      <pubDate>Tue, 20 Dec 2005 19:57:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2005-12-20-empesando-a-armar-la-cosa/</guid>
-      <description>weno vamos a armar esta cosa… de a poco ire poniendo tips, link’s y manuales de interes xD
-por ahora toy haciendo un tutorial de fluxbox en debian, asi ke cuando lo termine lo subo
-ya eso no mas
-saludos</description>
-    </item>
-    
-    <item>
-      <title>Wolas a todos :D</title>
-      <link>https://albornoz.rocks/post/2005-09-23-wolas-a-todos-d/</link>
-      <pubDate>Fri, 23 Sep 2005 13:22:00 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
-      <guid>https://albornoz.rocks/post/2005-09-23-wolas-a-todos-d/</guid>
-      <description>lijerito publicare cosas intersantes.
-chau</description>
     </item>
     
   </channel>

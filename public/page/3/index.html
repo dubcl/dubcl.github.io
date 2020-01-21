@@ -13,8 +13,6 @@
   <meta property="og:image" content="https://albornoz.rocks/img/avatar-icon.png" />
   <meta name="twitter:image" content="https://albornoz.rocks/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@dubcl" />
-  <meta name="twitter:creator" content="@dubcl" />
   <meta property="og:url" content="https://albornoz.rocks/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="albornoz.rocks" />
@@ -147,11 +145,28 @@
 
               <div class="post-entry">
                 
-                  Ahora vamos a ver como hacer el famoso “Tarzan Al Vuelo”, muy util para ahorrar algo de tiempo en nuestros que haceres sysadministicos
-1 # tar zcvf - /path-a-comprimir |ssh user@foo.bar.com "cat  /reapaldo/path-comprimida.tar.gz" Obviamente pueden cambiar el dominio con la dirección IP de destino
-1 # tar zcvf - /path-a-comprimir |ssh user@192.168.0.10 "cat  /reapaldo/path-comprimida.tar.gz" Esto tambien es aplicable para usar el comando dd
-1 # tar cvzf - /path-a-comprimir |ssh user@192.
-                  <a href="https://albornoz.rocks/post/2012-10-02-tar-remoto/" class="post-read-more">[Read More]</a>
+                  <p>Ahora vamos a ver como hacer el famoso “Tarzan Al Vuelo”, muy util para ahorrar algo de tiempo en nuestros que haceres sysadministicos</p>
+
+<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1  
+</div></td><td><div class="bash codecolorer"><span class="co4"># </span><span class="kw2">tar</span> zcvf - <span class="sy0">/</span>path-a-comprimir <span class="sy0">|</span><span class="kw2">ssh</span> user<span class="sy0">@</span>foo.bar.com <span class="st0">"cat > /reapaldo/path-comprimida.tar.gz"</span></div></td></tr></tbody></table></div>
+
+<p>Obviamente pueden cambiar el dominio con la dirección IP de destino</p>
+
+<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1  
+</div></td><td><div class="bash codecolorer"><span class="co4"># </span><span class="kw2">tar</span> zcvf - <span class="sy0">/</span>path-a-comprimir <span class="sy0">|</span><span class="kw2">ssh</span> user<span class="sy0">@</span>192.168.0.10 <span class="st0">"cat > /reapaldo/path-comprimida.tar.gz"</span></div></td></tr></tbody></table></div>
+
+<p>Esto tambien es aplicable para usar el comando dd</p>
+
+<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1  
+</div></td><td><div class="bash codecolorer"><span class="co4"># </span><span class="kw2">tar</span> cvzf - <span class="sy0">/</span>path-a-comprimir <span class="sy0">|</span><span class="kw2">ssh</span> user<span class="sy0">@</span>192.168.0.10 <span class="st0">"dd of= /reapaldo/path-comprimida.tar.gz"</span></div></td></tr></tbody></table></div>
+
+<p>O hacer algún respaldo directo a un dispositivo de cinta</p>
+
+<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;width:435px;"><table cellpadding="0" cellspacing="0"><tbody><tr><td class="line-numbers"><div>1  
+</div></td><td><div class="bash codecolorer"><span class="co4"># </span><span class="kw2">tar</span> cvzf - <span class="sy0">/</span>path-a-comprimir <span class="sy0">|</span><span class="kw2">ssh</span> root<span class="sy0">@</span>192.168.0.10 <span class="st0">"cat > /dev/nst0"</span></div></td></tr></tbody></table></div>
+
+<p>Saludines</p>
+
                 
               </div>
 
@@ -183,30 +198,6 @@ $ openssl pkcs12 -in cert-original.pfx -nocerts-out privatekey.pem
 $ openssl pkcs12 -in cert-original.pfx -clcerts-nokeys-out publiccert.pem
 $ openssl pkcs12 -export-in publiccert.pem -inkey privatekey.pem -out cert.p12Ahora que tenemos listo nuestro certificado creamos archivo de configuración para openvpn.
                   <a href="https://albornoz.rocks/post/2012-10-02-conexion-a-vpn-desde-linux-con-certificado-pfx/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://albornoz.rocks/post/2012-02-05-its-alive-2/">
-                <h2 class="post-title">It&#39;s Alive</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  Posted on February 5, 2012
-  
-</span>
-
-
-              <div class="post-entry">
-                
-                  Que tal,
-Hace tiempo que esto estaba muerto y ahora dentro de lo posible voy a tratar de actualizarlo.
-Debido a un cambio de servidor, perdi los archivos del blog, asi que los post desde hoy hacia atraz, se verán HORRIBLES, eso vale tambien para la codificacion de caracteres… por que NO PIENSO ni siquiera tratar de arreglarlos, asi que todo lo antiguo queda tal cual, aun que este feo.
-                  <a href="https://albornoz.rocks/post/2012-02-05-its-alive-2/" class="post-read-more">[Read More]</a>
                 
               </div>
 
@@ -262,30 +253,6 @@ Debido a un cambio de servidor, perdi los archivos del blog, asi que los post de
                   La ExpoLibre es un evento que se ha venido celebrando hace ya 2 años consecutivos, la cual tiene como objetivo principal difundir y educar a la comunidad sobre los beneficios y oportunidades que otorga la utilización de las tecnologías de software libre en los rubros de la educación, gobierno, empresas y ciudadanos.
 La realización de esta actividad nace como una necesidad de entregar a la comunidad el conocimiento referente a las tecnologías de software libre, e informar y demostrar la gran cantidad de beneficios y ventajas que le otorga a los usuarios, siendo esta tecnología una de las contribuciones más grandes que se hayan realizado alguna vez a la sociedad, en términos de propiedad intelectual.
                   <a href="https://albornoz.rocks/post/2010-05-27-expolibre-2010/" class="post-read-more">[Read More]</a>
-                
-              </div>
-
-              
-            </article>
-          
-            <article class="post-preview">
-              <a href="https://albornoz.rocks/post/2010-05-03-gnomes-man/">
-                <h2 class="post-title">Gnomes man</h2>
-                
-              </a>
-
-              <span class="post-meta">
-  Posted on May 3, 2010
-  
-</span>
-
-
-              <div class="post-entry">
-                
-                  <p><a href="http://carlos.debianchile.cl/wp-content/uploads/2010/05/Screenshot2.png"><img src="http://carlos.debianchile.cl/wp-content/uploads/2010/05/Screenshot2.png" alt="" title="gnomes man" /></a></p>
-
-<p>Me saliÃƒÂ³ torrentleech.org XD</p>
-
                 
               </div>
 
@@ -393,6 +360,58 @@ La instalaciÃƒÂ³n en debian es como de costumbre…
               
             </article>
           
+            <article class="post-preview">
+              <a href="https://albornoz.rocks/post/2010-01-12-emuladores-y-linux/">
+                <h2 class="post-title">Emuladores y Linux</h2>
+                
+              </a>
+
+              <span class="post-meta">
+  Posted on January 12, 2010
+  
+</span>
+
+
+              <div class="post-entry">
+                
+                  Estando en casa de mis padres, aburrido por cierto, he estado en busca de alguna entretenciÃƒÂ³n para matar el tiempo y me he acordado de algunos juegos de antaÃƒÂ±o, de los que, o nosÃ‚Â juntÃƒÂ¡bamosÃ‚Â todos los amigos en casa de alguno que tenia una consola, o nosÃ‚Â ÃƒÂ­bamos a gastar algunas monedas a los arcades, asÃƒÂ­ que me puse a buscar emuladores para las distintas plataformas que tanta entretenciÃƒÂ³n nos proporcionaban por aquellos aÃƒÂ±os.
+                  <a href="https://albornoz.rocks/post/2010-01-12-emuladores-y-linux/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+            </article>
+          
+            <article class="post-preview">
+              <a href="https://albornoz.rocks/post/2010-01-08-error-al-actualizar-debian-sid-unstable-console-tools/">
+                <h2 class="post-title">Error al actualizar Debian Sid (unstable) - console-tools</h2>
+                
+              </a>
+
+              <span class="post-meta">
+  Posted on January 8, 2010
+  
+</span>
+
+
+              <div class="post-entry">
+                
+                  Bueh… Acabo de hacer un “upgrade” a mi sistema y al terminar la configuraciÃƒÂ³n aparece el siguiente error:
+ Configurando console-tools (1:0.2.3dbs-67) …
+insserv: warning: script ‘puente’ missing LSB tags and overrides
+Setting console screen modes and fonts.
+Setting console screen modes and fonts.
+invoke-rc.d: initscript console-screen.sh, action “start” failed.
+dpkg: error al procesar console-tools (–configure):
+el subproceso installed post-installation script devolviÃƒÂ³ el cÃƒÂ³digo de salida de error 1
+Se encontraron errores al procesar:
+                  <a href="https://albornoz.rocks/post/2010-01-08-error-al-actualizar-debian-sid-unstable-console-tools/" class="post-read-more">[Read More]</a>
+                
+              </div>
+
+              
+            </article>
+          
         </div>
 
         
@@ -419,78 +438,6 @@ La instalaciÃƒÂ³n en debian es como de costumbre…
       <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
         <ul class="list-inline text-center footer-links">
           
-              <li>
-                <a href="mailto:carlos@albornoz.rocks" title="Email me">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://gitlab.com/dubcl" title="GitLab">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-gitlab fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/dubcl" title="GitHub">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/dubcl" title="Twitter">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://reddit.com/u/dubcl" title="Reddit">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-reddit-alien fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://linkedin.com/in/carlosalbornoz" title="LinkedIn">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://stackoverflow.com/users/5641510/carlos-albornoz" title="StackOverflow">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-stack-overflow fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/dubcl" title="Instagram">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/channel/UChwSKciceHy7Wd2vHwxqxjQ" title="Youtube">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
-                  </span>
-                </a>
-              </li>
           
           <li>
             <a href="https://albornoz.rocks/index.xml" title="RSS">
@@ -522,6 +469,8 @@ La instalaciÃƒÂ³n en debian es como de costumbre…
   </div>
 </footer>
 
+<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101196464);</script>
+<script async src="//static.getclicky.com/js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>

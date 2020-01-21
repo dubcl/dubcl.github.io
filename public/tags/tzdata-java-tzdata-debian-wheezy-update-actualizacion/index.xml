@@ -5,8 +5,6 @@
     <link>https://albornoz.rocks/tags/tzdata-java-tzdata-debian-wheezy-update-actualizacion/</link>
     <description>Recent content in tzdata-java tzdata debian wheezy update actualizacion on albornoz.rocks</description>
     <generator>Hugo -- gohugo.io</generator>
-    <managingEditor>carlos@albornoz.rocks (Carlos Albornoz)</managingEditor>
-    <webMaster>carlos@albornoz.rocks (Carlos Albornoz)</webMaster>
     <lastBuildDate>Tue, 02 Apr 2019 12:27:31 +0000</lastBuildDate>
     
 	<atom:link href="https://albornoz.rocks/tags/tzdata-java-tzdata-debian-wheezy-update-actualizacion/index.xml" rel="self" type="application/rss+xml" />
@@ -16,7 +14,7 @@
       <title>Actualización tzdata, tzdata-java para Debian 7 (Wheezy)</title>
       <link>https://albornoz.rocks/post/2019-04-02-actualizacion-tzdata-tzdata-java-para-debian-7-wheezy/</link>
       <pubDate>Tue, 02 Apr 2019 12:27:31 +0000</pubDate>
-      <author>carlos@albornoz.rocks (Carlos Albornoz)</author>
+      
       <guid>https://albornoz.rocks/post/2019-04-02-actualizacion-tzdata-tzdata-java-para-debian-7-wheezy/</guid>
       <description>Actualización tzdata, tzdata-java para Debian 7 (Wheezy) Debido a que Debian 7 Wheezy ya no recibe actualizaciones de seguridad, es necesario actualizar a mano los paquetes tzdata y tztada-java correspondientes al cambio de hora 2019 en Chile.
 Para validar si es necesaria la actualización ejecutar
