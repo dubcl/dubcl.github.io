@@ -21,24 +21,20 @@ paginate     = 10
 
   # Metadata mostly used in document's head
   description = "Welcome to my personal site"
-  keywords = "homepage, blog, carlos albornoz, sre, sysadmin, kubernetes, k8s, docker, devops, linux, infrastructure, data center, google cloud platform, gcp, shell script, databases, virtualization, kvm"
+  keywords = "homepage, blog, carlos albornoz, sre, sysadmin, kubernetes, k8s, docker, devops, linux, infrastructure, data center, google cloud platform, gcp, shell script, databases, virtualization, kvm, virtualization, "
   images = [""]
 
   enableGitInfo   = true
 
   [params.portrait]
-    path     = "/img/avatar3.jpg"
+    path     = "/images/avatar3.jpg"
     alt      = "Portrait"
-    maxWidth = "50px"
+    maxWidth = "200px"
 
   # Social icons
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:carlos@albornoz.rocks"
+  # [[params.social]]
+  #   name = "email"
+  #   url  = "mailto:carlos@albornoz.rocks"
 
   [[params.social]]
     name = "github"
@@ -49,14 +45,18 @@ paginate     = 10
     url  = "https://www.linkedin.com/in/carlosalbornoz/"
 
   [[params.social]]
-    name = "stackoverflow"
-    url  = "https://www.stackoverflow.com/"
+    name = "twitter"
+    url  = "https://twitter.com/dubcl"
+    
+  # [[params.social]]
+  #   name = "stackoverflow"
+  #   url  = "https://www.stackoverflow.com/"
 
-  [params.footer]
-    bottomText = [
-          "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-          "Theme made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
-        ]
+  # [params.footer]
+  #   bottomText = [
+  #         "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+  #         "Theme made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+  #       ]
 
 [author]
   name = "Carlos Albornoz"
@@ -71,14 +71,14 @@ paginate     = 10
 
 [languages]
   [languages.en]
-    title = "Carlos Albornoz"
+    title = "Hi!, I'm Carlos"
     subtitle = "Site reliability engineer // Consultant"
-    keywords = "sre, sysadmin, kubernetes, k8s, docker, devops, linux, infrastructure, data center, google cloud platform, gcp, shell script, databases, virtualization, kvm"
+    keywords = "sre, sysadmin, kubernetes, k8s, docker, devops, linux, infrastructure, data center, google cloud platform, gcp, shell script, databases, virtualization, kvm, dev, python, shell, bash scripting, php, mysql, mariadb, data bases, open source, linux, comunity, team work,"
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "Carlos Albornoz"
+      logoText = "Welcome"
       logoHomeLink = "/"
     # or
     #
