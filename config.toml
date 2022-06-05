@@ -1,94 +1,97 @@
-baseurl = "https://albornoz.rocks"
-contentdir    = "content"
-layoutdir     = "layouts"
-publishdir    = "public"
-title = "albornoz.rocks"
-canonifyurls  = true
+baseURL = 'https://albornoz.rocks/'
+languageCode = 'en-us'
+title = 'Carlos Albornoz Concha'
+theme = 'hello-friend-ng'
+paginate     = 10
 
-DefaultContentLanguage = "en"
-theme = "beautifulhugo"
-metaDataFormat = "yaml"
-pygmentsUseClasses = true
-pygmentCodeFences = true
-#disqusShortname = "XXX"
-#googleAnalytics = "XXX"
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
 
-[Params]
-  subtitle = "rocking since MCMLXXXII"
-  logo = "img/avatar-icon.png"
-  favicon = "img/favicon.ico"
-  dateFormat = "January 2, 2006"
-  commit = false
-  rss = true
-  comments = true
-#  gcse = "012345678901234567890:abcdefghijk" # Get your code from google.com/cse. Make sure to go to "Look and Feel" and change Layout to "Full Width" and Theme to "Classic"
+  # Subtitle for home
+  homeSubtitle = "Site Reliability Engineer // Consultant"
 
-#[[Params.bigimg]]
-#  src = "img/triangle.jpg"
-#  desc = "Triangle"
-#[[Params.bigimg]]
-#  src = "img/sphere.jpg"
-#  desc = "Sphere"
-#[[Params.bigimg]]
-#  src = "img/hexagon.jpg"
-#  desc = "Hexagon"
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
 
-[Author]
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "Welcome to my personal site"
+  keywords = "homepage, blog, carlos albornoz, sre, sysadmin, kubernetes, k8s, docker, devops, linux, infrastructure, data center, google cloud platform, gcp, shell script, databases, virtualization, kvm, virtualization, "
+  images = [""]
+
+  enableGitInfo   = true
+
+  [params.portrait]
+    path     = "/images/avatar3.jpg"
+    alt      = "Portrait"
+    maxWidth = "200px"
+
+  # Social icons
+  # [[params.social]]
+  #   name = "email"
+  #   url  = "mailto:carlos@albornoz.rocks"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/dubcl"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/carlosalbornoz/"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/dubcl"
+    
+  # [[params.social]]
+  #   name = "stackoverflow"
+  #   url  = "https://www.stackoverflow.com/"
+
+  # [params.footer]
+  #   bottomText = [
+  #         "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+  #         "Theme made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+  #       ]
+
+[author]
   name = "Carlos Albornoz"
-#  email = "carlos@albornoz.rocks"
-# facebook = "username"
-# googleplus = "+username" # or xxxxxxxxxxxxxxxxxxxxx
-#  gitlab = "dubcl"
-#  github = "dubcl"
-#  twitter = "dubcl"
-#  reddit = "dubcl"
-#  linkedin = "carlosalbornoz"
-# xing = "username"
-#  stackoverflow = "users/5641510/carlos-albornoz"
-#  snapchat = "username"
-#  instagram = "dubcl"
-#  youtube = "channel/UChwSKciceHy7Wd2vHwxqxjQ" # or channel/channelname
-# soundcloud = "username"
-# spotify = "username"
-# bandcamp = "username"
-# itchio = "username"
-# keybase = "username"
 
+[permalinks]
+  posts = "/posts/:year-:month-:day-:title/"
 
-[[menu.main]]
-    name = "Blog"
-    url = ""
-    weight = 1
+[taxonomies]
+  category = "blog"
+  tag      = "tags"
+  series   = "series"
 
-[[menu.main]]
-    name = "About"
-    url = "page/about/"
-    weight = 3
+[languages]
+  [languages.en]
+    title = "Hi!, I'm Carlos"
+    subtitle = "Site reliability engineer // Consultant"
+    keywords = "sre, sysadmin, kubernetes, k8s, docker, devops, linux, infrastructure, data center, google cloud platform, gcp, shell script, databases, virtualization, kvm, dev, python, shell, bash scripting, php, mysql, mariadb, data bases, open source, linux, comunity, team work,"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
 
-#[[menu.main]]
-#    identifier = "samples"
-#    name = "Samples"
-#    weight = 2
+    [languages.en.params.logo]
+      logoText = "Welcome"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
 
-#[[menu.main]]
-#    parent = "samples"
-#    name = "Big Image Sample"
-#    url = "post/2017-03-07-bigimg-sample"
-#    weight = 1
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
 
-#[[menu.main]]
-#    parent = "samples"
-#    name = "Math Sample"
-#    url = "post/2017-03-05-math-sample"
-#    weight = 2
-
-#[[menu.main]]
-#    parent = "samples"
-#    name = "Code Sample"
-#    url = "post/2016-03-08-code-sample"
-#    weight = 3
-
-[[menu.main]]
-    name = "Tags"
-    url = "tags"
-    weight = 3
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
