@@ -1,0 +1,97 @@
+baseURL = 'https://albornoz.rocks/'
+languageCode = 'en-us'
+title = 'Carlos Albornoz Concha'
+theme = 'hello-friend-ng'
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "Site Reliability Engineer // Consultant"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "Welcome to my personal site"
+  keywords = "homepage, blog, carlos albornoz, sre, sysadmin, kubernetes, k8s, docker, devops, linux, infrastructure, data center, google cloud platform, gcp, shell script, databases, virtualization, kvm"
+  images = [""]
+
+  enableGitInfo   = true
+
+  [params.portrait]
+    path     = "/img/avatar3.jpg"
+    alt      = "Portrait"
+    maxWidth = "50px"
+
+  # Social icons
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:carlos@albornoz.rocks"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/dubcl"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/carlosalbornoz/"
+
+  [[params.social]]
+    name = "stackoverflow"
+    url  = "https://www.stackoverflow.com/"
+
+  [params.footer]
+    bottomText = [
+          "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+          "Theme made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+        ]
+
+[author]
+  name = "Carlos Albornoz"
+
+[permalinks]
+  posts = "/posts/:year-:month-:day-:title/"
+
+[taxonomies]
+  category = "blog"
+  tag      = "tags"
+  series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Carlos Albornoz"
+    subtitle = "Site reliability engineer // Consultant"
+    keywords = "sre, sysadmin, kubernetes, k8s, docker, devops, linux, infrastructure, data center, google cloud platform, gcp, shell script, databases, virtualization, kvm"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Carlos Albornoz"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
