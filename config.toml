@@ -53,9 +53,9 @@ paginate     = 10
     name = "twitter"
     url  = "https://twitter.com/dubcl"
     
-  # [[params.social]]
-  #   name = "stackoverflow"
-  #   url  = "https://www.stackoverflow.com/"
+  [[params.social]]
+    name = "mastodon"
+    url  = "https://mastodon.social/@dubcl"
 
   # [params.footer]
   #   bottomText = [
